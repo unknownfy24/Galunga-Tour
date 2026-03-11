@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-6ET2TRNGVK"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-6ET2TRNGVK');
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Player profiles on The Galunga Tour — competitive amateur golf since 2014. View career highlights, season points, and GHIN handicap index.">
+  <!-- Open Graph -->
+  <meta property="og:type" content="profile">
+  <meta property="og:site_name" content="The Galunga Tour">
+  <meta property="og:title" content="Player Profile – The Galunga Tour">
+  <meta property="og:description" content="Player profiles on The Galunga Tour — competitive amateur golf since 2014. View career highlights, season points, and GHIN handicap index.">
+  <meta property="og:url" content="https://galungatour.com/players.html">
+  <meta property="og:image" content="https://galungatour.com/hero.jpg">
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Player Profile – The Galunga Tour">
+  <meta name="twitter:description" content="Player profiles on The Galunga Tour — competitive amateur golf since 2014. View career highlights, season points, and GHIN handicap index.">
+  <meta name="twitter:image" content="https://galungatour.com/hero.jpg">
+  <link rel="canonical" href="https://galungatour.com/players.html">
+  <title>Player Profile – The Galunga Tour</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="logo-circle.svg" type="image/svg+xml">
+</head>
+<body>
+
+  <nav>
+    <a href="/" class="nav-logo">
+      <img src="logo-circle.svg" alt="The Galunga Tour" style="height:42px; width:42px;">
+      <div>
+        <div class="logo-text">The Galunga Tour</div>
+        <div class="logo-sub">Est. 2014</div>
+      </div>
+    </a>
+    <ul id="nav-menu">
+      <li><a href="/">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="players.html" class="active">Players</a></li>
+      <li><a href="schedule.html">Schedule</a></li>
+      <li><a href="archive.html">Archive</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="nav-hamburger" aria-label="Toggle navigation" onclick="this.classList.toggle('open'); document.getElementById('nav-menu').classList.toggle('nav-open');"><span></span><span></span><span></span></button>
+  </nav>
+
+  <div id="profile-root">
+    <div class="page-hero">
+      <h1>Loading...</h1>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-logo">The Galunga Tour</div>
+    <p>&copy; 2026 The Galunga Tour. All rights reserved. | <a href="contact.html">Contact Us</a></p>
+    <p style="margin-top:0.5rem;"><a href="https://www.instagram.com/thegalungatour/" target="_blank" rel="noopener" style="color:var(--iron-gray);"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" fill="currentColor" style="vertical-align:middle;" aria-label="Instagram"><path d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6m9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8 1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3z"/></svg></a></p>
+  </footer>
+
+  <script>
+    const players = {
+      'austin-harmon': {
+        name: 'Austin Harmon', rank: 1, points: 9.81, team: 'Team Courtney', autoQ: true, hi: 6.6,
+        highlights: [
+          'Pick A Partner Champion — 2025 (w/ Eric Anderson)',
+          '2026 Points Race — #1 Ranked (Auto-Qualifier for Galunga Cup)',
+        ],
+        bio: 'One of the most consistent performers on the Galunga Tour, Austin earned his top ranking through a strong 2025 campaign that included a Pick A Partner title alongside Eric Anderson. He enters 2026 as the #1 seed and an automatic qualifier for the Galunga Cup.',
+      },
+      'jonathan-nance': {
+        name: 'Jonathan Nance', rank: 2, points: 9.81, team: 'Team Courtney', autoQ: true, hi: 8.8,
+        highlights: [
+          '2026 Points Race — #2 Ranked (Auto-Qualifier for Galunga Cup)',
+        ],
+        bio: 'Jonathan is a stalwart of Team Courtney and a reliable presence in the points race. His consistent play throughout the 2025 season earned him an automatic Galunga Cup qualification heading into 2026.',
+      },
+      'taylor-smith': {
+        name: 'Taylor Smith', rank: 3, points: 9.81, team: 'Team Buchanan', autoQ: true, hi: 3.9,
+        highlights: [
+          'Match Play Championship Champion — 2024',
+          'Match Play Championship Champion — 2025 (Back-to-Back)',
+          'Galunga Tour Championship Champion — 2025 (Defending)',
+          '2026 Points Race — #3 Ranked (Auto-Qualifier for Galunga Cup)',
+        ],
+        bio: 'Taylor Smith is the undisputed king of the Galunga Tour Match Play Championship, having won back-to-back titles in 2024 and 2025. He also claimed the 2025 Tour Championship, making him the player to beat heading into 2026. A dual threat in both stroke play and match play formats, Taylor enters the year as defending champion in two events.',
+      },
+      'brett-mccoy': {
+        name: 'Brett McCoy', rank: 4, points: 9.81, team: 'Team Buchanan', autoQ: true, hi: 8.9,
+        highlights: [
+          '2026 Points Race — #4 Ranked (Auto-Qualifier for Galunga Cup)',
+        ],
+        bio: 'Brett is a cornerstone of Team Buchanan and one of the more feared competitors on the Galunga Tour. His strong 2025 performance secured him an automatic Galunga Cup berth heading into 2026.',
+      },
+      'ryan-addington': {
+        name: 'Ryan Addington', rank: 5, points: 9.81, team: 'Team Buchanan', autoQ: true, hi: 7.2,
+        highlights: [
+          '2026 Points Race — #5 Ranked (Auto-Qualifier for Galunga Cup)',
+        ],
+        bio: 'Ryan has been one of the most dependable members of Team Buchanan, and his consistent season earned him a top-5 ranking and an automatic Galunga Cup spot for 2026.',
+      },
+      'michael-courtney': {
+        name: 'Michael Courtney', rank: 6, points: 9.81, team: 'Team Courtney', autoQ: true, hi: 4.3,
+        highlights: [
+          'Co-Founder — The Galunga Tour (2014)',
+          'Team Throwdown Champion — 2025 (Team: Prater / Courtney / Neal / Sandoval)',
+          '2026 Points Race — #6 Ranked (Auto-Qualifier for Galunga Cup)',
+        ],
+        bio: 'Known to everyone as Mickey, Michael Courtney co-founded the Galunga Tour in 2014 alongside Justin Buchanan. What began as a friendly competition among friends has grown into a full-season tour thanks in large part to Mickey\'s vision and competitive spirit. He remains an active and accomplished player, claiming a Team Throwdown title in 2025 and earning automatic Galunga Cup qualification for 2026.',
+      },
+      'ben-mullikin': {
+        name: 'Ben Mullikin', rank: 7, points: 9.81, team: 'Team Courtney', autoQ: true, hi: 2.7,
+        highlights: [
+          '2026 Points Race — #7 Ranked (Auto-Qualifier for Galunga Cup)',
+        ],
+        bio: 'Ben rounds out the automatic qualifier group for the 2026 Galunga Cup, having put together a strong enough 2025 season to earn his spot. A steady and reliable contributor for Team Courtney.',
+      },
+      'collin-van': {
+        name: 'Collin Van', rank: 8, points: 5.00, team: 'Team Courtney', autoQ: true, hi: 9.8,
+        highlights: [
+          'Winter Open Champion — 2025 (Defending)',
+          '2026 Points Race — #8 Ranked (Auto-Qualifier for Galunga Cup)',
+        ],
+        bio: 'Collin opened the 2025 season with a bang, claiming the Winter Open title and setting the tone for a strong year. He enters 2026 as the defending Winter Open champion and, thanks to his overall season performance, has locked up the final automatic Galunga Cup berth.',
+      },
+      'eric-anderson': {
+        name: 'Eric Anderson', rank: 9, points: 5.00, team: 'Team Courtney', autoQ: true, hi: 1.9,
+        highlights: [
+          'Match Play Champion — 2019',
+          'Galunga Open Champion — 2024, Cedar Crest Golf Club',
+          'Tour Champion — 2024, Pecan Hollow GC',
+          'Pick A Partner Champion — 2025 (w/ Austin Harmon)',
+        ],
+        bio: 'Eric is a reliable two-ball partner and a dangerous stroke play competitor. His 2025 Pick A Partner title — won alongside Austin Harmon — and a strong overall season secured him the ninth and final automatic Galunga Cup qualification spot heading into 2026.',
+      },
+      'vinh-tran': {
+        name: 'Vinh Tran', rank: 10, points: 5.00, team: 'Team Courtney', autoQ: false, hi: 7.2,
+        highlights: ['2026 Points Race — #10 Ranked'],
+        bio: 'Vinh is a competitive member of Team Courtney who brings consistency to the course. He enters 2026 ranked just outside the auto-qualifier bubble and will be looking to earn his Galunga Cup spot through the regular season.',
+      },
+      'michael-barrett': {
+        name: 'Michael Barrett', rank: 11, points: 5.00, team: 'Team Buchanan', autoQ: false, hi: 3.8,
+        highlights: ['2026 Points Race — #11 Ranked'],
+        bio: 'Michael is a strong contributor for Team Buchanan who will be looking to break into the upper tier of the points race in 2026.',
+      },
+      'marc-tardif': {
+        name: 'Marc Tardif', rank: 12, points: 5.00, team: 'Bandon Dunes', autoQ: false, hi: 11.4,
+        highlights: ['2026 Points Race — #12 Ranked'],
+        bio: 'Marc brings a unique perspective to the Galunga Tour, competing as part of the Bandon Dunes contingent. He enters 2026 with points on the board and plenty of motivation to climb the standings.',
+      },
+      'evan-yarbrough': {
+        name: 'Evan Yarbrough', rank: 13, points: 5.00, team: 'Team Courtney', autoQ: false, hi: 9.0,
+        highlights: ['2026 Points Race — #13 Ranked'],
+        bio: 'Evan is a capable and competitive golfer for Team Courtney who is looking to make his mark on the 2026 season standings.',
+      },
+      'brendan-sommer': {
+        name: 'Brendan Sommer', rank: 14, points: 5.00, team: 'Team Buchanan', autoQ: false,
+        highlights: ['2026 Points Race — #14 Ranked'],
+        bio: 'Brendan is a dependable player for Team Buchanan who enters 2026 with points already on the board and his eyes on climbing the standings.',
+      },
+      'brett-lachance': {
+        name: 'Brett Lachance', rank: 15, points: 5.00, team: 'Team Courtney', autoQ: false, hi: 15.2,
+        highlights: ['2026 Points Race — #15 Ranked'],
+        bio: 'Brett is a steady presence for Team Courtney on the Galunga Tour, entering 2026 looking to build on his previous season performances.',
+      },
+      'danny-horrell': {
+        name: 'Danny Horrell', rank: 16, points: 5.00, team: 'Team Buchanan', autoQ: false, hi: 11.2,
+        highlights: ['2026 Points Race — #16 Ranked'],
+        bio: 'Danny is a reliable competitor for Team Buchanan, bringing energy and competitiveness to every round on the Galunga Tour.',
+      },
+      'brad-langeloh': {
+        name: 'Brad Langeloh', rank: 17, points: 5.00, team: 'Team Buchanan', autoQ: false, hi: 11.7,
+        highlights: ['2026 Points Race — #17 Ranked'],
+        bio: 'Brad is a member of Team Buchanan who enters the 2026 season with points already in the bank and a full schedule ahead.',
+      },
+      'spencer-haines': {
+        name: 'Spencer Haines', rank: 18, points: 5.00, team: 'Team Courtney', autoQ: false, hi: 4.0,
+        highlights: ['2026 Points Race — #18 Ranked'],
+        bio: 'Spencer is a solid competitor for Team Courtney who is looking to make a stronger push up the standings in 2026.',
+      },
+      'will-mcgaffey': {
+        name: 'Will McGaffey', rank: 19, points: 5.00, team: 'Team Buchanan', autoQ: false, hi: 10.6,
+        highlights: ['2026 Points Race — #19 Ranked'],
+        bio: 'Will is a competitive player for Team Buchanan who brings a strong work ethic and great camaraderie to the Galunga Tour.',
+      },
+      'taylor-baranowski': {
+        name: 'Taylor Baranowski', rank: 20, points: 5.00, team: 'Team Buchanan', autoQ: false, hi: 4.5,
+        highlights: ['2026 Points Race — #20 Ranked'],
+        bio: 'Taylor is a consistent Team Buchanan player who enters 2026 ready to compete for points across the full season schedule.',
+      },
+      'daniel-dodd': {
+        name: 'Daniel Dodd', rank: 21, points: 5.00, team: 'Team Buchanan', autoQ: false, hi: 4.0,
+        highlights: ['2026 Points Race — T-21 Ranked'],
+        bio: 'Daniel is a solid competitor for Team Buchanan who enters 2026 tied for 21st in the standings and looking to separate himself from the pack.',
+      },
+      'bryan-stamp': {
+        name: 'Bryan Stamp', rank: 21, points: 5.00, team: 'Team Buchanan', autoQ: false, hi: 6.2,
+        highlights: ['2026 Points Race — T-21 Ranked'],
+        bio: 'Bryan enters 2026 tied for 21st as a member of Team Buchanan, looking to make a run up the points race this season.',
+      },
+      'joe-reina': {
+        name: 'Joe Reina', rank: 22, points: 5.00, team: 'Draft Pool', autoQ: false, hi: 11.0,
+        highlights: ['2026 Points Race — #22 Ranked'],
+        bio: 'Joe enters 2026 from the Draft Pool, bringing competitive fire and a hunger to prove himself in the standings this season.',
+      },
+      'chase-koehler': {
+        name: 'Chase Koehler', rank: 23, points: 5.00, team: 'Team Courtney', autoQ: false, hi: 9.5,
+        highlights: ['2026 Points Race — #23 Ranked'],
+        bio: 'Chase is a member of Team Courtney who enters 2026 with points on the board and a full season ahead to make his move up the standings.',
+      },
+      'collin-steinmetz': {
+        name: 'Collin Steinmetz', rank: 24, points: 5.00, team: 'Team Courtney', autoQ: false, hi: 4.3,
+        highlights: ['2026 Points Race — #24 Ranked'],
+        bio: 'Collin rounds out the 5-point group for Team Courtney, entering 2026 with a full schedule of opportunities to climb the rankings.',
+      },
+      'eddie-chen': {
+        name: 'Eddie Chen', rank: 25, points: 0.00, team: 'Team Courtney', autoQ: false, hi: 5.5,
+        highlights: [
+          'Galunga Masters Champion — 2025 (Defending)',
+          'SNRE Harambe Memorial Champion — 2025 (Defending)',
+          'Galunga Open Champion — 2025 (Defending)',
+        ],
+        bio: 'Eddie Chen had arguably the most dominant individual season in recent Galunga Tour history, claiming three event titles in 2025: the Galunga Masters, the SNRE Harambe Memorial, and the Galunga Open. He enters 2026 as the defending champion in all three of those events. While his points race ranking doesn\'t yet reflect his ability, expect Eddie to be a major factor at every event he plays.',
+      },
+      'scott-neal': {
+        name: 'Scott Neal', rank: 26, points: 0.00, team: 'Team Courtney', autoQ: false,
+        highlights: [
+          'Team Throwdown Champion — 2025 (Team: Prater / Courtney / Neal / Sandoval)',
+        ],
+        bio: 'Scott is a key member of Team Courtney who claimed a Team Throwdown title in 2025 as part of the winning foursome. A reliable teammate and competitive individual player, Scott will be looking to make his mark on the 2026 individual standings.',
+      },
+      'stephen-oliver': {
+        name: 'Stephen Oliver', rank: 27, points: 0.00, team: 'Team Courtney', autoQ: false, hi: 15.0,
+        highlights: [],
+        bio: 'Stephen is a member of Team Courtney who enters 2026 ready to compete across the full season schedule.',
+      },
+      'jaasiel-sandoval': {
+        name: 'Jaasiel Sandoval', rank: 28, points: 0.00, team: 'Draft Pool', autoQ: false, hi: 18.0,
+        highlights: [
+          'Team Throwdown Champion — 2025 (Team: Prater / Courtney / Neal / Sandoval)',
+        ],
+        bio: 'Jaasiel claimed a Team Throwdown title in 2025 as part of the winning foursome, and enters 2026 from the Draft Pool looking to secure a Galunga Cup team spot and push his way into the individual standings.',
+      },
+      'mike-panko': {
+        name: 'Mike Panko', rank: 29, points: 0.00, team: 'Team Buchanan', autoQ: false, hi: 2.8,
+        highlights: [],
+        bio: 'Mike is a member of Team Buchanan who enters 2026 looking to put points on the board and make his presence felt in the standings.',
+      },
+      'ryan-davidson': {
+        name: 'Ryan Davidson', rank: 30, points: 0.00, team: 'Team Buchanan', autoQ: false, hi: 12.0,
+        highlights: [],
+        bio: 'Ryan is a competitive member of Team Buchanan who brings energy and enthusiasm to every round on the Galunga Tour.',
+      },
+      'gary-aanenson': {
+        name: 'Gary Aanenson', rank: 31, points: 0.00, team: 'Team Buchanan', autoQ: false, hi: 7.9,
+        highlights: [],
+        bio: 'Gary is a member of Team Buchanan who enters 2026 ready to contribute to both the team and the individual standings.',
+      },
+      'brett-loxterman': {
+        name: 'Brett Loxterman', rank: 32, points: 0.00, team: 'Draft Pool', autoQ: false,
+        highlights: [],
+        bio: 'Brett enters 2026 from the Draft Pool, looking to earn his spot on a Galunga Cup team and make a run at the season standings.',
+      },
+      'jeremy-sanders': {
+        name: 'Jeremy Sanders', rank: 33, points: 0.00, team: '—', autoQ: false, hi: 7.4,
+        highlights: [],
+        bio: 'Jeremy is a competitive player who enters 2026 ready to make his mark on the Galunga Tour standings.',
+      },
+      'dylan-prater': {
+        name: 'Dylan Prater', rank: 34, points: 0.00, team: 'Team Courtney', autoQ: false, hi: 16.0,
+        highlights: [
+          'Team Throwdown Champion — 2025 (Team: Prater / Courtney / Neal / Sandoval)',
+          'Team Throwdown Individual Low Net Champion — 2025',
+        ],
+        bio: 'Dylan had a standout Team Throwdown in 2025, helping his foursome to the team title while also claiming the Individual Low Net award on the day. A dual winner in one of the tour\'s most competitive formats, Dylan enters 2026 as a player on the rise.',
+      },
+      'jesse-rakestraw': {
+        name: 'Jesse Rakestraw', rank: 35, points: 0.00, team: 'Team Courtney', autoQ: false, hi: 12.0,
+        highlights: [],
+        bio: 'Jesse is a member of Team Courtney who enters the 2026 season looking to put his stamp on the standings.',
+      },
+      'justin-buchanan': {
+        name: 'Justin Buchanan', rank: 36, points: 0.00, team: 'Team Buchanan', autoQ: false,
+        highlights: [
+          'Co-Founder — The Galunga Tour (2014)',
+          'Galunga Cup Captain — Team Buchanan (Champions 2024 & 2025)',
+        ],
+        bio: 'Justin Buchanan is the co-founder of the Galunga Tour, having started the organization alongside Mickey Courtney in 2014 with nothing more than a group of friends, a set of clubs, and a healthy competitive streak. More than a decade later, the tour he built continues to grow. As captain of Team Buchanan, Justin has led his squad to back-to-back Galunga Cup titles, cementing his legacy both as a founder and as a competitor.',
+      },
+      'troy-rakestraw': {
+        name: 'Troy Rakestraw', rank: 37, points: 0.00, team: 'Team Courtney', autoQ: false, hi: 4.2,
+        highlights: [],
+        bio: 'Troy is a member of Team Courtney who rounds out the 2026 Galunga Tour player roster, ready to compete across the full season.',
+      },
+    };
+
+    const teamColors = {
+      'Team Courtney': 'var(--red)',
+      'Team Buchanan': 'var(--navy)',
+      'Bandon Dunes':  'var(--fairway)',
+      'Draft Pool':    'var(--iron-gray)',
+      '—':             'var(--black)',
+    };
+
+    function loadPlayer() {
+      const params  = new URLSearchParams(window.location.search);
+      const id      = params.get('id');
+      const p       = players[id];
+      const root    = document.getElementById('profile-root');
+
+      if (!p) {
+        root.innerHTML = `
+          <div class="page-hero"><h1>Player Not Found</h1></div>
+          <div class="section" style="text-align:center; padding:3rem 2rem;">
+            <p style="color:var(--text-light); margin-bottom:1.5rem;">We couldn't find that player profile.</p>
+            <a href="players.html" class="btn btn-gold">← Back to Players</a>
+          </div>`;
+        return;
+      }
+
+      document.title = p.name + ' – The Galunga Tour';
+      const color    = teamColors[p.team] || 'var(--black)';
+      const autoQBadge = p.autoQ
+        ? `<span class="badge badge-major" style="margin-left:0.75rem; vertical-align:middle;">Auto-Qualifier</span>`
+        : '';
+
+      const initials = p.name.split(' ').slice(0, 2).map(w => w[0]).join('').toUpperCase();
+
+      const highlightItems = p.highlights.length
+        ? p.highlights.map(h => `<li>${h}</li>`).join('')
+        : '<li style="color:var(--text-light); font-style:italic;">Career highlights coming soon.</li>';
+
+      root.innerHTML = `
+        <div class="section" style="padding-top:2.5rem;">
+
+          <a href="players.html" style="display:inline-flex; align-items:center; gap:0.4rem; color:var(--text-light); font-size:0.85rem; text-decoration:none; margin-bottom:1.5rem;">
+            ← Back to Players
+          </a>
+
+          <div class="profile-header">
+            <div class="player-photo-wrap">
+              <div class="player-photo-placeholder">${initials}</div>
+              <img src="photos/${id}.jpg" alt="${p.name}"
+                   onload="this.style.display='block'; this.previousElementSibling.style.display='none';">
+            </div>
+            <div class="profile-rank-badge" style="background:${color};">#${p.rank}</div>
+            <div style="flex:1;">
+              <div class="profile-name">${p.name} ${autoQBadge}</div>
+              <div class="profile-meta">
+                <span class="profile-meta-item"><strong>Team:</strong> ${p.team}</span>
+                <span class="profile-meta-item" style="color:var(--iron-gray);">|</span>
+                <span class="profile-meta-item"><strong>2026 Pts:</strong> ${p.points.toFixed(2)}</span>
+                <span class="profile-meta-item" style="color:var(--iron-gray);">|</span>
+                <span class="profile-meta-item"><strong>Rank:</strong> #${p.rank}</span>
+                ${p.hi != null ? `<span class="profile-meta-item" style="color:var(--iron-gray);">|</span><span class="profile-meta-item"><strong>HDCP:</strong> ${formatHI(p.hi)}</span>` : ''}
+              </div>
+            </div>
+          </div>
+
+          <div style="display:grid; grid-template-columns:1fr 1fr; gap:2rem; margin-top:0;">
+            <div>
+              <h2 class="section-title">About</h2>
+              <br>
+              <p style="line-height:1.8; color:var(--text-light);">${p.bio}</p>
+            </div>
+            <div>
+              <h2 class="section-title">Career Highlights</h2>
+              <br>
+              <ul class="highlight-list">${highlightItems}</ul>
+            </div>
+          </div>
+
+          <div style="margin-top:2.5rem; padding-top:2rem; border-top:1px solid #e5e5e5; display:flex; gap:1rem; flex-wrap:wrap;">
+            <a href="players.html" class="btn btn-gold">← All Players</a>
+            <a href="schedule.html" class="btn" style="background:transparent; color:var(--red); border:2px solid var(--red);">2026 Schedule</a>
+          </div>
+
+        </div>`;
+
+    }
+
+    function formatHI(hi) {
+      const n = parseFloat(hi);
+      if (isNaN(n)) return String(hi);
+      return n < 0 ? `+${Math.abs(n).toFixed(1)}` : n.toFixed(1);
+    }
+
+    window.onload = loadPlayer;
+  </script>
+
+</body>
+</html>

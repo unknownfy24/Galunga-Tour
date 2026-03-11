@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-6ET2TRNGVK"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-6ET2TRNGVK');
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Meet the 2026 Galunga Tour player roster. 37 amateur golfers competing for the season championship across nine events. View standings, bios, and handicaps.">
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="The Galunga Tour">
+  <meta property="og:title" content="Players – The Galunga Tour">
+  <meta property="og:description" content="Meet the 2026 Galunga Tour player roster. 37 amateur golfers competing for the season championship across nine events. View standings, bios, and handicaps.">
+  <meta property="og:url" content="https://galungatour.com/players.html">
+  <meta property="og:image" content="https://galungatour.com/hero.jpg">
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Players – The Galunga Tour">
+  <meta name="twitter:description" content="Meet the 2026 Galunga Tour player roster. 37 amateur golfers competing for the season championship across nine events. View standings, bios, and handicaps.">
+  <meta name="twitter:image" content="https://galungatour.com/hero.jpg">
+  <link rel="canonical" href="https://galungatour.com/players.html">
+  <title>Players – The Galunga Tour</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="logo-circle.svg" type="image/svg+xml">
+</head>
+<body>
+
+  <nav>
+    <a href="/" class="nav-logo">
+      <img src="logo-circle.svg" alt="The Galunga Tour" style="height:42px; width:42px;">
+      <div>
+        <div class="logo-text">The Galunga Tour</div>
+        <div class="logo-sub">Est. 2014</div>
+      </div>
+    </a>
+    <ul id="nav-menu">
+      <li><a href="/">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="players.html" class="active">Players</a></li>
+      <li><a href="schedule.html">Schedule</a></li>
+      <li><a href="archive.html">Archive</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="nav-hamburger" aria-label="Toggle navigation" onclick="this.classList.toggle('open'); document.getElementById('nav-menu').classList.toggle('nav-open');"><span></span><span></span><span></span></button>
+  </nav>
+
+  <div class="page-hero">
+    <h1>Players</h1>
+    <p>Meet the members of the 2026 Galunga Tour</p>
+  </div>
+
+  <div class="section">
+
+    <div style="display:flex; gap:1rem; flex-wrap:wrap; align-items:center; margin-bottom:2rem;">
+      <span style="font-size:0.85rem; color:var(--text-light);">
+        <span style="display:inline-block; width:10px; height:10px; background:var(--red); border-radius:2px; margin-right:4px;"></span>Team Courtney
+      </span>
+      <span style="font-size:0.85rem; color:var(--text-light);">
+        <span style="display:inline-block; width:10px; height:10px; background:var(--navy); border-radius:2px; margin-right:4px;"></span>Team Buchanan
+      </span>
+      <span style="font-size:0.85rem; color:var(--text-light);">
+        <span style="display:inline-block; width:10px; height:10px; background:var(--fairway); border-radius:2px; margin-right:4px;"></span>Bandon Dunes
+      </span>
+      <span style="font-size:0.85rem; color:var(--text-light);">
+        <span style="display:inline-block; width:10px; height:10px; background:var(--iron-gray); border-radius:2px; margin-right:4px;"></span>Draft Pool
+      </span>
+    </div>
+
+    <div class="player-grid" id="player-grid"></div>
+
+  </div>
+
+  <footer>
+    <div class="footer-logo">The Galunga Tour</div>
+    <p>&copy; 2026 The Galunga Tour. All rights reserved. | <a href="contact.html">Contact Us</a></p>
+    <p style="margin-top:0.5rem;"><a href="https://www.instagram.com/thegalungatour/" target="_blank" rel="noopener" style="color:var(--iron-gray);"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" fill="currentColor" style="vertical-align:middle;" aria-label="Instagram"><path d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6m9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8 1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3z"/></svg></a></p>
+  </footer>
+
+  <script>
+    const players = [
+      { id:'austin-harmon',      name:'Austin Harmon',      rank:1,  points:9.81, team:'Team Courtney',  autoQ:true,  hi: 6.6 },
+      { id:'jonathan-nance',     name:'Jonathan Nance',     rank:2,  points:9.81, team:'Team Courtney',  autoQ:true,  hi: 8.8 },
+      { id:'taylor-smith',       name:'Taylor Smith',       rank:3,  points:9.81, team:'Team Buchanan',  autoQ:true,  hi: 3.9 },
+      { id:'brett-mccoy',        name:'Brett McCoy',        rank:4,  points:9.81, team:'Team Buchanan',  autoQ:true,  hi: 8.9 },
+      { id:'ryan-addington',     name:'Ryan Addington',     rank:5,  points:9.81, team:'Team Buchanan',  autoQ:true,  hi: 7.2 },
+      { id:'michael-courtney',   name:'Michael Courtney',   rank:6,  points:9.81, team:'Team Courtney',  autoQ:true,  hi: 4.3 },
+      { id:'ben-mullikin',       name:'Ben Mullikin',       rank:7,  points:9.81, team:'Team Courtney',  autoQ:true,  hi: 2.7 },
+      { id:'collin-van',         name:'Collin Van',         rank:8,  points:5.00, team:'Team Courtney',  autoQ:true,  hi: 9.8 },
+      { id:'eric-anderson',      name:'Eric Anderson',      rank:9,  points:5.00, team:'Team Courtney',  autoQ:true,  hi: 1.9 },
+      { id:'vinh-tran',          name:'Vinh Tran',          rank:10, points:5.00, team:'Team Courtney',  autoQ:false, hi: 7.2 },
+      { id:'michael-barrett',    name:'Michael Barrett',    rank:11, points:5.00, team:'Team Buchanan',  autoQ:false, hi: 3.8 },
+      { id:'marc-tardif',        name:'Marc Tardif',        rank:12, points:5.00, team:'Bandon Dunes',   autoQ:false, hi: 11.4 },
+      { id:'evan-yarbrough',     name:'Evan Yarbrough',     rank:13, points:5.00, team:'Team Courtney',  autoQ:false, hi: 9.0 },
+      { id:'brendan-sommer',     name:'Brendan Sommer',     rank:14, points:5.00, team:'Team Buchanan',  autoQ:false },
+      { id:'brett-lachance',     name:'Brett Lachance',     rank:15, points:5.00, team:'Team Courtney',  autoQ:false, hi: 15.2 },
+      { id:'danny-horrell',      name:'Danny Horrell',      rank:16, points:5.00, team:'Team Buchanan',  autoQ:false, hi: 11.2 },
+      { id:'brad-langeloh',      name:'Brad Langeloh',      rank:17, points:5.00, team:'Team Buchanan',  autoQ:false, hi: 11.7 },
+      { id:'spencer-haines',     name:'Spencer Haines',     rank:18, points:5.00, team:'Team Courtney',  autoQ:false, hi: 4.0 },
+      { id:'will-mcgaffey',      name:'Will McGaffey',      rank:19, points:5.00, team:'Team Buchanan',  autoQ:false, hi: 10.6 },
+      { id:'taylor-baranowski',  name:'Taylor Baranowski',  rank:20, points:5.00, team:'Team Buchanan',  autoQ:false, hi: 4.5 },
+      { id:'daniel-dodd',        name:'Daniel Dodd',        rank:21, points:5.00, team:'Team Buchanan',  autoQ:false, hi: 4.0 },
+      { id:'bryan-stamp',        name:'Bryan Stamp',        rank:21, points:5.00, team:'Team Buchanan',  autoQ:false, hi: 6.2 },
+      { id:'joe-reina',          name:'Joe Reina',          rank:22, points:5.00, team:'Draft Pool',     autoQ:false, hi: 11.0 },
+      { id:'chase-koehler',      name:'Chase Koehler',      rank:23, points:5.00, team:'Team Courtney',  autoQ:false, hi: 9.5 },
+      { id:'collin-steinmetz',   name:'Collin Steinmetz',   rank:24, points:5.00, team:'Team Courtney',  autoQ:false, hi: 4.3 },
+      { id:'eddie-chen',         name:'Eddie Chen',         rank:25, points:0.00, team:'Team Courtney',  autoQ:false, hi: 5.5 },
+      { id:'scott-neal',         name:'Scott Neal',         rank:26, points:0.00, team:'Team Courtney',  autoQ:false },
+      { id:'stephen-oliver',     name:'Stephen Oliver',     rank:27, points:0.00, team:'Team Courtney',  autoQ:false, hi: 15.0 },
+      { id:'jaasiel-sandoval',   name:'Jaasiel Sandoval',   rank:28, points:0.00, team:'Draft Pool',     autoQ:false, hi: 18.0 },
+      { id:'mike-panko',         name:'Mike Panko',         rank:29, points:0.00, team:'Team Buchanan',  autoQ:false, hi: 2.8 },
+      { id:'ryan-davidson',      name:'Ryan Davidson',      rank:30, points:0.00, team:'Team Buchanan',  autoQ:false, hi: 12.0 },
+      { id:'gary-aanenson',      name:'Gary Aanenson',      rank:31, points:0.00, team:'Team Buchanan',  autoQ:false, hi: 7.9 },
+      { id:'brett-loxterman',    name:'Brett Loxterman',    rank:32, points:0.00, team:'Draft Pool',     autoQ:false },
+      { id:'jeremy-sanders',     name:'Jeremy Sanders',     rank:33, points:0.00, team:'—',              autoQ:false, hi: 7.4 },
+      { id:'dylan-prater',       name:'Dylan Prater',       rank:34, points:0.00, team:'Team Courtney',  autoQ:false, hi: 16.0 },
+      { id:'jesse-rakestraw',    name:'Jesse Rakestraw',    rank:35, points:0.00, team:'Team Courtney',  autoQ:false, hi: 12.0 },
+      { id:'justin-buchanan',    name:'Justin Buchanan',    rank:36, points:0.00, team:'Team Buchanan',  autoQ:false },
+      { id:'troy-rakestraw',     name:'Troy Rakestraw',     rank:37, points:0.00, team:'Team Courtney',  autoQ:false, hi: 4.2 },
+    ];
+
+    const teamColors = {
+      'Team Courtney': 'var(--red)',
+      'Team Buchanan': 'var(--navy)',
+      'Bandon Dunes':  'var(--fairway)',
+      'Draft Pool':    'var(--iron-gray)',
+      '—':             'var(--black)',
+    };
+
+    const grid = document.getElementById('player-grid');
+
+    players.forEach(p => {
+      const color = teamColors[p.team] || 'var(--black)';
+      const autoQBadge = p.autoQ
+        ? `<span class="badge badge-major" style="font-size:0.62rem; padding:0.12rem 0.45rem;">Auto-Q</span>`
+        : '';
+
+      grid.innerHTML += `
+        <a href="player.html?id=${p.id}" class="player-card">
+          <div class="player-card-top" style="background:${color};">
+            <span class="player-card-rank">#${p.rank}</span>
+            ${autoQBadge}
+          </div>
+          <div class="player-card-body">
+            <div class="player-card-name">${p.name}${p.hi != null ? `<span class="player-card-hcp">${formatHI(p.hi)}</span>` : ''}</div>
+            <div class="player-card-team">${p.team}</div>
+            <div class="player-card-footer">
+              <span>${p.points.toFixed(2)} pts</span>
+              <span style="color:var(--red); font-size:0.8rem;">View Profile →</span>
+            </div>
+          </div>
+        </a>`;
+    });
+
+    function formatHI(hi) {
+      const n = parseFloat(hi);
+      if (isNaN(n)) return String(hi);
+      return n < 0 ? `+${Math.abs(n).toFixed(1)}` : n.toFixed(1);
+    }
+  </script>
+
+</body>
+</html>

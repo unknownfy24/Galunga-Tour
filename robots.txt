@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /netlify/
+
+Sitemap: https://galungatour.com/sitemap.xml
