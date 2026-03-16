@@ -64,161 +64,170 @@
 
   <script>
     const players = {
-      'austin-harmon': {
-        name: 'Austin Harmon', rank: 1, points: 9.81, team: 'Team Courtney', autoQ: true, hi: 6.6,
+      'collin-van': {
+        name: 'Collin Van', rank: 1, points: 70.68, team: 'Team Courtney', autoQ: true, hi: 9.8,
         highlights: [
-          'Pick A Partner Champion — 2025 (w/ Eric Anderson)',
+          'Winter Open Champion — 2025 (Defending)',
           '2026 Points Race — #1 Ranked (Auto-Qualifier for Galunga Cup)',
         ],
-        bio: 'One of the most consistent performers on the Galunga Tour, Austin earned his top ranking through a strong 2025 campaign that included a Pick A Partner title alongside Eric Anderson. He enters 2026 as the #1 seed and an automatic qualifier for the Galunga Cup.',
+        bio: 'Collin Van is running away with the 2026 points race after a dominant Winter Open performance. He leads the field with 70.68 points — well clear of the pack — and has already locked up an automatic Galunga Cup berth. The defending Winter Open champion, Collin enters the rest of the season as the man to beat.',
       },
-      'jonathan-nance': {
-        name: 'Jonathan Nance', rank: 2, points: 9.81, team: 'Team Courtney', autoQ: true, hi: 8.8,
+      'brett-mccoy': {
+        name: 'Brett McCoy', rank: 2, points: 49.04, team: 'Team Buchanan', autoQ: true, hi: 8.9,
         highlights: [
           '2026 Points Race — #2 Ranked (Auto-Qualifier for Galunga Cup)',
         ],
-        bio: 'Jonathan is a stalwart of Team Courtney and a reliable presence in the points race. His consistent play throughout the 2025 season earned him an automatic Galunga Cup qualification heading into 2026.',
+        bio: 'Brett is a cornerstone of Team Buchanan and one of the more feared competitors on the Galunga Tour. A strong start to the 2026 season has him sitting 2nd in the points race with 49.04 points and securely in the automatic qualifier group for the Galunga Cup.',
+      },
+      'ryan-addington': {
+        name: 'Ryan Addington', rank: 3, points: 49.04, team: 'Team Buchanan', autoQ: true, hi: 7.2,
+        highlights: [
+          '2026 Points Race — #3 Ranked (Auto-Qualifier for Galunga Cup)',
+        ],
+        bio: 'Ryan has been one of the most dependable members of Team Buchanan. Tied for 2nd on the season with 49.04 points, he sits 3rd overall and is firmly inside the automatic Galunga Cup qualification group.',
+      },
+      'ben-mullikin': {
+        name: 'Ben Mullikin', rank: 4, points: 33.80, team: 'Team Courtney', autoQ: true, hi: 2.7,
+        highlights: [
+          '2026 Points Race — #4 Ranked (Auto-Qualifier for Galunga Cup)',
+        ],
+        bio: 'Ben has put together a strong 2026 campaign, sitting 4th in the points race with 33.80 points and firmly in the automatic qualifier group for the Galunga Cup. A steady and reliable contributor for Team Courtney.',
+      },
+      'taylor-baranowski': {
+        name: 'Taylor Baranowski', rank: 5, points: 28.99, team: 'Team Buchanan', autoQ: true, hi: 4.5,
+        highlights: [
+          '2026 Points Race — #5 Ranked (Auto-Qualifier for Galunga Cup)',
+        ],
+        bio: 'Taylor has surged into the top five of the 2026 points race, earning automatic Galunga Cup qualification after a strong start to the season. With 28.99 points, he is a consistent and dangerous presence in the Team Buchanan lineup.',
       },
       'taylor-smith': {
-        name: 'Taylor Smith', rank: 3, points: 9.81, team: 'Team Buchanan', autoQ: true, hi: 3.9,
+        name: 'Taylor Smith', rank: 6, points: 21.73, team: 'Team Buchanan', autoQ: true, hi: 3.9,
         highlights: [
           'Match Play Championship Champion — 2024',
           'Match Play Championship Champion — 2025 (Back-to-Back)',
           'Galunga Tour Championship Champion — 2025 (Defending)',
-          '2026 Points Race — #3 Ranked (Auto-Qualifier for Galunga Cup)',
-        ],
-        bio: 'Taylor Smith is the undisputed king of the Galunga Tour Match Play Championship, having won back-to-back titles in 2024 and 2025. He also claimed the 2025 Tour Championship, making him the player to beat heading into 2026. A dual threat in both stroke play and match play formats, Taylor enters the year as defending champion in two events.',
-      },
-      'brett-mccoy': {
-        name: 'Brett McCoy', rank: 4, points: 9.81, team: 'Team Buchanan', autoQ: true, hi: 8.9,
-        highlights: [
-          '2026 Points Race — #4 Ranked (Auto-Qualifier for Galunga Cup)',
-        ],
-        bio: 'Brett is a cornerstone of Team Buchanan and one of the more feared competitors on the Galunga Tour. His strong 2025 performance secured him an automatic Galunga Cup berth heading into 2026.',
-      },
-      'ryan-addington': {
-        name: 'Ryan Addington', rank: 5, points: 9.81, team: 'Team Buchanan', autoQ: true, hi: 7.2,
-        highlights: [
-          '2026 Points Race — #5 Ranked (Auto-Qualifier for Galunga Cup)',
-        ],
-        bio: 'Ryan has been one of the most dependable members of Team Buchanan, and his consistent season earned him a top-5 ranking and an automatic Galunga Cup spot for 2026.',
-      },
-      'michael-courtney': {
-        name: 'Michael Courtney', rank: 6, points: 9.81, team: 'Team Courtney', autoQ: true, hi: 4.3,
-        highlights: [
-          'Co-Founder — The Galunga Tour (2014)',
-          'Team Throwdown Champion — 2025 (Team: Prater / Courtney / Neal / Sandoval)',
           '2026 Points Race — #6 Ranked (Auto-Qualifier for Galunga Cup)',
         ],
-        bio: 'Known to everyone as Mickey, Michael Courtney co-founded the Galunga Tour in 2014 alongside Justin Buchanan. What began as a friendly competition among friends has grown into a full-season tour thanks in large part to Mickey\'s vision and competitive spirit. He remains an active and accomplished player, claiming a Team Throwdown title in 2025 and earning automatic Galunga Cup qualification for 2026.',
-      },
-      'ben-mullikin': {
-        name: 'Ben Mullikin', rank: 7, points: 9.81, team: 'Team Courtney', autoQ: true, hi: 2.7,
-        highlights: [
-          '2026 Points Race — #7 Ranked (Auto-Qualifier for Galunga Cup)',
-        ],
-        bio: 'Ben rounds out the automatic qualifier group for the 2026 Galunga Cup, having put together a strong enough 2025 season to earn his spot. A steady and reliable contributor for Team Courtney.',
-      },
-      'collin-van': {
-        name: 'Collin Van', rank: 8, points: 5.00, team: 'Team Courtney', autoQ: true, hi: 9.8,
-        highlights: [
-          'Winter Open Champion — 2025 (Defending)',
-          '2026 Points Race — #8 Ranked (Auto-Qualifier for Galunga Cup)',
-        ],
-        bio: 'Collin opened the 2025 season with a bang, claiming the Winter Open title and setting the tone for a strong year. He enters 2026 as the defending Winter Open champion and, thanks to his overall season performance, has locked up the final automatic Galunga Cup berth.',
+        bio: 'Taylor Smith is the undisputed king of the Galunga Tour Match Play Championship, having won back-to-back titles in 2024 and 2025. He also claimed the 2025 Tour Championship, making him one of the most accomplished players in the field. A dual threat in both stroke play and match play formats, Taylor sits 6th in the 2026 points race and has secured an automatic Galunga Cup berth.',
       },
       'eric-anderson': {
-        name: 'Eric Anderson', rank: 9, points: 5.00, team: 'Team Courtney', autoQ: true, hi: 1.9,
+        name: 'Eric Anderson', rank: 7, points: 21.23, team: 'Team Courtney', autoQ: true, hi: 1.9,
         highlights: [
           'Match Play Champion — 2019',
           'Galunga Open Champion — 2024, Cedar Crest Golf Club',
           'Tour Champion — 2024, Pecan Hollow GC',
           'Pick A Partner Champion — 2025 (w/ Austin Harmon)',
         ],
-        bio: 'Eric is a reliable two-ball partner and a dangerous stroke play competitor. His 2025 Pick A Partner title — won alongside Austin Harmon — and a strong overall season secured him the ninth and final automatic Galunga Cup qualification spot heading into 2026.',
+        bio: 'Eric is a reliable two-ball partner and a dangerous stroke play competitor with multiple Galunga Tour titles to his name. A strong start to 2026 has him sitting 7th in the points race with 21.23 points, securely inside the automatic qualifier group for the Galunga Cup.',
       },
-      'vinh-tran': {
-        name: 'Vinh Tran', rank: 10, points: 5.00, team: 'Team Courtney', autoQ: false, hi: 7.2,
-        highlights: ['2026 Points Race — #10 Ranked'],
-        bio: 'Vinh is a competitive member of Team Courtney who brings consistency to the course. He enters 2026 ranked just outside the auto-qualifier bubble and will be looking to earn his Galunga Cup spot through the regular season.',
-      },
-      'michael-barrett': {
-        name: 'Michael Barrett', rank: 11, points: 5.00, team: 'Team Buchanan', autoQ: false, hi: 3.8,
-        highlights: ['2026 Points Race — #11 Ranked'],
-        bio: 'Michael is a strong contributor for Team Buchanan who will be looking to break into the upper tier of the points race in 2026.',
-      },
-      'marc-tardif': {
-        name: 'Marc Tardif', rank: 12, points: 5.00, team: 'Bandon Dunes', autoQ: false, hi: 11.4,
-        highlights: ['2026 Points Race — #12 Ranked'],
-        bio: 'Marc brings a unique perspective to the Galunga Tour, competing as part of the Bandon Dunes contingent. He enters 2026 with points on the board and plenty of motivation to climb the standings.',
-      },
-      'evan-yarbrough': {
-        name: 'Evan Yarbrough', rank: 13, points: 5.00, team: 'Team Courtney', autoQ: false, hi: 9.0,
-        highlights: ['2026 Points Race — #13 Ranked'],
-        bio: 'Evan is a capable and competitive golfer for Team Courtney who is looking to make his mark on the 2026 season standings.',
+      'jonathan-nance': {
+        name: 'Jonathan Nance', rank: 8, points: 17.99, team: 'Team Courtney', autoQ: true, hi: 8.8,
+        highlights: [
+          '2026 Points Race — #8 Ranked (Auto-Qualifier for Galunga Cup)',
+        ],
+        bio: 'Jonathan is a stalwart of Team Courtney and a reliable presence in the points race. With 17.99 points through the early 2026 season, he sits 8th overall and has earned automatic Galunga Cup qualification.',
       },
       'brendan-sommer': {
-        name: 'Brendan Sommer', rank: 14, points: 5.00, team: 'Team Buchanan', autoQ: false,
-        highlights: ['2026 Points Race — #14 Ranked'],
-        bio: 'Brendan is a dependable player for Team Buchanan who enters 2026 with points already on the board and his eyes on climbing the standings.',
+        name: 'Brendan Sommer', rank: 9, points: 13.18, team: 'Team Buchanan', autoQ: true,
+        highlights: [
+          '2026 Points Race — #9 Ranked (Auto-Qualifier for Galunga Cup)',
+        ],
+        bio: 'Brendan has climbed into the automatic qualifier group, sitting 9th in the 2026 points race with 13.18 points. His strong start to the season has earned him the final automatic Galunga Cup berth, and he will be looking to hold that position through the rest of the year.',
       },
-      'brett-lachance': {
-        name: 'Brett Lachance', rank: 15, points: 5.00, team: 'Team Courtney', autoQ: false, hi: 15.2,
-        highlights: ['2026 Points Race — #15 Ranked'],
-        bio: 'Brett is a steady presence for Team Courtney on the Galunga Tour, entering 2026 looking to build on his previous season performances.',
+      'michael-courtney': {
+        name: 'Michael Courtney', rank: 10, points: 12.81, team: 'Team Courtney', autoQ: false, hi: 4.3,
+        highlights: [
+          'Co-Founder — The Galunga Tour (2014)',
+          'Team Throwdown Champion — 2025 (Team: Prater / Courtney / Neal / Sandoval)',
+          '2026 Points Race — #10 Ranked',
+        ],
+        bio: 'Known to everyone as Mickey, Michael Courtney co-founded the Galunga Tour in 2014 alongside Justin Buchanan. A Team Throwdown champion in 2025, Mickey sits 10th in the 2026 points race with 12.81 points — just outside the auto-qualifier bubble — and will have every remaining event as an opportunity to claw back into the Galunga Cup automatic group.',
       },
       'danny-horrell': {
-        name: 'Danny Horrell', rank: 16, points: 5.00, team: 'Team Buchanan', autoQ: false, hi: 11.2,
-        highlights: ['2026 Points Race — #16 Ranked'],
-        bio: 'Danny is a reliable competitor for Team Buchanan, bringing energy and competitiveness to every round on the Galunga Tour.',
+        name: 'Danny Horrell', rank: 11, points: 12.81, team: 'Team Buchanan', autoQ: false, hi: 11.2,
+        highlights: ['2026 Points Race — #11 Ranked'],
+        bio: 'Danny is a reliable competitor for Team Buchanan, bringing energy and competitiveness to every round on the Galunga Tour. He sits 11th in the 2026 points race and is well-positioned to push into the auto-qualifier group.',
+      },
+      'brett-lachance': {
+        name: 'Brett Lachance', rank: 12, points: 10.59, team: 'Team Courtney', autoQ: false, hi: 15.2,
+        highlights: ['2026 Points Race — #12 Ranked'],
+        bio: 'Brett is a steady presence for Team Courtney on the Galunga Tour, sitting 12th in the 2026 standings with 10.59 points and looking to climb further as the season progresses.',
       },
       'brad-langeloh': {
-        name: 'Brad Langeloh', rank: 17, points: 5.00, team: 'Team Buchanan', autoQ: false, hi: 11.7,
-        highlights: ['2026 Points Race — #17 Ranked'],
-        bio: 'Brad is a member of Team Buchanan who enters the 2026 season with points already in the bank and a full schedule ahead.',
-      },
-      'spencer-haines': {
-        name: 'Spencer Haines', rank: 18, points: 5.00, team: 'Team Courtney', autoQ: false, hi: 4.0,
-        highlights: ['2026 Points Race — #18 Ranked'],
-        bio: 'Spencer is a solid competitor for Team Courtney who is looking to make a stronger push up the standings in 2026.',
+        name: 'Brad Langeloh', rank: 13, points: 10.59, team: 'Team Buchanan', autoQ: false, hi: 11.7,
+        highlights: ['2026 Points Race — #13 Ranked'],
+        bio: 'Brad is a member of Team Buchanan sitting 13th in the 2026 points race with 10.59 points and a full schedule of events still to come.',
       },
       'will-mcgaffey': {
-        name: 'Will McGaffey', rank: 19, points: 5.00, team: 'Team Buchanan', autoQ: false, hi: 10.6,
-        highlights: ['2026 Points Race — #19 Ranked'],
-        bio: 'Will is a competitive player for Team Buchanan who brings a strong work ethic and great camaraderie to the Galunga Tour.',
-      },
-      'taylor-baranowski': {
-        name: 'Taylor Baranowski', rank: 20, points: 5.00, team: 'Team Buchanan', autoQ: false, hi: 4.5,
-        highlights: ['2026 Points Race — #20 Ranked'],
-        bio: 'Taylor is a consistent Team Buchanan player who enters 2026 ready to compete for points across the full season schedule.',
-      },
-      'daniel-dodd': {
-        name: 'Daniel Dodd', rank: 21, points: 5.00, team: 'Team Buchanan', autoQ: false, hi: 4.0,
-        highlights: ['2026 Points Race — T-21 Ranked'],
-        bio: 'Daniel is a solid competitor for Team Buchanan who enters 2026 tied for 21st in the standings and looking to separate himself from the pack.',
-      },
-      'bryan-stamp': {
-        name: 'Bryan Stamp', rank: 21, points: 5.00, team: 'Team Buchanan', autoQ: false, hi: 6.2,
-        highlights: ['2026 Points Race — T-21 Ranked'],
-        bio: 'Bryan enters 2026 tied for 21st as a member of Team Buchanan, looking to make a run up the points race this season.',
-      },
-      'joe-reina': {
-        name: 'Joe Reina', rank: 22, points: 5.00, team: 'Draft Pool', autoQ: false, hi: 11.0,
-        highlights: ['2026 Points Race — #22 Ranked'],
-        bio: 'Joe enters 2026 from the Draft Pool, bringing competitive fire and a hunger to prove himself in the standings this season.',
+        name: 'Will McGaffey', rank: 14, points: 10.59, team: 'Team Buchanan', autoQ: false, hi: 10.6,
+        highlights: ['2026 Points Race — #14 Ranked'],
+        bio: 'Will is a competitive player for Team Buchanan who brings a strong work ethic and great camaraderie to the Galunga Tour. He sits 14th in the 2026 standings with 10.59 points.',
       },
       'chase-koehler': {
-        name: 'Chase Koehler', rank: 23, points: 5.00, team: 'Team Courtney', autoQ: false, hi: 9.5,
+        name: 'Chase Koehler', rank: 15, points: 10.59, team: 'Team Courtney', autoQ: false, hi: 9.5,
+        highlights: ['2026 Points Race — #15 Ranked'],
+        bio: 'Chase is a member of Team Courtney sitting 15th in the 2026 points race with 10.59 points, well within striking distance of the auto-qualifier group.',
+      },
+      'austin-harmon': {
+        name: 'Austin Harmon', rank: 16, points: 9.81, team: 'Team Courtney', autoQ: false, hi: 6.6,
+        highlights: [
+          'Pick A Partner Champion — 2025 (w/ Eric Anderson)',
+          '2026 Points Race — #16 Ranked',
+        ],
+        bio: 'One of the most consistent performers on the Galunga Tour, Austin earned a Pick A Partner title in 2025 alongside Eric Anderson. After a solid start to 2026, he currently sits 16th in the points race with 9.81 points and will be looking to climb back toward the auto-qualifier positions as the season progresses.',
+      },
+      'vinh-tran': {
+        name: 'Vinh Tran', rank: 17, points: 9.81, team: 'Team Courtney', autoQ: false, hi: 7.2,
+        highlights: ['2026 Points Race — #17 Ranked'],
+        bio: 'Vinh is a competitive member of Team Courtney who brings consistency to the course. He sits 17th in the 2026 points race with 9.81 points and will be looking to push into the upper half of the standings as the season progresses.',
+      },
+      'evan-yarbrough': {
+        name: 'Evan Yarbrough', rank: 18, points: 8.58, team: 'Team Courtney', autoQ: false, hi: 9.0,
+        highlights: ['2026 Points Race — #18 Ranked'],
+        bio: 'Evan is a capable and competitive golfer for Team Courtney sitting 18th in the 2026 standings with 8.58 points, looking to make his mark as the season heats up.',
+      },
+      'joe-reina': {
+        name: 'Joe Reina', rank: 19, points: 8.58, team: 'Draft Pool', autoQ: false, hi: 11.0,
+        highlights: ['2026 Points Race — #19 Ranked'],
+        bio: 'Joe enters 2026 from the Draft Pool, bringing competitive fire and a hunger to prove himself. He sits 19th in the standings with 8.58 points and has plenty of season remaining to make his move.',
+      },
+      'michael-barrett': {
+        name: 'Michael Barrett', rank: 20, points: 8.00, team: 'Team Buchanan', autoQ: false, hi: 3.8,
+        highlights: ['2026 Points Race — #20 Ranked'],
+        bio: 'Michael is a strong contributor for Team Buchanan sitting 20th in the 2026 standings with 8.00 points, looking to break into the upper tier of the points race.',
+      },
+      'spencer-haines': {
+        name: 'Spencer Haines', rank: 21, points: 8.00, team: 'Team Courtney', autoQ: false, hi: 4.0,
+        highlights: ['2026 Points Race — #21 Ranked'],
+        bio: 'Spencer is a solid competitor for Team Courtney sitting 21st in the 2026 points race with 8.00 points, looking to make a stronger push up the standings as the season continues.',
+      },
+      'marc-tardif': {
+        name: 'Marc Tardif', rank: 21, points: 5.00, team: 'Bandon Dunes', autoQ: false, hi: 11.4,
+        highlights: ['2026 Points Race — T-21 Ranked'],
+        bio: 'Marc brings a unique perspective to the Galunga Tour, competing as part of the Bandon Dunes contingent. He enters the 2026 season tied for 21st with points on the board and plenty of motivation to climb the standings.',
+      },
+      'daniel-dodd': {
+        name: 'Daniel Dodd', rank: 22, points: 5.00, team: 'Team Buchanan', autoQ: false, hi: 4.0,
+        highlights: ['2026 Points Race — #22 Ranked'],
+        bio: 'Daniel is a solid competitor for Team Buchanan sitting 22nd in the 2026 standings with 5.00 points, looking to separate himself from the pack as the season progresses.',
+      },
+      'bryan-stamp': {
+        name: 'Bryan Stamp', rank: 23, points: 5.00, team: 'Team Buchanan', autoQ: false, hi: 6.2,
         highlights: ['2026 Points Race — #23 Ranked'],
-        bio: 'Chase is a member of Team Courtney who enters 2026 with points on the board and a full season ahead to make his move up the standings.',
+        bio: 'Bryan is a member of Team Buchanan sitting 23rd in the 2026 standings with 5.00 points, looking to make a run up the points race this season.',
       },
       'collin-steinmetz': {
         name: 'Collin Steinmetz', rank: 24, points: 5.00, team: 'Team Courtney', autoQ: false, hi: 4.3,
         highlights: ['2026 Points Race — #24 Ranked'],
-        bio: 'Collin rounds out the 5-point group for Team Courtney, entering 2026 with a full schedule of opportunities to climb the rankings.',
+        bio: 'Collin is a member of Team Courtney sitting 24th in the 2026 standings with 5.00 points and a full schedule of opportunities to climb the rankings.',
+      },
+      'stephen-oliver': {
+        name: 'Stephen Oliver', rank: 25, points: 3.00, team: 'Team Courtney', autoQ: false, hi: 15.0,
+        highlights: ['2026 Points Race — #25 Ranked'],
+        bio: 'Stephen is a member of Team Courtney who has already got points on the board in 2026, sitting 25th with 3.00 points and looking to build on that through the remainder of the season.',
       },
       'eddie-chen': {
-        name: 'Eddie Chen', rank: 25, points: 0.00, team: 'Team Courtney', autoQ: false, hi: 5.5,
+        name: 'Eddie Chen', rank: 26, points: 0.00, team: 'Team Courtney', autoQ: false, hi: 5.5,
         highlights: [
           'Galunga Masters Champion — 2025 (Defending)',
           'SNRE Harambe Memorial Champion — 2025 (Defending)',
@@ -227,16 +236,11 @@
         bio: 'Eddie Chen had arguably the most dominant individual season in recent Galunga Tour history, claiming three event titles in 2025: the Galunga Masters, the SNRE Harambe Memorial, and the Galunga Open. He enters 2026 as the defending champion in all three of those events. While his points race ranking doesn\'t yet reflect his ability, expect Eddie to be a major factor at every event he plays.',
       },
       'scott-neal': {
-        name: 'Scott Neal', rank: 26, points: 0.00, team: 'Team Courtney', autoQ: false,
+        name: 'Scott Neal', rank: 27, points: 0.00, team: 'Team Courtney', autoQ: false,
         highlights: [
           'Team Throwdown Champion — 2025 (Team: Prater / Courtney / Neal / Sandoval)',
         ],
         bio: 'Scott is a key member of Team Courtney who claimed a Team Throwdown title in 2025 as part of the winning foursome. A reliable teammate and competitive individual player, Scott will be looking to make his mark on the 2026 individual standings.',
-      },
-      'stephen-oliver': {
-        name: 'Stephen Oliver', rank: 27, points: 0.00, team: 'Team Courtney', autoQ: false, hi: 15.0,
-        highlights: [],
-        bio: 'Stephen is a member of Team Courtney who enters 2026 ready to compete across the full season schedule.',
       },
       'jaasiel-sandoval': {
         name: 'Jaasiel Sandoval', rank: 28, points: 0.00, team: 'Draft Pool', autoQ: false, hi: 18.0,
@@ -265,13 +269,13 @@
         highlights: [],
         bio: 'Brett enters 2026 from the Draft Pool, looking to earn his spot on a Galunga Cup team and make a run at the season standings.',
       },
-      'jeremy-sanders': {
-        name: 'Jeremy Sanders', rank: 33, points: 0.00, team: '—', autoQ: false, hi: 7.4,
+      'derek-fournier': {
+        name: 'Derek Fournier', rank: 33, points: 0.00, team: 'Draft Pool', autoQ: false, hi: 10.0,
         highlights: [],
-        bio: 'Jeremy is a competitive player who enters 2026 ready to make his mark on the Galunga Tour standings.',
+        bio: 'Derek joins the 2026 Galunga Tour as a member of the Draft Pool, ready to compete across the full season schedule and make his mark on the standings.',
       },
       'dylan-prater': {
-        name: 'Dylan Prater', rank: 34, points: 0.00, team: 'Team Courtney', autoQ: false, hi: 16.0,
+        name: 'Dylan Prater', rank: 30, points: 0.00, team: 'Team Courtney', autoQ: false, hi: 16.0,
         highlights: [
           'Team Throwdown Champion — 2025 (Team: Prater / Courtney / Neal / Sandoval)',
           'Team Throwdown Individual Low Net Champion — 2025',
@@ -279,12 +283,12 @@
         bio: 'Dylan had a standout Team Throwdown in 2025, helping his foursome to the team title while also claiming the Individual Low Net award on the day. A dual winner in one of the tour\'s most competitive formats, Dylan enters 2026 as a player on the rise.',
       },
       'jesse-rakestraw': {
-        name: 'Jesse Rakestraw', rank: 35, points: 0.00, team: 'Team Courtney', autoQ: false, hi: 12.0,
+        name: 'Jesse Rakestraw', rank: 31, points: 0.00, team: 'Team Courtney', autoQ: false, hi: 12.0,
         highlights: [],
         bio: 'Jesse is a member of Team Courtney who enters the 2026 season looking to put his stamp on the standings.',
       },
       'justin-buchanan': {
-        name: 'Justin Buchanan', rank: 36, points: 0.00, team: 'Team Buchanan', autoQ: false,
+        name: 'Justin Buchanan', rank: 32, points: 0.00, team: 'Team Buchanan', autoQ: false,
         highlights: [
           'Co-Founder — The Galunga Tour (2014)',
           'Galunga Cup Captain — Team Buchanan (Champions 2024 & 2025)',
@@ -292,7 +296,7 @@
         bio: 'Justin Buchanan is the co-founder of the Galunga Tour, having started the organization alongside Mickey Courtney in 2014 with nothing more than a group of friends, a set of clubs, and a healthy competitive streak. More than a decade later, the tour he built continues to grow. As captain of Team Buchanan, Justin has led his squad to back-to-back Galunga Cup titles, cementing his legacy both as a founder and as a competitor.',
       },
       'troy-rakestraw': {
-        name: 'Troy Rakestraw', rank: 37, points: 0.00, team: 'Team Courtney', autoQ: false, hi: 4.2,
+        name: 'Troy Rakestraw', rank: 33, points: 0.00, team: 'Team Courtney', autoQ: false, hi: 4.2,
         highlights: [],
         bio: 'Troy is a member of Team Courtney who rounds out the 2026 Galunga Tour player roster, ready to compete across the full season.',
       },
