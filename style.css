@@ -825,3 +825,43 @@ footer a {
   /* Team Throwdown sub-row only contains Format + Defending Champ cells — hide both */
   .throwdown-sub td { display: none; }
 }
+
+/* ── Instagram Feed Section ─────────────────────────── */
+.instagram-section {
+  background: var(--off-white);
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.instagram-section .section-title {
+  font-family: var(--font-title);
+  font-size: 1.8rem;
+  color: var(--black);
+  margin-bottom: 0.25rem;
+}
+
+.instagram-section .section-sub {
+  margin-bottom: 2rem;
+  color: var(--iron-gray);
+  font-size: 0.95rem;
+}
+
+.instagram-section .section-sub a {
+  color: var(--red);
+  text-decoration: none;
+}
+
+.instagram-section .section-sub a:hover {
+  text-decoration: underline;
+}
+
+.instagram-widget {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .instagram-section {
+    padding: 2rem 1rem;
+  }
+}
