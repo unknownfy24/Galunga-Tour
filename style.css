@@ -29,6 +29,12 @@ body {
   font-weight: 500;
   background: var(--off-white);
   color: var(--text);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+footer {
+  margin-top: auto;
 }
 
 /* NAV */
@@ -518,7 +524,6 @@ footer {
   color: var(--iron-gray);
   text-align: center;
   padding: 2rem;
-  margin-top: 3rem;
   font-size: 0.85rem;
 }
 
