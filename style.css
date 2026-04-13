@@ -833,6 +833,10 @@ footer a {
   text-align: center;
 }
 
+.instagram-section .section-title::after {
+  width: 100%;
+}
+
 .instagram-section .section-title {
   font-family: var(--font-title);
   font-size: 1.8rem;
