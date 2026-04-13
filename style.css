@@ -351,6 +351,9 @@ tbody td {
   padding: 3.5rem 2rem;
   text-align: center;
 }
+@media (min-width: 768px) {
+  .schedule-hero { padding: 6rem 2rem; }
+}
 
 .page-hero h1 {
   font-family: var(--font-title);
