@@ -86,7 +86,7 @@ async function login() {
 }
 
 async function fetchHandicap(bearerToken, ghinNumber) {
-  const url = `${BASE_URL}/golfers.json?per_page=1&page=1&golfer_id=${encodeURIComponent(ghinNumber)}&status=Active`;
+  const url = `${BASE_URL}/golfers.json?per_page=1&page=1&global_search=true&golfer_id=${encodeURIComponent(ghinNumber)}&status=Active`;
   const res = await fetch(url, {
     headers: {
       'Authorization': `Bearer ${bearerToken}`,
