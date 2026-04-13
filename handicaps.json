@@ -46,7 +46,7 @@
     "name": "Eric Anderson",
     "ghin_number": "1947688",
     "handicap_index": null,
-    "error": "HTTP 401 for GHIN #1947688"
+    "error": "HTTP 400 for GHIN #1947688: {\"error\":\"search param is not present\"}"
   },
   {
     "id": "jonathan-nance",
