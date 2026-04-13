@@ -1,0 +1,40 @@
+name: Update Handicap Indexes
+
+on:
+  schedule:
+    - cron: '0 14 * * 1,3,5'   # Every Mon/Wed/Fri at 2pm UTC (≈ every 48 hrs on weekdays)
+  workflow_dispatch:             # Also runnable manually from GitHub Actions tab
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Fetch handicaps from GHIN
+        run: node scripts/fetch-handicaps.js
+        env:
+          GHIN_EMAIL:    ${{ secrets.GHIN_EMAIL }}
+          GHIN_PASSWORD: ${{ secrets.GHIN_PASSWORD }}
+
+      - name: Patch players.html
+        run: node scripts/patch-handicaps.js
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name  "Galunga Bot"
+          git config user.email "bot@galungatour.com"
+          git add players.html handicaps.json
+          if git diff --cached --quiet; then
+            echo "No handicap changes — skipping commit."
+          else
+            git commit -m "chore: update handicap indexes [skip ci]"
+            git push
+          fi
