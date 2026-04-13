@@ -45,8 +45,12 @@
     "id": "eric-anderson",
     "name": "Eric Anderson",
     "ghin_number": "1947688",
-    "handicap_index": null,
-    "error": "HTTP 400 for GHIN #1947688: {\"error\":\"search param is not present\"}"
+    "handicap_index": 2.2,
+    "first_name": "Eric",
+    "last_name": "Anderson",
+    "club_name": "The Courses at Watters Creek",
+    "low_hi": "0.2",
+    "updated_at": "2026-04-12"
   },
   {
     "id": "jonathan-nance",
