@@ -94,7 +94,10 @@ async function fetchHandicap(bearerToken, ghinNumber) {
     },
   });
 
-  if (!res.ok) throw new Error(`HTTP ${res.status} for GHIN #${ghinNumber}`);
+  if (!res.ok) {
+    const body = await res.text();
+    throw new Error(`HTTP ${res.status} for GHIN #${ghinNumber}: ${body.slice(0, 200)}`);
+  }
 
   const data = await res.json();
   const golfer = data?.golfers?.[0];
