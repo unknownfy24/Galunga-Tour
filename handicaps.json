@@ -188,9 +188,13 @@
   {
     "id": "eddie-chen",
     "name": "Eddie Chen",
-    "ghin_number": "TBD",
-    "handicap_index": null,
-    "error": "no_ghin"
+    "ghin_number": "11818841",
+    "handicap_index": 5.5,
+    "first_name": "Eddie",
+    "last_name": "Chen",
+    "club_name": "USGA/Texas GC",
+    "low_hi": "5.5",
+    "updated_at": "2026-01-11"
   },
   {
     "id": "scott-neal",
