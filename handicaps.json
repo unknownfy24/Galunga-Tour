@@ -96,7 +96,7 @@
     "last_name": "Sommer",
     "club_name": "USGA/MetAmateur GC",
     "low_hi": "3.9",
-    "updated_at": "2026-04-20"
+    "updated_at": "2026-04-24"
   },
   {
     "id": "brett-lachance",
@@ -366,34 +366,26 @@
     "id": "derek-fournier",
     "name": "Derek Fournier",
     "ghin_number": "10285941",
-    "handicap_index": 16,
-    "first_name": "Dylan",
-    "last_name": "Prater",
-    "club_name": "USGA/Texas GC",
-    "low_hi": "16.0",
-    "updated_at": "2025-03-19"
+    "handicap_index": null,
+    "error": "No golfer found for GHIN #10285941"
   },
   {
     "id": "dylan-prater",
     "name": "Dylan Prater",
     "ghin_number": "10285941",
-    "handicap_index": 16,
-    "first_name": "Dylan",
-    "last_name": "Prater",
-    "club_name": "USGA/Texas GC",
-    "low_hi": "16.0",
-    "updated_at": "2025-03-19"
+    "handicap_index": null,
+    "error": "No golfer found for GHIN #10285941"
   },
   {
     "id": "jesse-rakestraw",
     "name": "Jesse Rakestraw",
     "ghin_number": "11111622",
-    "handicap_index": 13.2,
+    "handicap_index": 13,
     "first_name": "Jesse",
     "last_name": "Rakestraw",
     "club_name": "USGA/Texas GC",
     "low_hi": "11.3",
-    "updated_at": "2026-04-19"
+    "updated_at": "2026-04-24"
   },
   {
     "id": "justin-buchanan",
@@ -410,11 +402,11 @@
     "id": "troy-rakestraw",
     "name": "Troy Rakestraw",
     "ghin_number": "10208766",
-    "handicap_index": 6.5,
+    "handicap_index": 6.8,
     "first_name": "Troy",
     "last_name": "Rakestraw",
     "club_name": "USGA/Kentucky GC",
     "low_hi": "3.3",
-    "updated_at": "2026-04-19"
+    "updated_at": "2026-04-23"
   }
 ]
