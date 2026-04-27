@@ -14,23 +14,23 @@
     "id": "brett-mccoy",
     "name": "Brett McCoy",
     "ghin_number": "10512253",
-    "handicap_index": 11.3,
+    "handicap_index": 11.7,
     "first_name": "Brett",
     "last_name": "Mccoy",
     "club_name": "USGA/Texas GC",
     "low_hi": "8.9",
-    "updated_at": "2026-04-19"
+    "updated_at": "2026-04-26"
   },
   {
     "id": "ryan-addington",
     "name": "Ryan Addington",
     "ghin_number": "10212491",
-    "handicap_index": 7.3,
+    "handicap_index": 7.1,
     "first_name": "Ryan",
     "last_name": "Addington",
     "club_name": "USGA/Texas GC",
-    "low_hi": "7.2",
-    "updated_at": "2026-04-13"
+    "low_hi": "7.1",
+    "updated_at": "2026-04-27"
   },
   {
     "id": "ben-mullikin",
@@ -58,12 +58,12 @@
     "id": "taylor-smith",
     "name": "Taylor Smith",
     "ghin_number": "2936914",
-    "handicap_index": 5.2,
+    "handicap_index": 5.4,
     "first_name": "Taylor",
     "last_name": "Smith",
     "club_name": "USGA/Texas GC",
     "low_hi": "3.9",
-    "updated_at": "2026-04-19"
+    "updated_at": "2026-04-27"
   },
   {
     "id": "eric-anderson",
@@ -91,12 +91,12 @@
     "id": "brendan-sommer",
     "name": "Brendan Sommer",
     "ghin_number": "12141067",
-    "handicap_index": 7.4,
+    "handicap_index": 7.2,
     "first_name": "Brendan",
     "last_name": "Sommer",
     "club_name": "USGA/MetAmateur GC",
     "low_hi": "3.9",
-    "updated_at": "2026-04-24"
+    "updated_at": "2026-04-26"
   },
   {
     "id": "brett-lachance",
@@ -173,7 +173,7 @@
     "last_name": "Harmon",
     "club_name": "USGA/Texas GC",
     "low_hi": "4.8",
-    "updated_at": "2026-04-05"
+    "updated_at": "2026-04-26"
   },
   {
     "id": "vinh-tran",
@@ -201,12 +201,12 @@
     "id": "evan-yarbrough",
     "name": "Evan Yarbrough",
     "ghin_number": "10212217",
-    "handicap_index": 9,
+    "handicap_index": 9.4,
     "first_name": "Evan",
     "last_name": "Yarbrough",
     "club_name": "USGA/Texas GC",
     "low_hi": "7.5",
-    "updated_at": "2026-04-19"
+    "updated_at": "2026-04-25"
   },
   {
     "id": "joe-reina",
@@ -223,34 +223,34 @@
     "id": "michael-barrett",
     "name": "Michael Barrett",
     "ghin_number": "3158900",
-    "handicap_index": 5.5,
+    "handicap_index": 5.8,
     "first_name": "Michael",
     "last_name": "Barrett",
     "club_name": "Tenison Park Golf Course",
     "low_hi": "2.6",
-    "updated_at": "2026-04-20"
+    "updated_at": "2026-04-27"
   },
   {
     "id": "spencer-haines",
     "name": "Spencer Haines",
     "ghin_number": "11246285",
-    "handicap_index": 3.8,
+    "handicap_index": 3.6,
     "first_name": "Spencer",
     "last_name": "Haines",
     "club_name": "USGA/Texas GC",
     "low_hi": "2.6",
-    "updated_at": "2026-04-13"
+    "updated_at": "2026-04-26"
   },
   {
     "id": "marc-tardif",
     "name": "Marc Tardif",
     "ghin_number": "10265888",
-    "handicap_index": 10.8,
+    "handicap_index": 10.9,
     "first_name": "Marc",
     "last_name": "Tardif",
     "club_name": "USGA/Texas GC",
     "low_hi": "10.1",
-    "updated_at": "2026-04-20"
+    "updated_at": "2026-04-27"
   },
   {
     "id": "daniel-dodd",
@@ -267,12 +267,12 @@
     "id": "collin-steinmetz",
     "name": "Collin Steinmetz",
     "ghin_number": "12473109",
-    "handicap_index": 4.6,
+    "handicap_index": 4.9,
     "first_name": "Collin",
     "last_name": "Steinmetz",
     "club_name": "USGA/Texas GC",
     "low_hi": "1.8",
-    "updated_at": "2026-04-18"
+    "updated_at": "2026-04-25"
   },
   {
     "id": "stephen-oliver",
@@ -344,12 +344,12 @@
     "id": "gary-aanenson",
     "name": "Gary Aanenson",
     "ghin_number": "10227279",
-    "handicap_index": 9.8,
+    "handicap_index": 8.3,
     "first_name": "Gary",
     "last_name": "Aanenson",
     "club_name": "USGA/Texas GC",
     "low_hi": "6.2",
-    "updated_at": "2026-04-13"
+    "updated_at": "2026-04-27"
   },
   {
     "id": "brett-loxterman",
@@ -360,7 +360,7 @@
     "last_name": "Loxterman",
     "club_name": "Dogleg Brewing Company",
     "low_hi": "5.8",
-    "updated_at": "2026-04-18"
+    "updated_at": "2026-04-25"
   },
   {
     "id": "derek-fournier",
@@ -407,6 +407,6 @@
     "last_name": "Rakestraw",
     "club_name": "USGA/Kentucky GC",
     "low_hi": "3.3",
-    "updated_at": "2026-04-23"
+    "updated_at": "2026-04-27"
   }
 ]
