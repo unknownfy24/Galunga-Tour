@@ -8,7 +8,7 @@
     "last_name": "Van",
     "club_name": "USGA/Texas GC",
     "low_hi": "9.0",
-    "updated_at": "2026-03-23"
+    "updated_at": "2026-04-27"
   },
   {
     "id": "brett-mccoy",
@@ -91,12 +91,12 @@
     "id": "brendan-sommer",
     "name": "Brendan Sommer",
     "ghin_number": "12141067",
-    "handicap_index": 7.2,
+    "handicap_index": 7,
     "first_name": "Brendan",
     "last_name": "Sommer",
     "club_name": "USGA/MetAmateur GC",
     "low_hi": "3.9",
-    "updated_at": "2026-04-26"
+    "updated_at": "2026-04-29"
   },
   {
     "id": "brett-lachance",
@@ -118,7 +118,7 @@
     "last_name": "Courtney",
     "club_name": "USGA/Texas GC",
     "low_hi": "4.1",
-    "updated_at": "2026-04-12"
+    "updated_at": "2026-04-19"
   },
   {
     "id": "danny-horrell",
