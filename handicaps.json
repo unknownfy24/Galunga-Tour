@@ -14,12 +14,12 @@
     "id": "brett-mccoy",
     "name": "Brett McCoy",
     "ghin_number": "10512253",
-    "handicap_index": 11.7,
+    "handicap_index": 12.3,
     "first_name": "Brett",
     "last_name": "Mccoy",
     "club_name": "USGA/Texas GC",
     "low_hi": "8.9",
-    "updated_at": "2026-04-26"
+    "updated_at": "2026-05-03"
   },
   {
     "id": "ryan-addington",
@@ -63,7 +63,7 @@
     "last_name": "Smith",
     "club_name": "USGA/Texas GC",
     "low_hi": "3.9",
-    "updated_at": "2026-04-27"
+    "updated_at": "2026-05-04"
   },
   {
     "id": "eric-anderson",
@@ -74,7 +74,7 @@
     "last_name": "Anderson",
     "club_name": "The Courses at Watters Creek",
     "low_hi": "0.2",
-    "updated_at": "2026-04-12"
+    "updated_at": "2026-05-03"
   },
   {
     "id": "jonathan-nance",
@@ -91,12 +91,12 @@
     "id": "brendan-sommer",
     "name": "Brendan Sommer",
     "ghin_number": "12141067",
-    "handicap_index": 7,
+    "handicap_index": 6.7,
     "first_name": "Brendan",
     "last_name": "Sommer",
     "club_name": "USGA/MetAmateur GC",
     "low_hi": "3.9",
-    "updated_at": "2026-04-29"
+    "updated_at": "2026-05-03"
   },
   {
     "id": "brett-lachance",
@@ -113,12 +113,12 @@
     "id": "michael-courtney",
     "name": "Michael Courtney",
     "ghin_number": "10252974",
-    "handicap_index": 4.8,
+    "handicap_index": 4.9,
     "first_name": "Michael",
     "last_name": "Courtney",
     "club_name": "USGA/Texas GC",
     "low_hi": "4.1",
-    "updated_at": "2026-04-19"
+    "updated_at": "2026-05-03"
   },
   {
     "id": "danny-horrell",
@@ -201,12 +201,12 @@
     "id": "evan-yarbrough",
     "name": "Evan Yarbrough",
     "ghin_number": "10212217",
-    "handicap_index": 9.4,
+    "handicap_index": 9,
     "first_name": "Evan",
     "last_name": "Yarbrough",
     "club_name": "USGA/Texas GC",
     "low_hi": "7.5",
-    "updated_at": "2026-04-25"
+    "updated_at": "2026-05-02"
   },
   {
     "id": "joe-reina",
@@ -239,7 +239,7 @@
     "last_name": "Haines",
     "club_name": "USGA/Texas GC",
     "low_hi": "2.6",
-    "updated_at": "2026-04-26"
+    "updated_at": "2026-05-03"
   },
   {
     "id": "marc-tardif",
@@ -250,7 +250,7 @@
     "last_name": "Tardif",
     "club_name": "USGA/Texas GC",
     "low_hi": "10.1",
-    "updated_at": "2026-04-27"
+    "updated_at": "2026-05-04"
   },
   {
     "id": "daniel-dodd",
@@ -333,12 +333,12 @@
     "id": "ryan-davidson",
     "name": "Ryan Davidson",
     "ghin_number": "10211404",
-    "handicap_index": 11.9,
+    "handicap_index": 11.3,
     "first_name": "Ryan",
     "last_name": "Davidson",
     "club_name": "USGA/Texas GC",
     "low_hi": "11.3",
-    "updated_at": "2026-04-12"
+    "updated_at": "2026-05-03"
   },
   {
     "id": "gary-aanenson",
@@ -380,12 +380,12 @@
     "id": "jesse-rakestraw",
     "name": "Jesse Rakestraw",
     "ghin_number": "11111622",
-    "handicap_index": 13,
+    "handicap_index": 13.6,
     "first_name": "Jesse",
     "last_name": "Rakestraw",
     "club_name": "USGA/Texas GC",
     "low_hi": "11.3",
-    "updated_at": "2026-04-24"
+    "updated_at": "2026-05-03"
   },
   {
     "id": "justin-buchanan",
@@ -402,11 +402,11 @@
     "id": "troy-rakestraw",
     "name": "Troy Rakestraw",
     "ghin_number": "10208766",
-    "handicap_index": 6.8,
+    "handicap_index": 6.7,
     "first_name": "Troy",
     "last_name": "Rakestraw",
     "club_name": "USGA/Kentucky GC",
     "low_hi": "3.3",
-    "updated_at": "2026-04-27"
+    "updated_at": "2026-05-04"
   }
 ]
