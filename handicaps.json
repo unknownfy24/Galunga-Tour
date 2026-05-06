@@ -91,12 +91,12 @@
     "id": "brendan-sommer",
     "name": "Brendan Sommer",
     "ghin_number": "12141067",
-    "handicap_index": 6.7,
+    "handicap_index": 6.9,
     "first_name": "Brendan",
     "last_name": "Sommer",
     "club_name": "USGA/MetAmateur GC",
     "low_hi": "3.9",
-    "updated_at": "2026-05-03"
+    "updated_at": "2026-05-05"
   },
   {
     "id": "brett-lachance",
@@ -201,12 +201,12 @@
     "id": "evan-yarbrough",
     "name": "Evan Yarbrough",
     "ghin_number": "10212217",
-    "handicap_index": 9,
+    "handicap_index": 8.9,
     "first_name": "Evan",
     "last_name": "Yarbrough",
     "club_name": "USGA/Texas GC",
     "low_hi": "7.5",
-    "updated_at": "2026-05-02"
+    "updated_at": "2026-05-06"
   },
   {
     "id": "joe-reina",
@@ -267,12 +267,12 @@
     "id": "collin-steinmetz",
     "name": "Collin Steinmetz",
     "ghin_number": "12473109",
-    "handicap_index": 4.9,
+    "handicap_index": 5.5,
     "first_name": "Collin",
     "last_name": "Steinmetz",
     "club_name": "USGA/Texas GC",
     "low_hi": "1.8",
-    "updated_at": "2026-04-25"
+    "updated_at": "2026-05-02"
   },
   {
     "id": "stephen-oliver",
