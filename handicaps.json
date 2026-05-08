@@ -14,12 +14,12 @@
     "id": "brett-mccoy",
     "name": "Brett McCoy",
     "ghin_number": "10512253",
-    "handicap_index": 12.3,
+    "handicap_index": 11.7,
     "first_name": "Brett",
     "last_name": "Mccoy",
     "club_name": "USGA/Texas GC",
     "low_hi": "8.9",
-    "updated_at": "2026-05-03"
+    "updated_at": "2026-05-08"
   },
   {
     "id": "ryan-addington",
@@ -91,12 +91,12 @@
     "id": "brendan-sommer",
     "name": "Brendan Sommer",
     "ghin_number": "12141067",
-    "handicap_index": 6.9,
+    "handicap_index": 6.1,
     "first_name": "Brendan",
     "last_name": "Sommer",
     "club_name": "USGA/MetAmateur GC",
     "low_hi": "3.9",
-    "updated_at": "2026-05-05"
+    "updated_at": "2026-05-08"
   },
   {
     "id": "brett-lachance",
@@ -206,7 +206,7 @@
     "last_name": "Yarbrough",
     "club_name": "USGA/Texas GC",
     "low_hi": "7.5",
-    "updated_at": "2026-05-06"
+    "updated_at": "2026-05-08"
   },
   {
     "id": "joe-reina",
@@ -344,12 +344,12 @@
     "id": "gary-aanenson",
     "name": "Gary Aanenson",
     "ghin_number": "10227279",
-    "handicap_index": 8.3,
+    "handicap_index": 8.1,
     "first_name": "Gary",
     "last_name": "Aanenson",
     "club_name": "USGA/Texas GC",
     "low_hi": "6.2",
-    "updated_at": "2026-04-27"
+    "updated_at": "2026-05-08"
   },
   {
     "id": "brett-loxterman",
@@ -402,11 +402,11 @@
     "id": "troy-rakestraw",
     "name": "Troy Rakestraw",
     "ghin_number": "10208766",
-    "handicap_index": 6.7,
+    "handicap_index": 6.6,
     "first_name": "Troy",
     "last_name": "Rakestraw",
     "club_name": "USGA/Kentucky GC",
     "low_hi": "3.3",
-    "updated_at": "2026-05-04"
+    "updated_at": "2026-05-07"
   }
 ]
