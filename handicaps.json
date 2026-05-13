@@ -58,12 +58,12 @@
     "id": "taylor-smith",
     "name": "Taylor Smith",
     "ghin_number": "2936914",
-    "handicap_index": 5.6,
+    "handicap_index": 6,
     "first_name": "Taylor",
     "last_name": "Smith",
     "club_name": "USGA/Texas GC",
     "low_hi": "3.9",
-    "updated_at": "2026-05-11"
+    "updated_at": "2026-05-13"
   },
   {
     "id": "eric-anderson",
@@ -91,12 +91,12 @@
     "id": "brendan-sommer",
     "name": "Brendan Sommer",
     "ghin_number": "12141067",
-    "handicap_index": 6.1,
+    "handicap_index": 5.6,
     "first_name": "Brendan",
     "last_name": "Sommer",
     "club_name": "USGA/MetAmateur GC",
     "low_hi": "3.9",
-    "updated_at": "2026-05-08"
+    "updated_at": "2026-05-12"
   },
   {
     "id": "brett-lachance",
@@ -344,12 +344,12 @@
     "id": "gary-aanenson",
     "name": "Gary Aanenson",
     "ghin_number": "10227279",
-    "handicap_index": 8.1,
+    "handicap_index": 8,
     "first_name": "Gary",
     "last_name": "Aanenson",
     "club_name": "USGA/Texas GC",
     "low_hi": "6.2",
-    "updated_at": "2026-05-08"
+    "updated_at": "2026-05-12"
   },
   {
     "id": "brett-loxterman",
