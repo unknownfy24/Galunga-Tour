@@ -258,6 +258,108 @@ nav ul li a.active {
   line-height: 1.6;
 }
 
+/* SPOTLIGHT SECTION */
+.spotlight-section {
+  background: var(--navy);
+  padding: 5rem 2rem;
+}
+
+.spotlight-inner {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.spotlight-img-wrap {
+  position: relative;
+  flex-shrink: 0;
+}
+
+.spotlight-img {
+  width: 340px;
+  height: 400px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 8px;
+  display: block;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+}
+
+.spotlight-badge {
+  position: absolute;
+  bottom: -14px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--gold);
+  color: var(--white);
+  font-family: var(--font-title);
+  font-weight: 700;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 0.4rem 1.1rem;
+  border-radius: 20px;
+  white-space: nowrap;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+.spotlight-eyebrow {
+  font-family: var(--font-title);
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--gold);
+  margin-bottom: 0.5rem;
+}
+
+.spotlight-name {
+  font-family: var(--font-title);
+  font-weight: 700;
+  font-size: 3rem;
+  color: var(--white);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  line-height: 1;
+  margin-bottom: 1.25rem;
+}
+
+.spotlight-quote {
+  font-style: italic;
+  font-size: 1.15rem;
+  color: var(--tan);
+  line-height: 1.5;
+  border-left: 3px solid var(--red);
+  padding-left: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.spotlight-body {
+  color: #adb5bd;
+  font-size: 0.97rem;
+  line-height: 1.7;
+}
+
+@media (max-width: 700px) {
+  .spotlight-inner {
+    flex-direction: column;
+    gap: 2.5rem;
+    text-align: center;
+  }
+  .spotlight-img {
+    width: 100%;
+    height: 340px;
+  }
+  .spotlight-quote {
+    border-left: none;
+    padding-left: 0;
+    border-top: 3px solid var(--red);
+    padding-top: 1rem;
+  }
+}
+
 /* BANNER STRIP */
 .banner-strip {
   background: var(--black);
