@@ -265,21 +265,22 @@ nav ul li a.active {
 }
 
 .spotlight-inner {
-  max-width: 1000px;
+  max-width: 1100px;
   margin: 0 auto;
   display: flex;
   align-items: center;
-  gap: 4rem;
+  gap: 3rem;
 }
 
 .spotlight-img-wrap {
   position: relative;
   flex-shrink: 0;
+  width: 260px;
 }
 
 .spotlight-img {
-  width: 340px;
-  height: 400px;
+  width: 100%;
+  height: 320px;
   object-fit: cover;
   object-position: top;
   border-radius: 8px;
@@ -348,9 +349,12 @@ nav ul li a.active {
     gap: 2.5rem;
     text-align: center;
   }
+  .spotlight-img-wrap {
+    width: 100%;
+  }
   .spotlight-img {
     width: 100%;
-    height: 340px;
+    height: 280px;
   }
   .spotlight-quote {
     border-left: none;
