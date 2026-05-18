@@ -98,7 +98,7 @@
         highlights: [
           '2026 Points Race — #11 Ranked',
         ],
-        bio: 'Taylor has been a consistent presence in the 2026 points race, sitting 11th with 33.80 points. A dangerous player for Team Buchanan, he will be looking to claw his way back into the auto-qualifier positions as the season continues.',
+        bio: `Taylor has consistently carded more bogies than hangovers per year since his debut in 2017.\n\nAs a model of consistency, he is one of the only athletes on tour to score better in strokes gained putting while not using a putter.\n\nThe question is never will he compete, but simply, will he remember.\n\nThe comedic anchor of most Galunga Cup teams, Taylor (Bear), has found a way to use his words and immature jokes to make up for his subpar golf game.\n\nOnly two rules when it comes to Taylor: Don't poke the bear and don't let him get started on his Grammy award winning glory days.`,
       },
       'taylor-smith': {
         name: 'Taylor Smith', rank: 10, points: 42.23, team: 'Team Buchanan', autoQ: false, hi: 6,
@@ -391,7 +391,7 @@
             <div>
               <h2 class="section-title">About</h2>
               <br>
-              <p style="line-height:1.8; color:var(--text-light);">${p.bio}</p>
+              ${p.bio.split('\n\n').map(para => `<p style="line-height:1.8; color:var(--text-light); margin-bottom:1rem;">${para}</p>`).join('')}
             </div>
             <div>
               <h2 class="section-title">Career Highlights</h2>
