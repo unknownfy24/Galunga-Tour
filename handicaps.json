@@ -14,34 +14,34 @@
     "id": "brett-mccoy",
     "name": "Brett McCoy",
     "ghin_number": "10512253",
-    "handicap_index": 11.7,
+    "handicap_index": 11.4,
     "first_name": "Brett",
     "last_name": "Mccoy",
     "club_name": "USGA/Texas GC",
     "low_hi": "8.9",
-    "updated_at": "2026-05-10"
+    "updated_at": "2026-05-18"
   },
   {
     "id": "ryan-addington",
     "name": "Ryan Addington",
     "ghin_number": "10212491",
-    "handicap_index": 7.1,
+    "handicap_index": 6.5,
     "first_name": "Ryan",
     "last_name": "Addington",
     "club_name": "USGA/Texas GC",
-    "low_hi": "7.1",
-    "updated_at": "2026-04-27"
+    "low_hi": "6.5",
+    "updated_at": "2026-05-18"
   },
   {
     "id": "ben-mullikin",
     "name": "Ben Mullikin",
     "ghin_number": "3198341",
-    "handicap_index": 2.7,
+    "handicap_index": 2.8,
     "first_name": "Benjamin",
     "last_name": "Mullikin",
     "club_name": "Waterchase Golf Club",
-    "low_hi": "0.7",
-    "updated_at": "2026-01-09"
+    "low_hi": "1.6",
+    "updated_at": "2026-05-18"
   },
   {
     "id": "taylor-baranowski",
@@ -58,12 +58,12 @@
     "id": "taylor-smith",
     "name": "Taylor Smith",
     "ghin_number": "2936914",
-    "handicap_index": 6,
+    "handicap_index": 5.8,
     "first_name": "Taylor",
     "last_name": "Smith",
     "club_name": "USGA/Texas GC",
     "low_hi": "3.9",
-    "updated_at": "2026-05-13"
+    "updated_at": "2026-05-18"
   },
   {
     "id": "eric-anderson",
@@ -96,7 +96,7 @@
     "last_name": "Sommer",
     "club_name": "USGA/MetAmateur GC",
     "low_hi": "3.9",
-    "updated_at": "2026-05-12"
+    "updated_at": "2026-05-18"
   },
   {
     "id": "brett-lachance",
@@ -129,7 +129,7 @@
     "last_name": "Horrell",
     "club_name": "USGA/Texas GC",
     "low_hi": "10.2",
-    "updated_at": "2026-05-10"
+    "updated_at": "2026-05-17"
   },
   {
     "id": "brad-langeloh",
@@ -201,12 +201,12 @@
     "id": "evan-yarbrough",
     "name": "Evan Yarbrough",
     "ghin_number": "10212217",
-    "handicap_index": 8.9,
+    "handicap_index": 9.9,
     "first_name": "Evan",
     "last_name": "Yarbrough",
     "club_name": "USGA/Texas GC",
     "low_hi": "7.5",
-    "updated_at": "2026-05-09"
+    "updated_at": "2026-05-18"
   },
   {
     "id": "joe-reina",
@@ -228,7 +228,7 @@
     "last_name": "Barrett",
     "club_name": "Tenison Park Golf Course",
     "low_hi": "2.6",
-    "updated_at": "2026-05-11"
+    "updated_at": "2026-05-17"
   },
   {
     "id": "spencer-haines",
@@ -272,7 +272,7 @@
     "last_name": "Steinmetz",
     "club_name": "USGA/Texas GC",
     "low_hi": "1.8",
-    "updated_at": "2026-05-09"
+    "updated_at": "2026-05-17"
   },
   {
     "id": "stephen-oliver",
@@ -316,7 +316,7 @@
     "last_name": "Sandoval",
     "club_name": "USGA/Texas GC",
     "low_hi": "17.4",
-    "updated_at": "2026-04-20"
+    "updated_at": "2026-05-17"
   },
   {
     "id": "mike-panko",
@@ -338,18 +338,18 @@
     "last_name": "Davidson",
     "club_name": "USGA/Texas GC",
     "low_hi": "11.3",
-    "updated_at": "2026-05-03"
+    "updated_at": "2026-05-18"
   },
   {
     "id": "gary-aanenson",
     "name": "Gary Aanenson",
     "ghin_number": "10227279",
-    "handicap_index": 8,
+    "handicap_index": 8.1,
     "first_name": "Gary",
     "last_name": "Aanenson",
     "club_name": "USGA/Texas GC",
     "low_hi": "6.2",
-    "updated_at": "2026-05-12"
+    "updated_at": "2026-05-18"
   },
   {
     "id": "brett-loxterman",
