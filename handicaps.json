@@ -69,12 +69,12 @@
     "id": "eric-anderson",
     "name": "Eric Anderson",
     "ghin_number": "1947688",
-    "handicap_index": 2.1,
+    "handicap_index": 2.5,
     "first_name": "Eric",
     "last_name": "Anderson",
     "club_name": "The Courses at Watters Creek",
     "low_hi": "0.2",
-    "updated_at": "2026-05-10"
+    "updated_at": "2026-05-18"
   },
   {
     "id": "jonathan-nance",
@@ -91,12 +91,12 @@
     "id": "brendan-sommer",
     "name": "Brendan Sommer",
     "ghin_number": "12141067",
-    "handicap_index": 5.6,
+    "handicap_index": 5.7,
     "first_name": "Brendan",
     "last_name": "Sommer",
     "club_name": "USGA/MetAmateur GC",
     "low_hi": "3.9",
-    "updated_at": "2026-05-18"
+    "updated_at": "2026-05-19"
   },
   {
     "id": "brett-lachance",
@@ -113,12 +113,12 @@
     "id": "michael-courtney",
     "name": "Michael Courtney",
     "ghin_number": "10252974",
-    "handicap_index": 4.9,
+    "handicap_index": 5.1,
     "first_name": "Michael",
     "last_name": "Courtney",
     "club_name": "USGA/Texas GC",
     "low_hi": "4.1",
-    "updated_at": "2026-05-03"
+    "updated_at": "2026-05-18"
   },
   {
     "id": "danny-horrell",
@@ -146,12 +146,12 @@
     "id": "will-mcgaffey",
     "name": "Will McGaffey",
     "ghin_number": "10649895",
-    "handicap_index": 9.7,
+    "handicap_index": 9.5,
     "first_name": "Will",
     "last_name": "McGaffey",
     "club_name": "Woodbridge Golf Club",
-    "low_hi": "9.5",
-    "updated_at": "2026-03-30"
+    "low_hi": "9.4",
+    "updated_at": "2026-05-20"
   },
   {
     "id": "chase-koehler",
@@ -223,12 +223,12 @@
     "id": "michael-barrett",
     "name": "Michael Barrett",
     "ghin_number": "3158900",
-    "handicap_index": 5.8,
+    "handicap_index": 6.1,
     "first_name": "Michael",
     "last_name": "Barrett",
     "club_name": "Tenison Park Golf Course",
     "low_hi": "2.6",
-    "updated_at": "2026-05-17"
+    "updated_at": "2026-05-18"
   },
   {
     "id": "spencer-haines",
@@ -402,11 +402,11 @@
     "id": "troy-rakestraw",
     "name": "Troy Rakestraw",
     "ghin_number": "10208766",
-    "handicap_index": 6.5,
+    "handicap_index": 6.4,
     "first_name": "Troy",
     "last_name": "Rakestraw",
     "club_name": "USGA/Kentucky GC",
     "low_hi": "3.3",
-    "updated_at": "2026-05-09"
+    "updated_at": "2026-05-20"
   }
 ]
