@@ -91,12 +91,12 @@
     "id": "brendan-sommer",
     "name": "Brendan Sommer",
     "ghin_number": "12141067",
-    "handicap_index": 5.1,
+    "handicap_index": 4.5,
     "first_name": "Brendan",
     "last_name": "Sommer",
     "club_name": "USGA/MetAmateur GC",
     "low_hi": "3.9",
-    "updated_at": "2026-05-25"
+    "updated_at": "2026-05-26"
   },
   {
     "id": "brett-lachance",
@@ -344,12 +344,12 @@
     "id": "gary-aanenson",
     "name": "Gary Aanenson",
     "ghin_number": "10227279",
-    "handicap_index": 8.1,
+    "handicap_index": 7.1,
     "first_name": "Gary",
     "last_name": "Aanenson",
     "club_name": "USGA/Texas GC",
     "low_hi": "6.2",
-    "updated_at": "2026-05-18"
+    "updated_at": "2026-05-26"
   },
   {
     "id": "brett-loxterman",
