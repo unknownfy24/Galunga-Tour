@@ -3,12 +3,12 @@
     "id": "collin-van",
     "name": "Collin Van",
     "ghin_number": "10596786",
-    "handicap_index": 8.7,
+    "handicap_index": 8.6,
     "first_name": "C",
     "last_name": "Van",
     "club_name": "USGA/Texas GC",
-    "low_hi": "8.7",
-    "updated_at": "2026-05-23"
+    "low_hi": "8.6",
+    "updated_at": "2026-06-01"
   },
   {
     "id": "brett-mccoy",
@@ -36,12 +36,12 @@
     "id": "ben-mullikin",
     "name": "Ben Mullikin",
     "ghin_number": "3198341",
-    "handicap_index": 2.7,
+    "handicap_index": 2.8,
     "first_name": "Benjamin",
     "last_name": "Mullikin",
     "club_name": "Waterchase Golf Club",
     "low_hi": "1.6",
-    "updated_at": "2026-06-01"
+    "updated_at": "2026-06-03"
   },
   {
     "id": "taylor-baranowski",
@@ -91,12 +91,12 @@
     "id": "brendan-sommer",
     "name": "Brendan Sommer",
     "ghin_number": "12141067",
-    "handicap_index": 4.5,
+    "handicap_index": 4.6,
     "first_name": "Brendan",
     "last_name": "Sommer",
     "club_name": "USGA/MetAmateur GC",
     "low_hi": "3.9",
-    "updated_at": "2026-05-31"
+    "updated_at": "2026-06-05"
   },
   {
     "id": "brett-lachance",
@@ -140,7 +140,7 @@
     "last_name": "Langeloh",
     "club_name": "USGA/Texas GC",
     "low_hi": "10.4",
-    "updated_at": "2026-05-08"
+    "updated_at": "2026-06-04"
   },
   {
     "id": "will-mcgaffey",
@@ -184,7 +184,7 @@
     "last_name": "Tran",
     "club_name": "USGA/Texas GC",
     "low_hi": "6.1",
-    "updated_at": "2026-05-31"
+    "updated_at": "2026-06-03"
   },
   {
     "id": "bryan-stamp",
@@ -305,7 +305,7 @@
     "last_name": "Neal",
     "club_name": "USGA/Texas GC",
     "low_hi": "8.8",
-    "updated_at": "2026-05-29"
+    "updated_at": "2026-06-04"
   },
   {
     "id": "jaasiel-sandoval",
@@ -355,12 +355,12 @@
     "id": "brett-loxterman",
     "name": "Brett Loxterman",
     "ghin_number": "1408488",
-    "handicap_index": 5.9,
+    "handicap_index": 6.2,
     "first_name": "Brett",
     "last_name": "Loxterman",
     "club_name": "Dogleg Brewing Company",
     "low_hi": "5.8",
-    "updated_at": "2026-04-25"
+    "updated_at": "2026-06-03"
   },
   {
     "id": "derek-fournier",
@@ -407,6 +407,6 @@
     "last_name": "Rakestraw",
     "club_name": "USGA/Kentucky GC",
     "low_hi": "3.3",
-    "updated_at": "2026-05-31"
+    "updated_at": "2026-06-03"
   }
 ]
