@@ -47,23 +47,23 @@
     "id": "taylor-baranowski",
     "name": "Taylor Baranowski",
     "ghin_number": "10533115",
-    "handicap_index": 4.5,
+    "handicap_index": 4.7,
     "first_name": "Taylor",
     "last_name": "Baranowski",
     "club_name": "USGA/Texas GC",
     "low_hi": "3.4",
-    "updated_at": "2026-03-01"
+    "updated_at": "2026-05-19"
   },
   {
     "id": "taylor-smith",
     "name": "Taylor Smith",
     "ghin_number": "2936914",
-    "handicap_index": 5.8,
+    "handicap_index": 6.3,
     "first_name": "Taylor",
     "last_name": "Smith",
     "club_name": "USGA/Texas GC",
     "low_hi": "3.9",
-    "updated_at": "2026-06-04"
+    "updated_at": "2026-06-07"
   },
   {
     "id": "eric-anderson",
@@ -96,7 +96,7 @@
     "last_name": "Sommer",
     "club_name": "USGA/MetAmateur GC",
     "low_hi": "3.9",
-    "updated_at": "2026-06-05"
+    "updated_at": "2026-06-11"
   },
   {
     "id": "brett-lachance",
@@ -216,8 +216,8 @@
     "first_name": "Joe",
     "last_name": "Reina",
     "club_name": "USGA/Texas GC",
-    "low_hi": "7.9",
-    "updated_at": "2026-01-09"
+    "low_hi": "9.7",
+    "updated_at": "2026-06-12"
   },
   {
     "id": "michael-barrett",
@@ -407,6 +407,6 @@
     "last_name": "Rakestraw",
     "club_name": "USGA/Kentucky GC",
     "low_hi": "3.3",
-    "updated_at": "2026-06-07"
+    "updated_at": "2026-06-12"
   }
 ]
