@@ -14,12 +14,12 @@
     "id": "brett-mccoy",
     "name": "Brett McCoy",
     "ghin_number": "10512253",
-    "handicap_index": 12,
+    "handicap_index": 12.3,
     "first_name": "Brett",
     "last_name": "Mccoy",
     "club_name": "USGA/Texas GC",
     "low_hi": "8.9",
-    "updated_at": "2026-06-13"
+    "updated_at": "2026-06-14"
   },
   {
     "id": "ryan-addington",
@@ -91,12 +91,12 @@
     "id": "brendan-sommer",
     "name": "Brendan Sommer",
     "ghin_number": "12141067",
-    "handicap_index": 4.6,
+    "handicap_index": 4.2,
     "first_name": "Brendan",
     "last_name": "Sommer",
     "club_name": "USGA/MetAmateur GC",
     "low_hi": "3.9",
-    "updated_at": "2026-06-15"
+    "updated_at": "2026-06-17"
   },
   {
     "id": "brett-lachance",
@@ -118,7 +118,7 @@
     "last_name": "Courtney",
     "club_name": "USGA/Texas GC",
     "low_hi": "4.1",
-    "updated_at": "2026-06-13"
+    "updated_at": "2026-06-15"
   },
   {
     "id": "danny-horrell",
@@ -256,12 +256,12 @@
     "id": "daniel-dodd",
     "name": "Daniel Dodd",
     "ghin_number": "1854207",
-    "handicap_index": 2.7,
+    "handicap_index": 3.3,
     "first_name": "Daniel",
     "last_name": "Dodd",
     "club_name": "Medalist Golf Club",
     "low_hi": "2.7",
-    "updated_at": "2026-05-31"
+    "updated_at": "2026-06-17"
   },
   {
     "id": "collin-steinmetz",
@@ -349,7 +349,7 @@
     "last_name": "Aanenson",
     "club_name": "USGA/Texas GC",
     "low_hi": "3.4",
-    "updated_at": "2026-06-15"
+    "updated_at": "2026-06-17"
   },
   {
     "id": "brett-loxterman",
