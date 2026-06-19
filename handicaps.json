@@ -19,7 +19,7 @@
     "last_name": "Mccoy",
     "club_name": "USGA/Texas GC",
     "low_hi": "8.9",
-    "updated_at": "2026-06-14"
+    "updated_at": "2026-06-19"
   },
   {
     "id": "ryan-addington",
@@ -256,12 +256,12 @@
     "id": "daniel-dodd",
     "name": "Daniel Dodd",
     "ghin_number": "1854207",
-    "handicap_index": 3.3,
+    "handicap_index": 3.7,
     "first_name": "Daniel",
     "last_name": "Dodd",
     "club_name": "Medalist Golf Club",
     "low_hi": "2.7",
-    "updated_at": "2026-06-17"
+    "updated_at": "2026-06-18"
   },
   {
     "id": "collin-steinmetz",
