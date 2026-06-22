@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- SECRET PAGE. Do not link. Do not index. He knows what he did. -->
+  <meta name="robots" content="noindex, nofollow">
+  <title>👑 SIR DANIEL DODD 🍆 — KING OF GALUNGA 🦋🎸⛳</title>
+  <link rel="icon" href="favicon.ico">
+  <style>
+    :root{
+      --p:#6a0dad; --p2:#9b30ff; --gold:#d4af37; --gold2:#9C7A2D; --k:#0a0008;
+    }
+    *{margin:0;padding:0;box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      background:
+        radial-gradient(circle at 20% 10%, rgba(155,48,255,.35), transparent 40%),
+        radial-gradient(circle at 80% 30%, rgba(212,175,55,.25), transparent 40%),
+        radial-gradient(circle at 50% 90%, rgba(106,13,173,.4), transparent 50%),
+        #0a0008;
+      color:#fff;
+      font-family:"Trebuchet MS",-apple-system,system-ui,sans-serif;
+      overflow-x:hidden;
+      cursor:crosshair;
+    }
+    /* ===== floating chaos layer ===== */
+    .floaties{position:fixed;inset:0;pointer-events:none;z-index:0;overflow:hidden}
+    .floaties span{
+      position:absolute;bottom:-60px;font-size:2rem;
+      animation:rise linear infinite;
+      filter:drop-shadow(0 0 6px var(--p2));
+    }
+    @keyframes rise{
+      0%{transform:translateY(0) rotate(0);opacity:0}
+      10%{opacity:1}
+      90%{opacity:1}
+      100%{transform:translateY(-115vh) rotate(720deg);opacity:0}
+    }
+    /* ===== seizure banner ===== */
+    .strobe{
+      text-align:center;padding:.4rem;font-weight:900;letter-spacing:2px;
+      animation:strobe .7s steps(2) infinite;font-size:.8rem;
+      position:relative;z-index:5;text-transform:uppercase;
+    }
+    @keyframes strobe{
+      0%{background:var(--p);color:var(--gold)}
+      50%{background:var(--gold);color:var(--p)}
+    }
+    /* ===== marquee ===== */
+    .marq{
+      white-space:nowrap;overflow:hidden;position:relative;z-index:5;
+      border-top:2px solid var(--gold);border-bottom:2px solid var(--gold);
+      background:rgba(0,0,0,.5);
+    }
+    .marq div{display:inline-block;padding:.5rem 0;animation:scroll 18s linear infinite;font-weight:800;color:var(--gold)}
+    @keyframes scroll{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+
+    .wrap{position:relative;z-index:2;max-width:920px;margin:0 auto;padding:2rem 1.2rem 6rem}
+
+    /* ===== HERO ===== */
+    .crest{text-align:center;margin:1.5rem 0 .5rem}
+    .crest .helm{font-size:7rem;display:inline-block;animation:bob 3s ease-in-out infinite}
+    @keyframes bob{0%,100%{transform:translateY(0) rotate(-3deg)}50%{transform:translateY(-14px) rotate(3deg)}}
+    h1{
+      font-size:clamp(2.2rem,9vw,5rem);font-weight:900;line-height:.95;text-align:center;
+      background:linear-gradient(90deg,var(--gold),#fff,var(--p2),var(--gold));
+      background-size:300% 100%;
+      -webkit-background-clip:text;background-clip:text;color:transparent;
+      animation:shimmer 4s linear infinite;
+      text-shadow:0 0 30px rgba(155,48,255,.4);
+      filter:drop-shadow(2px 2px 0 #000);
+      margin:.4rem 0;
+    }
+    @keyframes shimmer{0%{background-position:0 0}100%{background-position:300% 0}}
+    .titles{text-align:center;font-style:italic;color:var(--p2);font-weight:700;font-size:1.1rem;margin-bottom:1.5rem;text-shadow:0 0 10px #000}
+    .glitch{animation:glitch 2.5s infinite}
+    @keyframes glitch{
+      0%,90%,100%{transform:translate(0)}
+      92%{transform:translate(-3px,1px);text-shadow:2px 0 red,-2px 0 cyan}
+      94%{transform:translate(3px,-1px)}
+      96%{transform:translate(-2px,2px);text-shadow:-2px 0 var(--gold),2px 0 var(--p2)}
+    }
+
+    /* ===== big claim cards ===== */
+    .claims{display:grid;gap:1.2rem;margin:2rem 0}
+    .claim{
+      border:3px solid var(--gold);border-radius:16px;padding:1.4rem 1.2rem;
+      background:linear-gradient(135deg,rgba(106,13,173,.45),rgba(0,0,0,.7));
+      box-shadow:0 0 25px rgba(155,48,255,.3),inset 0 0 30px rgba(0,0,0,.6);
+      position:relative;overflow:hidden;
+    }
+    .claim.spin1{animation:tilt 6s ease-in-out infinite}
+    .claim.spin2{animation:tilt2 5s ease-in-out infinite}
+    @keyframes tilt{0%,100%{transform:rotate(-1.2deg)}50%{transform:rotate(1.2deg)}}
+    @keyframes tilt2{0%,100%{transform:rotate(1deg) scale(1)}50%{transform:rotate(-1deg) scale(1.02)}}
+    .claim h2{font-size:1.8rem;color:var(--gold);text-shadow:2px 2px 0 #000;line-height:1.05}
+    .claim p{margin-top:.6rem;color:#f0e6ff;font-size:1.02rem;line-height:1.5}
+    .big{font-size:clamp(2.5rem,11vw,5.5rem);font-weight:900;text-align:center;color:var(--p2);
+      animation:pulse 1.3s ease-in-out infinite;text-shadow:0 0 18px var(--p2),3px 3px 0 #000}
+    @keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.08)}}
+
+    .emojis{font-size:2.4rem;text-align:center;letter-spacing:.3rem;margin:.4rem 0;animation:wobble 2s ease-in-out infinite}
+    @keyframes wobble{0%,100%{transform:translateX(0)}25%{transform:translateX(-8px) rotate(-5deg)}75%{transform:translateX(8px) rotate(5deg)}}
+
+    .ticker{font-weight:900;font-size:1.05rem;color:var(--gold);text-align:center;margin:1.5rem 0;
+      padding:1rem;border:2px dashed var(--p2);border-radius:12px;background:rgba(0,0,0,.4)}
+
+    .ramble{
+      background:rgba(0,0,0,.55);border-left:5px solid var(--p2);border-radius:8px;
+      padding:1.2rem 1.3rem;margin:1.4rem 0;font-size:1.02rem;line-height:1.7;color:#e8dcff;
+    }
+    .ramble b{color:var(--gold)}
+    .ramble .yell{font-weight:900;color:var(--p2);text-transform:uppercase}
+    .rot{display:inline-block;animation:roll 4s linear infinite}
+    @keyframes roll{100%{transform:rotate(360deg)}}
+
+    .statgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:1rem;margin:1.5rem 0}
+    .stat{border:2px solid var(--gold);border-radius:12px;padding:1rem;text-align:center;background:rgba(106,13,173,.3)}
+    .stat .n{font-size:2.2rem;font-weight:900;color:var(--gold);text-shadow:2px 2px 0 #000}
+    .stat .l{font-size:.78rem;text-transform:uppercase;letter-spacing:1px;color:#cbb6ff;margin-top:.3rem}
+
+    footer{text-align:center;margin-top:3rem;font-size:.8rem;color:#7a6a9a}
+    footer .royal{color:var(--gold);font-weight:900;font-size:1rem}
+    a.back{color:var(--p2);text-decoration:none;border-bottom:1px dotted var(--p2)}
+
+    .secret{position:fixed;bottom:8px;right:10px;z-index:9;font-size:.65rem;color:#4a3a6a;
+      font-style:italic;pointer-events:none}
+  </style>
+</head>
+<body>
+
+<div class="floaties" id="floaties"></div>
+
+<div class="strobe">🍆🦋🎸 CLASSIFIED GALUNGA DOCUMENT · CLEARANCE LEVEL: EGGPLANT · DO NOT SHARE 🎸🦋🍆</div>
+
+<div class="marq"><div>
+  ⛳ BEST GOLFER IN GALUNGA HISTORY ⛳ &nbsp;•&nbsp; 🍆 BIGGEST DICK ON TOUR 🍆 &nbsp;•&nbsp; 🦋 THE BUTTERFLY WHISPERER 🦋 &nbsp;•&nbsp; 🎸 SHREDS GUITAR &amp; SCORECARDS 🎸 &nbsp;•&nbsp;
+  ⛳ BEST GOLFER IN GALUNGA HISTORY ⛳ &nbsp;•&nbsp; 🍆 BIGGEST DICK ON TOUR 🍆 &nbsp;•&nbsp; 🦋 THE BUTTERFLY WHISPERER 🦋 &nbsp;•&nbsp; 🎸 SHREDS GUITAR &amp; SCORECARDS 🎸 &nbsp;•&nbsp;
+</div></div>
+
+<div class="wrap">
+
+  <div class="crest"><span class="helm">👑</span></div>
+  <h1 class="glitch">SIR DANIEL DODD</h1>
+  <p class="titles">King of Galunga · Lord of the Fairway · Duke of the Eggplant · Patron Saint of the Purple Butterfly 🦋</p>
+
+  <div class="emojis">🍆 🦋 🎸 ⛳ 🍆 🦋 🎸 ⛳ 🍆</div>
+
+  <div class="claims">
+    <div class="claim spin1">
+      <h2>⛳ BEST GOLFER IN GALUNGA HISTORY ⛳</h2>
+      <p>Not <em>a</em> best. <b>THE</b> best. Statisticians wept. The handicap committee resigned. They tried to put him on a different leaderboard so the others could feel something. The man birdies in his SLEEP. Allegedly shot a 59 and turned it in as a 58 out of humility.</p>
+    </div>
+
+    <div class="claim spin2">
+      <h2>🍆 BIGGEST D*CK ON TOUR 🍆</h2>
+      <p>Officially measured. Independently verified. The eggplant on the family crest is <b>to scale</b> and the artist was asked to scale it <em>down</em> for the website. Other players request extra-long tees just to feel adequate. 🍆🍆🍆</p>
+    </div>
+  </div>
+
+  <div class="big">100% CERTIFIED LEGEND</div>
+
+  <div class="statgrid">
+    <div class="stat"><div class="n">∞</div><div class="l">Career Birdies</div></div>
+    <div class="stat"><div class="n">1st</div><div class="l">All-Time Rank</div></div>
+    <div class="stat"><div class="n">🦋×9</div><div class="l">Butterflies Tamed</div></div>
+    <div class="stat"><div class="n">🎸</div><div class="l">Solos Shredded</div></div>
+    <div class="stat"><div class="n">🍆</div><div class="l">Units (classified)</div></div>
+    <div class="stat"><div class="n">420</div><div class="l">Vibes / Round</div></div>
+  </div>
+
+  <div class="ticker">📈 TODAY'S DODD INDEX: ⬆️ UP ONLY ⬆️ · butterflies migrating toward him · guitars self-tuning in his presence · eggplant futures at ALL TIME HIGH 🍆📈</div>
+
+  <div class="ramble">
+    they said the <b>butterflies</b> 🦋 were just butterflies. THEY WERE NOT JUST BUTTERFLIES. each one carries a message from the back nine. the <b>purple</b> ones know. the gold ones <span class="yell">know more</span>. when Daniel addresses the ball the <span class="rot">⛳</span> the wind goes quiet because even the WIND is a fan.
+  </div>
+
+  <div class="ramble">
+    🎸 the <b>guitar</b> is not a hobby it is a FREQUENCY. he tunes to 432hz which is the exact resonant frequency of a perfectly struck 7-iron. coincidence??? the eggplant 🍆 is the FIFTH FUNDAMENTAL FORCE. golf ball ⛳ = small moon. small moon = controllable. <span class="yell">wake up.</span> the green jacket was always purple you just couldn't SEE it.
+  </div>
+
+  <div class="ramble">
+    sources confirm: the laurel wreath on the crest grew there ON ITS OWN out of RESPECT. the crown was not awarded it simply APPEARED. <b>2026</b> is not a year it is a PROPHECY. 🍆🦋🎸⛳ the four sacred symbols. align them and the Galunga Cup levitates. <span class="yell">i've seen it.</span> ask anyone. don't ask anyone. <b>HE IS THE BEST GOLFER IN GALUNGA HISTORY AND THE NUMBERS DON'T LIE THE NUMBERS NEVER LIE.</b>
+  </div>
+
+  <div class="emojis">🍆🦋🎸⛳🍆🦋🎸⛳🍆🦋🎸⛳</div>
+
+  <footer>
+    <p class="royal">⚔️ LONG MAY HE PUTT ⚔️</p>
+    <p style="margin-top:.5rem">A secret shrine of the Galunga Tour · est. 2014 · <span style="color:var(--p2)">EGGPLANT CLEARANCE ONLY</span></p>
+    <p style="margin-top:.8rem"><a class="back" href="/">← sneak back to the normal website (act natural)</a></p>
+  </footer>
+</div>
+
+<div class="secret">you found the secret page. tell no one. 🍆</div>
+
+<script>
+  // spawn the eternal rain of sacred symbols
+  (function(){
+    const syms=['🍆','🦋','🎸','⛳','👑','💜'];
+    const box=document.getElementById('floaties');
+    for(let i=0;i<34;i++){
+      const s=document.createElement('span');
+      s.textContent=syms[i%syms.length];
+      s.style.left=(Math.random()*100)+'vw';
+      s.style.fontSize=(1.2+Math.random()*2.6)+'rem';
+      s.style.animationDuration=(7+Math.random()*12)+'s';
+      s.style.animationDelay=(-Math.random()*15)+'s';
+      box.appendChild(s);
+    }
+  })();
+  // konami-free: click the crown for extra chaos
+  document.querySelector('.helm').addEventListener('click',()=>{
+    document.body.style.animation='strobe .25s steps(2) 6';
+    for(let i=0;i<20;i++){
+      const s=document.createElement('span');
+      s.textContent='🍆';s.style.position='fixed';s.style.zIndex=99;
+      s.style.left=Math.random()*100+'vw';s.style.top='-40px';
+      s.style.fontSize='2.5rem';s.style.transition='top 1.5s ease-in, transform 1.5s';
+      document.body.appendChild(s);
+      requestAnimationFrame(()=>{s.style.top='110vh';s.style.transform='rotate(540deg)';});
+      setTimeout(()=>s.remove(),1700);
+    }
+  });
+</script>
+</body>
+</html>
