@@ -59,8 +59,27 @@
     .wrap{position:relative;z-index:2;max-width:920px;margin:0 auto;padding:2rem 1.2rem 6rem}
 
     /* ===== HERO ===== */
-    .crest{text-align:center;margin:1.5rem 0 .5rem}
+    .crest{text-align:center;margin:1.5rem 0 .5rem;position:relative}
     .crest .helm{font-size:7rem;display:inline-block;animation:bob 3s ease-in-out infinite}
+    .hero-face-wrap{margin:.4rem auto 0;width:min(260px,70vw)}
+    .hero-face{
+      width:100%;border-radius:50%;border:5px solid var(--gold);
+      box-shadow:0 0 35px var(--p2),0 0 70px rgba(155,48,255,.4);
+      animation:bob 3.4s ease-in-out infinite, glow 2.5s ease-in-out infinite alternate;
+    }
+    @keyframes glow{from{box-shadow:0 0 25px var(--p2)}to{box-shadow:0 0 55px var(--gold),0 0 90px var(--p2)}}
+    /* ===== FACE GALLERY ===== */
+    .gallery-title{text-align:center;font-size:1.9rem;font-weight:900;color:var(--gold);
+      margin:2.5rem 0 1.2rem;text-shadow:2px 2px 0 #000;letter-spacing:1px}
+    .gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:1.2rem}
+    .face{border:4px solid var(--gold);border-radius:14px;overflow:hidden;background:rgba(106,13,173,.35);
+      box-shadow:0 0 22px rgba(155,48,255,.35);text-align:center}
+    .face.f1{animation:tilt 5.5s ease-in-out infinite}
+    .face.f2{animation:tilt2 4.5s ease-in-out infinite}
+    .face.f3{animation:tilt 6.5s ease-in-out infinite}
+    .face img{width:100%;display:block;aspect-ratio:4/3;object-fit:cover}
+    .face .cap{padding:.7rem .5rem;font-weight:800;color:var(--p2);font-size:.92rem;line-height:1.25}
+    .face .miss{padding:2.2rem .5rem;font-size:2.5rem}
     @keyframes bob{0%,100%{transform:translateY(0) rotate(-3deg)}50%{transform:translateY(-14px) rotate(3deg)}}
     h1{
       font-size:clamp(2.2rem,9vw,5rem);font-weight:900;line-height:.95;text-align:center;
@@ -141,7 +160,13 @@
 
 <div class="wrap">
 
-  <div class="crest"><span class="helm">👑</span></div>
+  <div class="crest">
+    <span class="helm">👑</span>
+    <div class="hero-face-wrap">
+      <img class="hero-face" src="photos/danieldodd-1.jpg" alt="His Majesty"
+           onerror="this.style.display='none'">
+    </div>
+  </div>
   <h1 class="glitch">SIR DANIEL DODD</h1>
   <p class="titles">King of Galunga · Lord of the Fairway · Duke of the Eggplant · Patron Saint of the Purple Butterfly 🦋</p>
 
@@ -168,6 +193,25 @@
     <div class="stat"><div class="n">🎸</div><div class="l">Solos Shredded</div></div>
     <div class="stat"><div class="n">🍆</div><div class="l">Units (classified)</div></div>
     <div class="stat"><div class="n">420</div><div class="l">Vibes / Round</div></div>
+  </div>
+
+  <div class="gallery-title">😡 THE MANY FACES OF THE KING 😤</div>
+  <div class="gallery">
+    <div class="face f1">
+      <img src="photos/danieldodd-1.jpg" alt="Face of a champion"
+           onerror="this.outerHTML='&lt;div class=miss&gt;🍆&lt;/div&gt;'">
+      <div class="cap">"reading the green" 👁️👁️</div>
+    </div>
+    <div class="face f2">
+      <img src="photos/danieldodd-2.jpg" alt="Face of a champion"
+           onerror="this.outerHTML='&lt;div class=miss&gt;🦋&lt;/div&gt;'">
+      <div class="cap">post-birdie celebration 🎸</div>
+    </div>
+    <div class="face f3">
+      <img src="photos/danieldodd-3.jpg" alt="Face of a champion"
+           onerror="this.outerHTML='&lt;div class=miss&gt;⛳&lt;/div&gt;'">
+      <div class="cap">someone mentioned his handicap 😤</div>
+    </div>
   </div>
 
   <div class="ticker">📈 TODAY'S DODD INDEX: ⬆️ UP ONLY ⬆️ · butterflies migrating toward him · guitars self-tuning in his presence · eggplant futures at ALL TIME HIGH 🍆📈</div>
