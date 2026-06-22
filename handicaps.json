@@ -19,7 +19,7 @@
     "last_name": "Mccoy",
     "club_name": "USGA/Texas GC",
     "low_hi": "8.9",
-    "updated_at": "2026-06-19"
+    "updated_at": "2026-06-21"
   },
   {
     "id": "ryan-addington",
@@ -30,7 +30,7 @@
     "last_name": "Addington",
     "club_name": "USGA/Texas GC",
     "low_hi": "6.5",
-    "updated_at": "2026-05-18"
+    "updated_at": "2026-06-21"
   },
   {
     "id": "ben-mullikin",
@@ -52,18 +52,18 @@
     "last_name": "Baranowski",
     "club_name": "USGA/Texas GC",
     "low_hi": "3.4",
-    "updated_at": "2026-05-19"
+    "updated_at": "2026-06-21"
   },
   {
     "id": "taylor-smith",
     "name": "Taylor Smith",
     "ghin_number": "2936914",
-    "handicap_index": 6.3,
+    "handicap_index": 5.8,
     "first_name": "Taylor",
     "last_name": "Smith",
     "club_name": "USGA/Texas GC",
     "low_hi": "3.9",
-    "updated_at": "2026-06-07"
+    "updated_at": "2026-06-21"
   },
   {
     "id": "eric-anderson",
@@ -74,7 +74,7 @@
     "last_name": "Anderson",
     "club_name": "The Courses at Watters Creek",
     "low_hi": "0.2",
-    "updated_at": "2026-06-14"
+    "updated_at": "2026-06-21"
   },
   {
     "id": "jonathan-nance",
@@ -96,7 +96,7 @@
     "last_name": "Sommer",
     "club_name": "USGA/MetAmateur GC",
     "low_hi": "3.9",
-    "updated_at": "2026-06-17"
+    "updated_at": "2026-06-20"
   },
   {
     "id": "brett-lachance",
@@ -113,12 +113,12 @@
     "id": "michael-courtney",
     "name": "Michael Courtney",
     "ghin_number": "10252974",
-    "handicap_index": 5,
+    "handicap_index": 4.9,
     "first_name": "Michael",
     "last_name": "Courtney",
     "club_name": "USGA/Texas GC",
     "low_hi": "4.1",
-    "updated_at": "2026-06-15"
+    "updated_at": "2026-06-21"
   },
   {
     "id": "danny-horrell",
@@ -162,7 +162,7 @@
     "last_name": "Koehler",
     "club_name": "USGA/Texas GC",
     "low_hi": "9.1",
-    "updated_at": "2026-04-19"
+    "updated_at": "2026-06-21"
   },
   {
     "id": "austin-harmon",
@@ -179,12 +179,12 @@
     "id": "vinh-tran",
     "name": "Vinh Tran",
     "ghin_number": "10283523",
-    "handicap_index": 6.4,
+    "handicap_index": 6.5,
     "first_name": "Vinh",
     "last_name": "Tran",
     "club_name": "USGA/Texas GC",
-    "low_hi": "6.1",
-    "updated_at": "2026-06-14"
+    "low_hi": "6.2",
+    "updated_at": "2026-06-21"
   },
   {
     "id": "bryan-stamp",
@@ -228,7 +228,7 @@
     "last_name": "Barrett",
     "club_name": "Tenison Park Golf Course",
     "low_hi": "2.6",
-    "updated_at": "2026-06-15"
+    "updated_at": "2026-06-21"
   },
   {
     "id": "spencer-haines",
@@ -239,7 +239,7 @@
     "last_name": "Haines",
     "club_name": "USGA/Texas GC",
     "low_hi": "2.6",
-    "updated_at": "2026-06-14"
+    "updated_at": "2026-06-21"
   },
   {
     "id": "marc-tardif",
@@ -267,12 +267,12 @@
     "id": "collin-steinmetz",
     "name": "Collin Steinmetz",
     "ghin_number": "12473109",
-    "handicap_index": 5.9,
+    "handicap_index": 5.5,
     "first_name": "Collin",
     "last_name": "Steinmetz",
     "club_name": "USGA/Texas GC",
     "low_hi": "1.8",
-    "updated_at": "2026-05-17"
+    "updated_at": "2026-06-21"
   },
   {
     "id": "stephen-oliver",
@@ -283,7 +283,7 @@
     "last_name": "Oliver",
     "club_name": "Medalist Golf Club",
     "low_hi": "15.0",
-    "updated_at": "2026-06-13"
+    "updated_at": "2026-06-21"
   },
   {
     "id": "eddie-chen",
@@ -355,12 +355,12 @@
     "id": "brett-loxterman",
     "name": "Brett Loxterman",
     "ghin_number": "1408488",
-    "handicap_index": 6.2,
+    "handicap_index": 6.5,
     "first_name": "Brett",
     "last_name": "Loxterman",
     "club_name": "Dogleg Brewing Company",
     "low_hi": "5.8",
-    "updated_at": "2026-06-15"
+    "updated_at": "2026-06-20"
   },
   {
     "id": "derek-fournier",
@@ -380,12 +380,12 @@
     "id": "jesse-rakestraw",
     "name": "Jesse Rakestraw",
     "ghin_number": "11111622",
-    "handicap_index": 12.8,
+    "handicap_index": 13,
     "first_name": "Jesse",
     "last_name": "Rakestraw",
     "club_name": "USGA/Texas GC",
     "low_hi": "11.3",
-    "updated_at": "2026-06-14"
+    "updated_at": "2026-06-21"
   },
   {
     "id": "justin-buchanan",
