@@ -80,23 +80,23 @@
     "id": "jonathan-nance",
     "name": "Jonathan Nance",
     "ghin_number": "10276243",
-    "handicap_index": 8.3,
+    "handicap_index": 8,
     "first_name": "Jonathan",
     "last_name": "Nance",
     "club_name": "USGA/Texas GC",
     "low_hi": "7.9",
-    "updated_at": "2026-05-24"
+    "updated_at": "2026-06-23"
   },
   {
     "id": "brendan-sommer",
     "name": "Brendan Sommer",
     "ghin_number": "12141067",
-    "handicap_index": 4.2,
+    "handicap_index": 4.1,
     "first_name": "Brendan",
     "last_name": "Sommer",
     "club_name": "USGA/MetAmateur GC",
     "low_hi": "3.9",
-    "updated_at": "2026-06-20"
+    "updated_at": "2026-06-24"
   },
   {
     "id": "brett-lachance",
@@ -146,12 +146,12 @@
     "id": "will-mcgaffey",
     "name": "Will McGaffey",
     "ghin_number": "10649895",
-    "handicap_index": 9.7,
+    "handicap_index": 9.5,
     "first_name": "Will",
     "last_name": "McGaffey",
     "club_name": "Woodbridge Golf Club",
     "low_hi": "9.4",
-    "updated_at": "2026-06-08"
+    "updated_at": "2026-06-21"
   },
   {
     "id": "chase-koehler",
@@ -391,12 +391,12 @@
     "id": "justin-buchanan",
     "name": "Justin Buchanan",
     "ghin_number": "3675928",
-    "handicap_index": 3.6,
+    "handicap_index": 4.2,
     "first_name": "Justin",
     "last_name": "Buchanan",
     "club_name": "Tenison Park Golf Course",
     "low_hi": "3.3",
-    "updated_at": "2026-04-17"
+    "updated_at": "2026-06-21"
   },
   {
     "id": "troy-rakestraw",
