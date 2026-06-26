@@ -91,12 +91,12 @@
     "id": "brendan-sommer",
     "name": "Brendan Sommer",
     "ghin_number": "12141067",
-    "handicap_index": 4.1,
+    "handicap_index": 4.2,
     "first_name": "Brendan",
     "last_name": "Sommer",
     "club_name": "USGA/MetAmateur GC",
     "low_hi": "3.9",
-    "updated_at": "2026-06-24"
+    "updated_at": "2026-06-25"
   },
   {
     "id": "brett-lachance",
@@ -173,18 +173,18 @@
     "last_name": "Harmon",
     "club_name": "USGA/Texas GC",
     "low_hi": "4.8",
-    "updated_at": "2026-06-14"
+    "updated_at": "2026-06-26"
   },
   {
     "id": "vinh-tran",
     "name": "Vinh Tran",
     "ghin_number": "10283523",
-    "handicap_index": 6.5,
+    "handicap_index": 5.8,
     "first_name": "Vinh",
     "last_name": "Tran",
     "club_name": "USGA/Texas GC",
-    "low_hi": "6.2",
-    "updated_at": "2026-06-21"
+    "low_hi": "5.8",
+    "updated_at": "2026-06-26"
   },
   {
     "id": "bryan-stamp",
