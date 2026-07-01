@@ -63,7 +63,7 @@
     "last_name": "Smith",
     "club_name": "USGA/Texas GC",
     "low_hi": "3.9",
-    "updated_at": "2026-06-21"
+    "updated_at": "2026-06-29"
   },
   {
     "id": "eric-anderson",
@@ -96,7 +96,7 @@
     "last_name": "Sommer",
     "club_name": "USGA/MetAmateur GC",
     "low_hi": "3.9",
-    "updated_at": "2026-06-27"
+    "updated_at": "2026-07-01"
   },
   {
     "id": "brett-lachance",
@@ -228,7 +228,7 @@
     "last_name": "Barrett",
     "club_name": "Tenison Park Golf Course",
     "low_hi": "2.6",
-    "updated_at": "2026-06-21"
+    "updated_at": "2026-06-29"
   },
   {
     "id": "spencer-haines",
@@ -245,12 +245,12 @@
     "id": "marc-tardif",
     "name": "Marc Tardif",
     "ghin_number": "10265888",
-    "handicap_index": 12,
+    "handicap_index": 11.5,
     "first_name": "Marc",
     "last_name": "Tardif",
     "club_name": "USGA/Texas GC",
     "low_hi": "10.1",
-    "updated_at": "2026-06-29"
+    "updated_at": "2026-07-01"
   },
   {
     "id": "daniel-dodd",
@@ -322,12 +322,12 @@
     "id": "mike-panko",
     "name": "Mike Panko",
     "ghin_number": "10790073",
-    "handicap_index": 4,
+    "handicap_index": 3.7,
     "first_name": "Mike",
     "last_name": "Panko",
     "club_name": "USGA/Texas GC",
     "low_hi": "3.3",
-    "updated_at": "2026-06-27"
+    "updated_at": "2026-06-29"
   },
   {
     "id": "ryan-davidson",
@@ -402,11 +402,11 @@
     "id": "troy-rakestraw",
     "name": "Troy Rakestraw",
     "ghin_number": "10208766",
-    "handicap_index": 6.3,
+    "handicap_index": 6.4,
     "first_name": "Troy",
     "last_name": "Rakestraw",
     "club_name": "USGA/Kentucky GC",
     "low_hi": "3.3",
-    "updated_at": "2026-06-29"
+    "updated_at": "2026-06-30"
   }
 ]
