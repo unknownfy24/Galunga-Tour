@@ -58,7 +58,7 @@
     "id": "taylor-smith",
     "name": "Taylor Smith",
     "ghin_number": "2936914",
-    "handicap_index": 5.8,
+    "handicap_index": 6.1,
     "first_name": "Taylor",
     "last_name": "Smith",
     "club_name": "USGA/Texas GC",
@@ -96,7 +96,7 @@
     "last_name": "Sommer",
     "club_name": "USGA/MetAmateur GC",
     "low_hi": "3.9",
-    "updated_at": "2026-07-05"
+    "updated_at": "2026-07-08"
   },
   {
     "id": "brett-lachance",
@@ -402,11 +402,11 @@
     "id": "troy-rakestraw",
     "name": "Troy Rakestraw",
     "ghin_number": "10208766",
-    "handicap_index": 6,
+    "handicap_index": 6.4,
     "first_name": "Troy",
     "last_name": "Rakestraw",
     "club_name": "USGA/Kentucky GC",
     "low_hi": "3.3",
-    "updated_at": "2026-07-06"
+    "updated_at": "2026-07-07"
   }
 ]
