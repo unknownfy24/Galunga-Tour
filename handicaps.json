@@ -157,12 +157,12 @@
     "id": "chase-koehler",
     "name": "Chase Koehler",
     "ghin_number": "12909896",
-    "handicap_index": 9.6,
+    "handicap_index": 10,
     "first_name": "Chase",
     "last_name": "Koehler",
     "club_name": "USGA/Texas GC",
     "low_hi": "9.1",
-    "updated_at": "2026-06-21"
+    "updated_at": "2026-07-09"
   },
   {
     "id": "austin-harmon",
@@ -402,11 +402,11 @@
     "id": "troy-rakestraw",
     "name": "Troy Rakestraw",
     "ghin_number": "10208766",
-    "handicap_index": 6.4,
+    "handicap_index": 6.3,
     "first_name": "Troy",
     "last_name": "Rakestraw",
     "club_name": "USGA/Kentucky GC",
     "low_hi": "3.3",
-    "updated_at": "2026-07-07"
+    "updated_at": "2026-07-10"
   }
 ]
