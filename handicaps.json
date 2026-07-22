@@ -91,12 +91,12 @@
     "id": "brendan-sommer",
     "name": "Brendan Sommer",
     "ghin_number": "12141067",
-    "handicap_index": 4,
+    "handicap_index": 4.2,
     "first_name": "Brendan",
     "last_name": "Sommer",
     "club_name": "USGA/MetAmateur GC",
     "low_hi": "3.9",
-    "updated_at": "2026-07-20"
+    "updated_at": "2026-07-22"
   },
   {
     "id": "brett-lachance",
