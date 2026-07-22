@@ -308,17 +308,6 @@
     "updated_at": "2026-07-20"
   },
   {
-    "id": "jaasiel-sandoval",
-    "name": "Jaasiel Sandoval",
-    "ghin_number": "10516052",
-    "handicap_index": 17.3,
-    "first_name": "Jaasiel",
-    "last_name": "Sandoval",
-    "club_name": "USGA/Texas GC",
-    "low_hi": "17.3",
-    "updated_at": "2026-07-11"
-  },
-  {
     "id": "mike-panko",
     "name": "Mike Panko",
     "ghin_number": "10790073",
@@ -341,51 +330,11 @@
     "updated_at": "2026-07-13"
   },
   {
-    "id": "gary-aanenson",
-    "name": "Gary Aanenson",
-    "ghin_number": "10227279",
-    "handicap_index": 3.1,
-    "first_name": "Gary",
-    "last_name": "Aanenson",
-    "club_name": "USGA/Texas GC",
-    "low_hi": "3.1",
-    "updated_at": "2026-07-19"
-  },
-  {
-    "id": "brett-loxterman",
-    "name": "Brett Loxterman",
-    "ghin_number": "1408488",
-    "handicap_index": 6.5,
-    "first_name": "Brett",
-    "last_name": "Loxterman",
-    "club_name": "Dogleg Brewing Company",
-    "low_hi": "5.8",
-    "updated_at": "2026-06-20"
-  },
-  {
     "id": "derek-fournier",
     "name": "Derek Fournier",
     "ghin_number": "10285941",
     "handicap_index": null,
     "error": "No golfer found for GHIN #10285941"
-  },
-  {
-    "id": "dylan-prater",
-    "name": "Dylan Prater",
-    "ghin_number": "10285941",
-    "handicap_index": null,
-    "error": "No golfer found for GHIN #10285941"
-  },
-  {
-    "id": "jesse-rakestraw",
-    "name": "Jesse Rakestraw",
-    "ghin_number": "11111622",
-    "handicap_index": 11.7,
-    "first_name": "Jesse",
-    "last_name": "Rakestraw",
-    "club_name": "USGA/Texas GC",
-    "low_hi": "11.3",
-    "updated_at": "2026-07-19"
   },
   {
     "id": "justin-buchanan",
