@@ -14,12 +14,12 @@
     "id": "brett-mccoy",
     "name": "Brett McCoy",
     "ghin_number": "10512253",
-    "handicap_index": 12.5,
+    "handicap_index": 12.6,
     "first_name": "Brett",
     "last_name": "Mccoy",
     "club_name": "USGA/Texas GC",
     "low_hi": "8.9",
-    "updated_at": "2026-07-16"
+    "updated_at": "2026-07-26"
   },
   {
     "id": "ryan-addington",
@@ -30,29 +30,29 @@
     "last_name": "Addington",
     "club_name": "USGA/Texas GC",
     "low_hi": "6.5",
-    "updated_at": "2026-06-21"
+    "updated_at": "2026-07-27"
   },
   {
     "id": "ben-mullikin",
     "name": "Ben Mullikin",
     "ghin_number": "3198341",
-    "handicap_index": 2.6,
+    "handicap_index": 3,
     "first_name": "Benjamin",
     "last_name": "Mullikin",
     "club_name": "Waterchase Golf Club",
     "low_hi": "1.6",
-    "updated_at": "2026-07-19"
+    "updated_at": "2026-07-27"
   },
   {
     "id": "taylor-baranowski",
     "name": "Taylor Baranowski",
     "ghin_number": "10533115",
-    "handicap_index": 4.7,
+    "handicap_index": 5.3,
     "first_name": "Taylor",
     "last_name": "Baranowski",
     "club_name": "USGA/Texas GC",
     "low_hi": "3.4",
-    "updated_at": "2026-06-21"
+    "updated_at": "2026-07-26"
   },
   {
     "id": "taylor-smith",
@@ -74,7 +74,7 @@
     "last_name": "Anderson",
     "club_name": "The Courses at Watters Creek",
     "low_hi": "0.2",
-    "updated_at": "2026-07-20"
+    "updated_at": "2026-07-27"
   },
   {
     "id": "jonathan-nance",
@@ -96,7 +96,7 @@
     "last_name": "Sommer",
     "club_name": "USGA/MetAmateur GC",
     "low_hi": "3.9",
-    "updated_at": "2026-07-22"
+    "updated_at": "2026-07-25"
   },
   {
     "id": "brett-lachance",
@@ -113,12 +113,12 @@
     "id": "michael-courtney",
     "name": "Michael Courtney",
     "ghin_number": "10252974",
-    "handicap_index": 5,
+    "handicap_index": 5.9,
     "first_name": "Michael",
     "last_name": "Courtney",
     "club_name": "USGA/Texas GC",
     "low_hi": "4.1",
-    "updated_at": "2026-07-19"
+    "updated_at": "2026-07-26"
   },
   {
     "id": "danny-horrell",
@@ -168,23 +168,23 @@
     "id": "austin-harmon",
     "name": "Austin Harmon",
     "ghin_number": "11162545",
-    "handicap_index": 6.3,
+    "handicap_index": 5.9,
     "first_name": "Austin",
     "last_name": "Harmon",
     "club_name": "USGA/Texas GC",
     "low_hi": "4.8",
-    "updated_at": "2026-07-19"
+    "updated_at": "2026-07-27"
   },
   {
     "id": "vinh-tran",
     "name": "Vinh Tran",
     "ghin_number": "10283523",
-    "handicap_index": 5.5,
+    "handicap_index": 6,
     "first_name": "Vinh",
     "last_name": "Tran",
     "club_name": "USGA/Texas GC",
     "low_hi": "5.5",
-    "updated_at": "2026-07-20"
+    "updated_at": "2026-07-27"
   },
   {
     "id": "bryan-stamp",
@@ -234,12 +234,12 @@
     "id": "spencer-haines",
     "name": "Spencer Haines",
     "ghin_number": "11246285",
-    "handicap_index": 3.1,
+    "handicap_index": 2.8,
     "first_name": "Spencer",
     "last_name": "Haines",
     "club_name": "USGA/Texas GC",
     "low_hi": "2.6",
-    "updated_at": "2026-07-20"
+    "updated_at": "2026-07-27"
   },
   {
     "id": "marc-tardif",
@@ -272,7 +272,7 @@
     "last_name": "Steinmetz",
     "club_name": "USGA/Texas GC",
     "low_hi": "1.8",
-    "updated_at": "2026-07-18"
+    "updated_at": "2026-07-26"
   },
   {
     "id": "stephen-oliver",
@@ -283,7 +283,7 @@
     "last_name": "Oliver",
     "club_name": "Medalist Golf Club",
     "low_hi": "15.0",
-    "updated_at": "2026-06-21"
+    "updated_at": "2026-07-27"
   },
   {
     "id": "eddie-chen",
@@ -356,6 +356,6 @@
     "last_name": "Rakestraw",
     "club_name": "USGA/Kentucky GC",
     "low_hi": "3.3",
-    "updated_at": "2026-07-19"
+    "updated_at": "2026-07-27"
   }
 ]
