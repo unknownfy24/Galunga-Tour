@@ -80,12 +80,12 @@
     "id": "jonathan-nance",
     "name": "Jonathan Nance",
     "ghin_number": "10276243",
-    "handicap_index": 8,
+    "handicap_index": 7.4,
     "first_name": "Jonathan",
     "last_name": "Nance",
     "club_name": "USGA/Texas GC",
-    "low_hi": "7.9",
-    "updated_at": "2026-06-23"
+    "low_hi": "7.4",
+    "updated_at": "2026-07-02"
   },
   {
     "id": "brendan-sommer",
@@ -96,7 +96,7 @@
     "last_name": "Sommer",
     "club_name": "USGA/MetAmateur GC",
     "low_hi": "3.9",
-    "updated_at": "2026-07-25"
+    "updated_at": "2026-07-28"
   },
   {
     "id": "brett-lachance",
@@ -146,12 +146,12 @@
     "id": "will-mcgaffey",
     "name": "Will McGaffey",
     "ghin_number": "10649895",
-    "handicap_index": 9.5,
+    "handicap_index": 8.9,
     "first_name": "Will",
     "last_name": "McGaffey",
     "club_name": "Woodbridge Golf Club",
-    "low_hi": "9.4",
-    "updated_at": "2026-06-21"
+    "low_hi": "8.9",
+    "updated_at": "2026-07-28"
   },
   {
     "id": "chase-koehler",
@@ -272,7 +272,7 @@
     "last_name": "Steinmetz",
     "club_name": "USGA/Texas GC",
     "low_hi": "1.8",
-    "updated_at": "2026-07-26"
+    "updated_at": "2026-07-27"
   },
   {
     "id": "stephen-oliver",
