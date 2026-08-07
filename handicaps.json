@@ -58,12 +58,12 @@
     "id": "taylor-smith",
     "name": "Taylor Smith",
     "ghin_number": "2936914",
-    "handicap_index": 6.1,
+    "handicap_index": 5.9,
     "first_name": "Taylor",
     "last_name": "Smith",
     "club_name": "USGA/Texas GC",
     "low_hi": "3.9",
-    "updated_at": "2026-08-01"
+    "updated_at": "2026-08-06"
   },
   {
     "id": "eric-anderson",
@@ -96,7 +96,7 @@
     "last_name": "Sommer",
     "club_name": "USGA/MetAmateur GC",
     "low_hi": "3.3",
-    "updated_at": "2026-08-04"
+    "updated_at": "2026-08-06"
   },
   {
     "id": "brett-lachance",
@@ -179,12 +179,12 @@
     "id": "vinh-tran",
     "name": "Vinh Tran",
     "ghin_number": "10283523",
-    "handicap_index": 6,
+    "handicap_index": 6.2,
     "first_name": "Vinh",
     "last_name": "Tran",
     "club_name": "USGA/Texas GC",
     "low_hi": "5.5",
-    "updated_at": "2026-07-27"
+    "updated_at": "2026-08-06"
   },
   {
     "id": "bryan-stamp",
