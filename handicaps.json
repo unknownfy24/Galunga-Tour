@@ -30,7 +30,7 @@
     "last_name": "Addington",
     "club_name": "USGA/Texas GC",
     "low_hi": "6.5",
-    "updated_at": "2026-07-27"
+    "updated_at": "2026-08-19"
   },
   {
     "id": "ben-mullikin",
@@ -74,7 +74,7 @@
     "last_name": "Anderson",
     "club_name": "The Courses at Watters Creek",
     "low_hi": "0.2",
-    "updated_at": "2026-08-09"
+    "updated_at": "2026-08-17"
   },
   {
     "id": "jonathan-nance",
@@ -356,6 +356,6 @@
     "last_name": "Rakestraw",
     "club_name": "USGA/Kentucky GC",
     "low_hi": "3.3",
-    "updated_at": "2026-08-17"
+    "updated_at": "2026-08-19"
   }
 ]
