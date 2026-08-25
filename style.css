@@ -455,6 +455,7 @@ tbody td {
 .badge-completed  { background: var(--iron-gray); color: var(--white); }
 .badge-major      { background: var(--gold); color: var(--white); }
 .badge-inprogress { background: var(--fairway); color: var(--white); }
+.badge-closed     { background: var(--navy); color: var(--white); }
 
 /* PAGE HERO (non-home) */
 .page-hero {
