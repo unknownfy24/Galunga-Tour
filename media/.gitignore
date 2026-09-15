@@ -1,0 +1,8 @@
+# Original phone media — NOT committed:
+#  - .mov files exceed GitHub's 100MB limit / aren't cross-browser
+#  - .heic isn't displayable in most browsers
+# Web-ready versions are committed: 720p .mp4 (in web/) and converted .jpg
+*.mov
+*.MOV
+*.heic
+*.HEIC
