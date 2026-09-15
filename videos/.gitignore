@@ -1,0 +1,6 @@
+# Original phone videos — NOT committed:
+#  - several exceed GitHub's 100MB/file limit
+#  - .mov/QuickTime isn't reliably playable in Chrome/Firefox
+# Web-optimized 720p .mp4 versions (committed) live in videos/web/
+*.mov
+*.MOV

@@ -174,6 +174,14 @@
     .factors{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:.85rem}
     .factors span{font-size:.76rem;font-weight:700;color:var(--gold2);border:1px solid rgba(156,122,45,.5);border-radius:999px;padding:.3rem .75rem}
 
+    /* ===== media gallery ===== */
+    .media{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:.9rem;margin-top:1.1rem}
+    .media figure{
+      margin:0;border:1px solid rgba(156,122,45,.35);border-radius:12px;overflow:hidden;
+      background:#000;box-shadow:0 6px 18px rgba(0,0,0,.35);
+    }
+    .media video,.media img{width:100%;display:block;aspect-ratio:4/3;object-fit:contain;background:#000}
+
     footer{text-align:center;margin-top:3.2rem;font-size:.82rem;color:#8fa6bb}
     footer a.back{color:var(--gold2);text-decoration:none;border-bottom:1px dotted var(--gold2)}
     .secret{position:fixed;bottom:8px;right:10px;z-index:9;font-size:.62rem;color:#3a5573;font-style:italic;pointer-events:none}
@@ -233,8 +241,8 @@
       <a class="player" href="player.html?id=ben-mullikin"><span class="num">2</span><span class="name">Ben Mullikin</span><span class="go">›</span></a>
       <a class="player" href="player.html?id=brett-lachance"><span class="num">3</span><span class="name">Brett "Hot Hands" Lachance</span><span class="go">›</span></a>
       <a class="player" href="player.html?id=chase-koehler"><span class="num">4</span><span class="name">Chase Koehler</span><span class="go">›</span></a>
-      <a class="player" href="player.html?id=collin-van"><span class="num">5</span><span class="name">Collin Van</span><span class="go">›</span></a>
-      <a class="player" href="player.html?id=collin-steinmetz"><span class="num">6</span><span class="name">Collin Steinmetz</span><span class="go">›</span></a>
+      <a class="player" href="player.html?id=collin-steinmetz"><span class="num">5</span><span class="name">Collin Steinmetz</span><span class="go">›</span></a>
+      <a class="player" href="player.html?id=collin-van"><span class="num">6</span><span class="name">Collin Van</span><span class="go">›</span></a>
       <a class="player" href="player.html?id=eddie-chen"><span class="num">7</span><span class="name">Eddie Chen</span><span class="go">›</span></a>
       <a class="player" href="player.html?id=evan-yarbrough"><span class="num">8</span><span class="name">Evan Yarbrough</span><span class="go">›</span></a>
       <a class="player" href="player.html?id=jonathan-nance"><span class="num">9</span><span class="name">Jonathan Nance</span><span class="go">›</span></a>
@@ -318,6 +326,21 @@
           <span class="count">16 playing</span>
         </div>
       </div>
+    </div>
+  </section>
+
+  <!-- ===== MEDIA ===== -->
+  <section class="sec">
+    <h2>🎬 Team Media</h2>
+    <div class="media">
+      <figure><video controls preload="none" playsinline poster="videos/web/img_0296.jpg"><source src="videos/web/img_0296.mp4" type="video/mp4"></video></figure>
+      <figure><video controls preload="none" playsinline poster="videos/web/img_7807.jpg"><source src="videos/web/img_7807.mp4" type="video/mp4"></video></figure>
+      <figure><video controls preload="none" playsinline poster="videos/web/img_7836.jpg"><source src="videos/web/img_7836.mp4" type="video/mp4"></video></figure>
+      <figure><video controls preload="none" playsinline poster="videos/web/img_7831.jpg"><source src="videos/web/img_7831.mp4" type="video/mp4"></video></figure>
+      <figure><video controls preload="none" playsinline poster="videos/web/img_7154.jpg"><source src="videos/web/img_7154.mp4" type="video/mp4"></video></figure>
+      <figure><video controls preload="none" playsinline poster="videos/web/img_2651.jpg"><source src="videos/web/img_2651.mp4" type="video/mp4"></video></figure>
+      <figure><video controls preload="none" playsinline poster="videos/web/clip_f39ab9.jpg"><source src="videos/web/clip_f39ab9.mp4" type="video/mp4"></video></figure>
+      <figure><img src="videos/IMG_0253.JPG" alt="Team Courtney" loading="lazy"></figure>
     </div>
   </section>
 
