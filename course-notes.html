@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- SECRET PAGE — Team Courtney course notes. Do not link. Do not index. -->
+  <meta name="robots" content="noindex, nofollow">
+  <title>🔒 Course Notes — Pine Dunes 2026</title>
+  <link rel="icon" href="favicon.ico">
+  <style>
+    :root{
+      --navy:#00213c; --navy2:#013457; --gold:#9C7A2D; --gold2:#d4af37;
+      --red:#C8102E; --fairway:#497C5A; --tan:#D3C7B4; --off:#F6F4EF; --ink:#eaf1f7;
+    }
+    *{margin:0;padding:0;box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      background:
+        radial-gradient(circle at 15% 6%, rgba(73,124,90,.28), transparent 42%),
+        radial-gradient(circle at 85% 10%, rgba(156,122,45,.26), transparent 42%),
+        linear-gradient(180deg,#001a30,#00213c 40%,#001322);
+      color:var(--ink);font-family:-apple-system,"Segoe UI",system-ui,sans-serif;
+      line-height:1.5;overflow-x:hidden;
+    }
+    .strip{
+      text-align:center;padding:.5rem;font-weight:800;letter-spacing:2px;font-size:.72rem;
+      text-transform:uppercase;color:var(--navy);
+      background:linear-gradient(90deg,var(--gold),var(--gold2),var(--gold));
+    }
+    .wrap{max-width:820px;margin:0 auto;padding:0 1.1rem 5rem}
+
+    .mast{text-align:center;padding:1.8rem 0 .4rem}
+    .kicker{font-size:.8rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold2);font-weight:700}
+    h1{
+      font-size:clamp(2rem,8vw,3.6rem);font-weight:900;text-transform:uppercase;letter-spacing:1px;margin:.35rem 0;
+      background:linear-gradient(90deg,var(--gold),#fff,var(--gold2),var(--gold));
+      background-size:250% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;
+      filter:drop-shadow(0 2px 0 rgba(0,0,0,.4));
+    }
+    .sub{color:var(--tan);font-weight:600}
+    .backtop{display:inline-block;margin-top:.7rem;color:var(--gold2);text-decoration:none;font-size:.85rem;border-bottom:1px dotted var(--gold2)}
+
+    /* overall callout */
+    .overall{
+      border:1px solid rgba(156,122,45,.5);border-left:5px solid var(--gold2);border-radius:12px;
+      background:rgba(255,255,255,.05);padding:1.1rem 1.2rem;margin-top:1.6rem;font-size:1rem;line-height:1.65;
+    }
+    .overall b{color:var(--gold2)}
+
+    /* action buttons */
+    .actions{display:flex;flex-wrap:wrap;gap:.7rem;margin-top:1.1rem}
+    .btn{
+      display:inline-flex;align-items:center;gap:.5rem;text-decoration:none;font-weight:800;letter-spacing:.3px;
+      padding:.75rem 1.2rem;border-radius:999px;border:2px solid var(--gold);color:#fff;
+      background:linear-gradient(135deg,var(--fairway),#2f5a3f);box-shadow:0 6px 18px rgba(0,0,0,.4);
+      transition:transform .15s;
+    }
+    .btn.alt{background:linear-gradient(135deg,var(--navy2),#012840)}
+    .btn:hover{transform:translateY(-2px)}
+
+    /* scorecard */
+    .scorecard{margin-top:1.4rem;border:1px solid rgba(156,122,45,.4);border-radius:12px;overflow:hidden;background:#fff}
+    .scorecard img{width:100%;display:block}
+    .scorecard .cap{background:rgba(0,0,0,.15);color:var(--navy);font-size:.75rem;text-align:center;padding:.4rem;font-weight:700}
+
+    /* nine heading */
+    .nine{
+      margin:2.4rem 0 .4rem;font-size:1.3rem;font-weight:900;text-transform:uppercase;letter-spacing:1.5px;
+      color:var(--gold2);display:flex;justify-content:space-between;align-items:baseline;gap:.8rem;
+      padding-bottom:.5rem;border-bottom:2px solid rgba(156,122,45,.5);
+    }
+    .nine span{font-size:.8rem;color:var(--tan);letter-spacing:1px}
+
+    /* hole cards */
+    .hole{
+      border:1px solid rgba(156,122,45,.35);border-radius:14px;background:rgba(255,255,255,.05);
+      padding:1rem 1.15rem;margin-top:1rem;
+    }
+    .hhead{display:flex;align-items:center;gap:.8rem;flex-wrap:wrap;margin-bottom:.6rem}
+    .hnum{
+      flex:0 0 auto;width:40px;height:40px;border-radius:10px;background:var(--tan);color:var(--navy);
+      display:flex;align-items:center;justify-content:center;font-weight:900;font-size:1.2rem;
+    }
+    .htitle{font-weight:900;font-size:1.05rem}
+    .chips{display:flex;gap:.4rem;flex-wrap:wrap;margin-left:auto}
+    .chip{font-size:.74rem;font-weight:800;letter-spacing:.5px;border-radius:999px;padding:.28rem .65rem;white-space:nowrap}
+    .chip.par{background:rgba(73,124,90,.3);color:#bfe6cc;border:1px solid rgba(73,124,90,.6)}
+    .chip.yds{background:rgba(255,255,255,.06);color:var(--ink);border:1px solid rgba(255,255,255,.15)}
+    .chip.hcp{background:rgba(156,122,45,.18);color:var(--gold2);border:1px solid rgba(156,122,45,.5)}
+    .chip.hard{background:rgba(200,16,46,.18);color:#ff8397;border:1px solid rgba(200,16,46,.5)}
+    .hole p{font-size:.96rem;line-height:1.65;color:#dfe8f0}
+
+    footer{text-align:center;margin-top:3rem;font-size:.82rem;color:#8fa6bb}
+    footer a{color:var(--gold2);text-decoration:none;border-bottom:1px dotted var(--gold2)}
+  </style>
+</head>
+<body>
+
+<div class="strip">🔒 Classified · Team Courtney · Course Notes · Do Not Share 🔒</div>
+
+<div class="wrap">
+
+  <div class="mast">
+    <div class="kicker">The Cup at Pine Dunes</div>
+    <h1>Course Notes</h1>
+    <div class="sub">Pine Dunes Resort &amp; Golf Club · Par 72</div>
+    <a class="backtop" href="tcpd2026.html">← back to Team HQ</a>
+  </div>
+
+  <div class="overall">
+    <b>Overall:</b> The course is great and rewards good golf shots. It's pretty tight around the
+    whole place, so if you get in the trees, don't be a hero. Just play smart and get it back in play.
+  </div>
+
+  <div class="actions">
+    <a class="btn" href="https://www.dropbox.com/sh/s1kxs63jcc6rs2k/AAA8D7DXGm_QmGmM_NFSh5a5a?dl=0" target="_blank" rel="noopener noreferrer">📷 Course Photos (Dropbox) →</a>
+    <a class="btn alt" href="https://www.pinedunes.com/images/pictures/1-scorecard.jpg" target="_blank" rel="noopener noreferrer">🗒️ Full Scorecard →</a>
+  </div>
+
+  <div class="scorecard">
+    <img src="https://www.pinedunes.com/images/pictures/1-scorecard.jpg" alt="Pine Dunes scorecard" loading="lazy">
+    <div class="cap">Pine Dunes scorecard — pinedunes.com</div>
+  </div>
+
+  <!-- ===== FRONT NINE ===== -->
+  <div class="nine">Front Nine <span>Par 36</span></div>
+
+  <div class="hole">
+    <div class="hhead"><span class="hnum">1</span><span class="htitle">Hole 1</span>
+      <span class="chips"><span class="chip par">Par 4</span><span class="chip yds">376 / 391 yds</span><span class="chip hcp">Hcp 11</span></span></div>
+    <p>Tight dogleg left with a bunker on the right side. Hit something that keeps you short of that bunker as we want to take that out of play. It will most likely be a hybrid, 3-wood, or driver for Dylan off this first tee. Should leave a short iron or wedge downhill to a green that slopes back to front. Do not miss long.</p>
+  </div>
+
+  <div class="hole">
+    <div class="hhead"><span class="hnum">2</span><span class="htitle">Hole 2</span>
+      <span class="chips"><span class="chip par">Par 4</span><span class="chip yds">314 yds</span><span class="chip hcp">Hcp 17</span></span></div>
+    <p>Short, dead straight par 4. Dealer's choice off the tee — lay up to a comfy yardage or just bang driver. The further you hit it off the tee, the wider it gets down the right side. Green is perched up a little bit with some decent undulation. Take note of where that pin is for the day.</p>
+  </div>
+
+  <div class="hole">
+    <div class="hhead"><span class="hnum">3</span><span class="htitle">Hole 3</span>
+      <span class="chips"><span class="chip par">Par 3</span><span class="chip yds">130 yds</span><span class="chip hcp">Hcp 15</span></span></div>
+    <p>Kind of a blind tee shot to this par 3. It's short but you must be accurate as the green falls off the planet on the left side. Anything left of the middle of the green has an opportunity to hit the slope on the left and miss the green. It plays a touch uphill.</p>
+  </div>
+
+  <div class="hole">
+    <div class="hhead"><span class="hnum">4</span><span class="htitle">Hole 4</span>
+      <span class="chips"><span class="chip par">Par 4</span><span class="chip yds">432 yds</span><span class="chip hard">Hcp 1</span></span></div>
+    <p>Hard dogleg left. It's most likely 200–210 through the fairway if you hit it straight, which leaves another 200-yard shot in — not a bad strategy here because it's the number 1 handicap hole. I'd rather guys lay up off the tee to get in play versus slinging a big hook around the corner. Hitting a 2nd shot within 50 yards of the green is an advantage for guys that try to hit that hook and end up in the trees. Play smart golf and understand your stroke holes in the match. Around the green is pretty simple — miss is short.</p>
+  </div>
+
+  <div class="hole">
+    <div class="hhead"><span class="hnum">5</span><span class="htitle">Hole 5</span>
+      <span class="chips"><span class="chip par">Par 5</span><span class="chip yds">469 yds</span><span class="chip hcp">Hcp 9</span></span></div>
+    <p>Intimidating tee shot if you aren't familiar with this one. A large bunker runs down the left (OB is directly left of the bunker). If you can carry the bunker, just smash it over — about a 250 carry. If not, hit something down the right (tons of trees in the middle of the fairway). If you lay up, the right side of the fairway is better because you'll get a better look into the green. You have a backstop on the back side of the green. Good hole to try and take advantage of.</p>
+  </div>
+
+  <div class="hole">
+    <div class="hhead"><span class="hnum">6</span><span class="htitle">Hole 6</span>
+      <span class="chips"><span class="chip par">Par 3</span><span class="chip yds">225 yds</span><span class="chip hard">Hcp 3</span></span></div>
+    <p>Long but wide par 3. It plays a touch downhill. Missing it short in the fairway is not a bad place to be at all — it leaves a straightforward chip up the green. Don't miss this left because the bunkers are deep and hard to get out of.</p>
+  </div>
+
+  <div class="hole">
+    <div class="hhead"><span class="hnum">7</span><span class="htitle">Hole 7</span>
+      <span class="chips"><span class="chip par">Par 4</span><span class="chip yds">409 yds</span><span class="chip hcp">Hcp 5</span></span></div>
+    <p>Another tough/blindish tee shot where the hole turns a touch left. Pick a line you're comfy with and bang driver. You'll likely have a mid-short iron into a green heavily surrounded by trees. The green itself is fairly flat.</p>
+  </div>
+
+  <div class="hole">
+    <div class="hhead"><span class="hnum">8</span><span class="htitle">Hole 8</span>
+      <span class="chips"><span class="chip par">Par 4</span><span class="chip yds">360 yds</span><span class="chip hcp">Hcp 13</span></span></div>
+    <p>Short, tight hole with a bunker and a tree down the left side. This hole moves left too, and the 2nd shot plays uphill. Best to lay up off this tee with a hybrid or something that goes 200–220, leaving a mid-short iron for the uphill 2nd shot. Junk is left of the green — so just hit the green or miss it short.</p>
+  </div>
+
+  <div class="hole">
+    <div class="hhead"><span class="hnum">9</span><span class="htitle">Hole 9</span>
+      <span class="chips"><span class="chip par">Par 5</span><span class="chip yds">512 yds</span><span class="chip hcp">Hcp 7</span></span></div>
+    <p>Fairly straight hole that then turns left slightly. Bunkers on the left you want to avoid because they're fairly deep. Bang driver down the right side, which leaves you a long way in. Play this as a 3-shot hole — the 2nd shot is not easy either, with a really long bunker down the left side to avoid. If you hit a good layup, the 3rd shot is easier as it's a wide/flat green. Two-putt par and go to the back.</p>
+  </div>
+
+  <!-- ===== BACK NINE ===== -->
+  <div class="nine">Back Nine <span>Par 36</span></div>
+
+  <div class="hole">
+    <div class="hhead"><span class="hnum">10</span><span class="htitle">Hole 10</span>
+      <span class="chips"><span class="chip par">Par 4</span><span class="chip yds">403 yds</span><span class="chip hcp">Hcp 8</span></span></div>
+    <p>Gentle dogleg right with 2 bunkers that pinch in at 240 (right bunker) to 280 (left bunker). Missing right is dead. You can miss left, but the hole gets a lot longer. Ideal play is something 240 off the tee that leaves you short of all the bunkers and maximizes your landing zone. Your approach will be 145–175 yards depending on the pin. Hitting to this green, just like the tee shot, right is very bad — deep bunker, and anything right of the green bounds down a hill. Treat this like a very easy par 5 rather than a tough par 4 if you want to take a big number out of play — especially if you're getting a stroke. Hit your second about 50 yards short and leave yourself a very easy pitch.</p>
+  </div>
+
+  <div class="hole">
+    <div class="hhead"><span class="hnum">11</span><span class="htitle">Hole 11</span>
+      <span class="chips"><span class="chip par">Par 5</span><span class="chip yds">575 yds</span><span class="chip hard">Hcp 4</span></span></div>
+    <p>Funky par 5 with a lot of sand. Play off the tee is always to aim at the left bunker and hit it about 240. Keep your layup number short of the right bunker and you'll have a very large landing zone. The right greenside bunker extends almost to the center of the green (depth), so keep all your third shots a touch left and long. If you get into trouble off the tee or after your layup, don't panic — a lot of things can happen here. There are a lot of ways your opponent can double this hole, so even if you get in trouble, focus on getting the ball safely back in play and let your opponent make a mistake.</p>
+  </div>
+
+  <div class="hole">
+    <div class="hhead"><span class="hnum">12</span><span class="htitle">Hole 12</span>
+      <span class="chips"><span class="chip par">Par 3</span><span class="chip yds">164 yds</span><span class="chip hcp">Hcp 12</span></span></div>
+    <p>Uphill par 3. Don't miss right (starting to see a pattern!) — there's a huge hill and you'll be playing your pitch blind, about 20 ft below the pin. Center-left is the safest spot to aim. Par on this hole is a good score.</p>
+  </div>
+
+  <div class="hole">
+    <div class="hhead"><span class="hnum">13</span><span class="htitle">Hole 13</span>
+      <span class="chips"><span class="chip par">Par 4</span><span class="chip yds">395 yds</span><span class="chip hcp">Hcp 10</span></span></div>
+    <p>Slight dogleg left. Bunkers on the right make you think you can't miss right, but actually it's short left that is dead (lost ball in the natural area). Keep it in play and you'll have a relatively easy iron into a big green. If you end up in one of those right bunkers, just get back in play and try to get up and down for par. Aim for the center of the green and you'll have a relatively easy 2-putt no matter the pin.</p>
+  </div>
+
+  <div class="hole">
+    <div class="hhead"><span class="hnum">14</span><span class="htitle">Hole 14</span>
+      <span class="chips"><span class="chip par">Par 4</span><span class="chip yds">394 yds</span><span class="chip hcp">Hcp 6</span></span></div>
+    <p>This straightaway par 4 has water on the right. The fairway slopes right and the ball can bound into the water even if it lands in the fairway — so keep the ball left-center. Unfortunately there's a tree protecting the left side of the green, so a safe tee shot often makes the approach very difficult. Don't bite off more than you can chew — play to the safe side even if that's away from the pin and misses the green right. If you walk away with par here, you did something right.</p>
+  </div>
+
+  <div class="hole">
+    <div class="hhead"><span class="hnum">15</span><span class="htitle">Hole 15</span>
+      <span class="chips"><span class="chip par">Par 4</span><span class="chip yds">311 yds</span><span class="chip hcp">Hcp 16</span></span></div>
+    <p>Short but tough par 4 — this might be your toughest tee shot of the day. You can't miss right (water) and you can't miss left (pitching out). If you have a 190-yard straight shot, this is the hole to use it. The bunkers at the end of the fairway can be tough, but they're infinitely better than the water, which almost always leaves a 200+ shot after the drop. (And there's a good chance the ball gets caught up in the rough short of the bunker and leaves you under 100 yards in.)</p>
+  </div>
+
+  <div class="hole">
+    <div class="hhead"><span class="hnum">16</span><span class="htitle">Hole 16</span>
+      <span class="chips"><span class="chip par">Par 3</span><span class="chip yds">154 yds</span><span class="chip hcp">Hcp 18</span></span></div>
+    <p>Make sure you take enough club on this mid-length par 3. The only difficult pin is back-left, which slopes away from you and can be hard to stop if it lands on the downslope. Play to the center-back of this green and you'll never leave disappointed.</p>
+  </div>
+
+  <div class="hole">
+    <div class="hhead"><span class="hnum">17</span><span class="htitle">Hole 17</span>
+      <span class="chips"><span class="chip par">Par 4</span><span class="chip yds">434 yds</span><span class="chip hard">Hcp 2</span></span></div>
+    <p>A monster of a hole, dogleg right. This hole practically invites you to make a dumb decision… so don't. You'll want to take on the dogleg — don't. You'll want to swing hard to get inside 200 for your second — don't. I bet this is the hardest hole on the course, with the most lost balls, and it'll play hard because people lose their minds and play bad strategy. Play the ball to the left-center of the dogleg and hit something 200–230 off the tee. Suck it up and have a stupidly long second shot — play to the front or even short of the green (probably another 200–230). If you manage a par, brag about it after drinks.</p>
+  </div>
+
+  <div class="hole">
+    <div class="hhead"><span class="hnum">18</span><span class="htitle">Hole 18</span>
+      <span class="chips"><span class="chip par">Par 5</span><span class="chip yds">480 yds</span><span class="chip hcp">Hcp 14</span></span></div>
+    <p>Very easy finishing hole. Play it safe and you should have a very easy par: hit it 190 off the tee, lay up to 100, and make sure you give yourself enough club for the uphill 3rd shot. If you want to take on some risk and can carry driver 250, go right over the water and leave yourself 130 in. Just check the wind before you hit your 2nd/3rd shot up the hill to the tiered green.</p>
+  </div>
+
+  <footer>
+    <p>Galunga Tour · Team Courtney · Pine Dunes 2026</p>
+    <p style="margin-top:.6rem"><a href="tcpd2026.html">← back to Team HQ</a></p>
+  </footer>
+</div>
+
+</body>
+</html>
