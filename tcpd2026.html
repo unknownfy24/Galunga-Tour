@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- SECRET PAGE — Team Courtney HQ. Do not link. Do not index. Players only. -->
+  <meta name="robots" content="noindex, nofollow">
+  <title>🔒 Team Courtney — Pine Dunes 2026</title>
+  <link rel="icon" href="favicon.ico">
+  <style>
+    :root{
+      --navy:#00213c; --navy2:#013457; --gold:#9C7A2D; --gold2:#d4af37;
+      --red:#C8102E; --fairway:#497C5A; --tan:#D3C7B4; --off:#F6F4EF;
+      --ink:#eaf1f7;
+    }
+    *{margin:0;padding:0;box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      background:
+        radial-gradient(circle at 15% 8%, rgba(73,124,90,.30), transparent 42%),
+        radial-gradient(circle at 85% 12%, rgba(156,122,45,.28), transparent 42%),
+        linear-gradient(180deg,#001a30,#00213c 40%,#001322);
+      color:var(--ink);
+      font-family:-apple-system,"Segoe UI",system-ui,sans-serif;
+      overflow-x:hidden;line-height:1.5;
+    }
+    .wrap{position:relative;z-index:2;max-width:960px;margin:0 auto;padding:0 1.1rem 5rem}
+
+    /* ===== top classified strip ===== */
+    .strip{
+      text-align:center;padding:.5rem;font-weight:800;letter-spacing:2px;
+      font-size:.72rem;text-transform:uppercase;color:var(--navy);
+      background:linear-gradient(90deg,var(--gold),var(--gold2),var(--gold));
+    }
+
+    /* ===== hero photos ===== */
+    .photos{
+      display:grid;grid-template-columns:1fr 1fr;gap:.6rem;
+      max-width:960px;margin:0 auto;padding:.6rem 1.1rem 0;
+    }
+    .photos figure{
+      position:relative;border:3px solid var(--gold);border-radius:14px;overflow:hidden;
+      background:rgba(255,255,255,.04);box-shadow:0 8px 30px rgba(0,0,0,.45);
+    }
+    .photos img{width:100%;display:block;aspect-ratio:4/3;object-fit:cover}
+    .photos .ph-fallback{
+      display:flex;align-items:center;justify-content:center;text-align:center;
+      aspect-ratio:4/3;font-size:.85rem;color:var(--tan);padding:1rem;
+      background:repeating-linear-gradient(45deg,rgba(255,255,255,.03),rgba(255,255,255,.03) 12px,transparent 12px,transparent 24px);
+    }
+    @media(max-width:560px){.photos{grid-template-columns:1fr}}
+
+    /* ===== masthead ===== */
+    .mast{text-align:center;padding:1.8rem 0 .6rem}
+    .kicker{font-size:.8rem;letter-spacing:4px;text-transform:uppercase;color:var(--gold2);font-weight:700}
+    h1{
+      font-size:clamp(2.4rem,10vw,5.2rem);font-weight:900;line-height:.92;margin:.35rem 0;
+      text-transform:uppercase;letter-spacing:1px;
+      background:linear-gradient(90deg,var(--gold),#fff,var(--gold2),var(--gold));
+      background-size:250% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;
+      filter:drop-shadow(0 2px 0 rgba(0,0,0,.4));
+    }
+    .sub{font-size:clamp(1rem,3.5vw,1.35rem);font-weight:700;color:var(--ink)}
+    .dates{margin-top:.4rem;font-size:1rem;color:var(--tan);font-weight:600;letter-spacing:.5px}
+
+    /* ===== course link ===== */
+    .course{text-align:center;margin:1.6rem 0 .4rem}
+    .course a{
+      display:inline-flex;align-items:center;gap:.55rem;text-decoration:none;
+      background:linear-gradient(135deg,var(--fairway),#2f5a3f);
+      color:#fff;font-weight:800;letter-spacing:.5px;
+      padding:.85rem 1.5rem;border-radius:999px;border:2px solid var(--gold);
+      box-shadow:0 6px 20px rgba(0,0,0,.4);transition:transform .15s,box-shadow .15s;
+    }
+    .course a:hover{transform:translateY(-2px);box-shadow:0 10px 26px rgba(0,0,0,.5)}
+    .course .host{display:block;margin-top:.5rem;font-size:.85rem;color:var(--tan)}
+
+    /* ===== section headings ===== */
+    .sec{margin-top:2.6rem}
+    .sec h2{
+      font-size:1.5rem;font-weight:900;text-transform:uppercase;letter-spacing:1.5px;
+      color:var(--gold2);display:flex;align-items:center;gap:.6rem;
+      padding-bottom:.5rem;border-bottom:2px solid rgba(156,122,45,.5);
+    }
+
+    /* ===== roster ===== */
+    .roster{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:.7rem;margin-top:1.1rem}
+    .player{
+      display:flex;align-items:center;gap:.7rem;
+      background:rgba(255,255,255,.05);border:1px solid rgba(156,122,45,.35);
+      border-radius:12px;padding:.7rem .85rem;
+    }
+    .player .num{
+      flex:0 0 auto;width:30px;height:30px;border-radius:50%;
+      display:flex;align-items:center;justify-content:center;
+      font-weight:800;font-size:.8rem;color:var(--navy);background:var(--tan);
+    }
+    .player .name{font-weight:700;font-size:1rem;line-height:1.2}
+    .player .role{display:block;font-size:.72rem;font-weight:800;letter-spacing:1px;text-transform:uppercase;margin-top:.15rem}
+    .player.cap{border-color:var(--red);background:rgba(200,16,46,.14)}
+    .player.cap .num{background:var(--red);color:#fff}
+    .player.cap .role{color:#ff7a8c}
+    .player.vc{border-color:var(--gold2);background:rgba(212,175,55,.12)}
+    .player.vc .num{background:var(--gold2);color:var(--navy)}
+    .player.vc .role{color:var(--gold2)}
+
+    /* ===== schedule ===== */
+    .days{display:grid;gap:1rem;margin-top:1.1rem}
+    .day{
+      background:rgba(255,255,255,.05);border:1px solid rgba(156,122,45,.35);
+      border-radius:14px;overflow:hidden;
+    }
+    .day .dhead{
+      padding:.8rem 1.1rem;font-weight:900;text-transform:uppercase;letter-spacing:1px;
+      background:linear-gradient(90deg,var(--navy2),transparent);
+      border-bottom:1px solid rgba(156,122,45,.35);display:flex;justify-content:space-between;align-items:baseline;gap:.8rem;
+    }
+    .day .dhead .dlabel{color:var(--gold2)}
+    .day .dhead .dtag{font-size:.75rem;color:var(--tan);letter-spacing:2px}
+    .session{
+      display:flex;align-items:center;gap:1rem;
+      padding:.85rem 1.1rem;border-bottom:1px solid rgba(255,255,255,.08);
+    }
+    .session:last-child{border-bottom:none}
+    .session .when{
+      flex:0 0 auto;min-width:58px;text-align:center;font-weight:900;font-size:.9rem;
+      color:var(--navy);background:var(--tan);border-radius:8px;padding:.3rem .1rem;letter-spacing:1px;
+    }
+    .session.singles .when{background:var(--gold2)}
+    .session .fmt{flex:1 1 auto;font-weight:800;font-size:1.05rem}
+    .session .fmt small{display:block;font-weight:600;font-size:.78rem;color:var(--tan);letter-spacing:.5px;margin-top:.1rem}
+    .session .count{
+      flex:0 0 auto;font-weight:800;font-size:.85rem;color:var(--gold2);
+      border:1px solid rgba(156,122,45,.5);border-radius:999px;padding:.3rem .75rem;white-space:nowrap;
+    }
+
+    /* ===== pairings progress ===== */
+    .pairings{
+      border:1px solid rgba(156,122,45,.4);border-radius:14px;background:rgba(255,255,255,.05);
+      padding:1.1rem 1.2rem;margin-top:1.1rem;
+    }
+    .pairings .ptop{display:flex;justify-content:space-between;align-items:baseline;gap:.8rem;margin-bottom:.6rem}
+    .pairings .plabel{font-weight:800;letter-spacing:.5px;color:var(--ink)}
+    .pairings .ppct{font-weight:900;font-size:1.15rem;color:var(--gold2)}
+    .bar{height:14px;border-radius:999px;background:rgba(0,0,0,.35);overflow:hidden;border:1px solid rgba(156,122,45,.35)}
+    .bar span{
+      display:block;height:100%;width:0;border-radius:999px;
+      background:linear-gradient(90deg,var(--fairway),var(--gold2));
+      box-shadow:0 0 12px rgba(212,175,55,.5);
+      animation:fill 1.4s ease-out forwards;
+    }
+    @keyframes fill{from{width:0}to{width:80%}}
+    .pairings .pnote{margin-top:.7rem;font-size:.85rem;color:var(--tan)}
+    .pairings .pnote b{color:var(--gold2)}
+
+    footer{text-align:center;margin-top:3.2rem;font-size:.82rem;color:#8fa6bb}
+    footer a.back{color:var(--gold2);text-decoration:none;border-bottom:1px dotted var(--gold2)}
+    .secret{position:fixed;bottom:8px;right:10px;z-index:9;font-size:.62rem;color:#3a5573;font-style:italic;pointer-events:none}
+  </style>
+</head>
+<body>
+
+<div class="strip">🔒 Classified · Team Courtney HQ · Players &amp; Staff Only · Do Not Share 🔒</div>
+
+<!-- ===== HERO PHOTOS =====
+     Drop two images into photos/ named team-1.jpg and team-2.jpg.
+     They swap in automatically; the dashed box shows until then. -->
+<div class="photos">
+  <figure>
+    <img src="photos/team-1.jpg" alt="Team Courtney"
+         onerror="this.outerHTML='&lt;div class=ph-fallback&gt;📸 team photo #1 &lt;br&gt;(save as photos/team-1.jpg)&lt;/div&gt;'">
+  </figure>
+  <figure>
+    <img src="photos/team-2.jpg" alt="Team Courtney"
+         onerror="this.outerHTML='&lt;div class=ph-fallback&gt;📸 team photo #2 &lt;br&gt;(save as photos/team-2.jpg)&lt;/div&gt;'">
+  </figure>
+</div>
+
+<div class="wrap">
+
+  <div class="mast">
+    <div class="kicker">The Cup at Pine Dunes</div>
+    <h1>Team Courtney</h1>
+    <div class="sub">2026 · Team HQ</div>
+    <div class="dates">Practice Wed, Nov 4 · Play Thu, Nov 5 – Sat, Nov 7, 2026</div>
+  </div>
+
+  <div class="course">
+    <a href="https://www.pinedunes.com/" target="_blank" rel="noopener noreferrer">⛳ Pine Dunes Resort &amp; Golf Club →</a>
+    <span class="host">pinedunes.com — course info, scorecard &amp; directions</span>
+  </div>
+
+  <!-- ===== ROSTER ===== -->
+  <section class="sec">
+    <h2>🏌️ The Squad</h2>
+    <div class="roster">
+      <div class="player cap"><span class="num">C</span><span><span class="name">Michael Courtney</span><span class="role">Captain</span></span></div>
+      <div class="player vc"><span class="num">VC</span><span><span class="name">Eric Anderson</span><span class="role">Vice Captain</span></span></div>
+      <div class="player"><span class="num">1</span><span class="name">Austin Harmon</span></div>
+      <div class="player"><span class="num">2</span><span class="name">Ben Mullikin</span></div>
+      <div class="player"><span class="num">3</span><span class="name">Brett "Hot Hands" Lachance</span></div>
+      <div class="player"><span class="num">4</span><span class="name">Chase Koehler</span></div>
+      <div class="player"><span class="num">5</span><span class="name">Collin Van</span></div>
+      <div class="player"><span class="num">6</span><span class="name">Collin Steinmetz</span></div>
+      <div class="player"><span class="num">7</span><span class="name">Eddie Chen</span></div>
+      <div class="player"><span class="num">8</span><span class="name">Evan Yarbrough</span></div>
+      <div class="player"><span class="num">9</span><span class="name">Jonathan Nance</span></div>
+      <div class="player"><span class="num">10</span><span class="name">Ryan Davidson</span></div>
+      <div class="player"><span class="num">11</span><span class="name">Scott Neal</span></div>
+      <div class="player"><span class="num">12</span><span class="name">Spencer Haines</span></div>
+      <div class="player"><span class="num">13</span><span class="name">Troy Rakestraw</span></div>
+      <div class="player"><span class="num">14</span><span class="name">Vinh Tran</span></div>
+    </div>
+  </section>
+
+  <!-- ===== SCHEDULE ===== -->
+  <section class="sec">
+    <h2>📅 Tee Times &amp; Sessions</h2>
+
+    <div class="pairings">
+      <div class="ptop">
+        <span class="plabel">🔗 Pairings Progress</span>
+        <span class="ppct">80%</span>
+      </div>
+      <div class="bar"><span></span></div>
+      <div class="pnote">Pairings are <b>80% set.</b> Final pairings coming within <b>2 weeks</b>.</div>
+    </div>
+
+    <div class="days">
+      <div class="day">
+        <div class="dhead"><span class="dlabel">Wednesday · Nov 4</span><span class="dtag">Practice</span></div>
+        <div class="session">
+          <span class="when">PM</span>
+          <span class="fmt">Practice Round<small>Afternoon · get your looks in</small></span>
+          <span class="count">Optional</span>
+        </div>
+      </div>
+      <div class="day">
+        <div class="dhead"><span class="dlabel">Thursday · Nov 5</span><span class="dtag">2 Sessions</span></div>
+        <div class="session">
+          <span class="when">AM</span>
+          <span class="fmt">Fourball<small>Best ball · 4-somes</small></span>
+          <span class="count">8 playing</span>
+        </div>
+        <div class="session">
+          <span class="when">PM</span>
+          <span class="fmt">Greensomes<small>Modified alternate shot</small></span>
+          <span class="count">12 playing</span>
+        </div>
+      </div>
+      <div class="day">
+        <div class="dhead"><span class="dlabel">Friday · Nov 6</span><span class="dtag">2 Sessions</span></div>
+        <div class="session">
+          <span class="when">AM</span>
+          <span class="fmt">Fourball<small>Best ball · 4-somes</small></span>
+          <span class="count">12 playing</span>
+        </div>
+        <div class="session">
+          <span class="when">PM</span>
+          <span class="fmt">Foursomes<small>Alternate shot</small></span>
+          <span class="count">8 playing</span>
+        </div>
+      </div>
+      <div class="day">
+        <div class="dhead"><span class="dlabel">Saturday · Nov 7</span><span class="dtag">Finals</span></div>
+        <div class="session singles">
+          <span class="when">⛳</span>
+          <span class="fmt">Singles<small>Everybody out · head-to-head</small></span>
+          <span class="count">16 playing</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Galunga Tour · Team Courtney · Pine Dunes 2026</p>
+    <p style="margin-top:.6rem"><a class="back" href="/">← back to the main site</a></p>
+  </footer>
+</div>
+
+<div class="secret">shhh — team page 🔒</div>
+
+</body>
+</html>
