@@ -89,7 +89,12 @@
       display:flex;align-items:center;gap:.7rem;
       background:rgba(255,255,255,.05);border:1px solid rgba(156,122,45,.35);
       border-radius:12px;padding:.7rem .85rem;
+      text-decoration:none;color:inherit;
+      transition:transform .12s,box-shadow .12s;
     }
+    a.player:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(0,0,0,.4),0 0 0 1px var(--gold2)}
+    .player .go{margin-left:auto;color:var(--tan);font-weight:900;font-size:1.15rem;opacity:.55;transition:opacity .12s}
+    a.player:hover .go{opacity:1;color:var(--gold2)}
     .player .num{
       flex:0 0 auto;width:30px;height:30px;border-radius:50%;
       display:flex;align-items:center;justify-content:center;
@@ -153,6 +158,22 @@
     .pairings .pnote{margin-top:.7rem;font-size:.85rem;color:var(--tan)}
     .pairings .pnote b{color:var(--gold2)}
 
+    /* ===== pairing strategy ===== */
+    .strategy{
+      border:1px solid rgba(156,122,45,.4);border-radius:14px;background:rgba(255,255,255,.05);
+      padding:1.2rem;margin-top:1rem;
+    }
+    .strategy h3{font-size:1.05rem;color:var(--gold2);letter-spacing:.5px;margin-bottom:.8rem;display:flex;align-items:center;gap:.5rem}
+    .tracks{display:grid;grid-template-columns:1fr 1fr;gap:.7rem;margin-bottom:.9rem}
+    @media(max-width:560px){.tracks{grid-template-columns:1fr}}
+    .track{border:1px solid rgba(156,122,45,.35);border-radius:12px;padding:.8rem .95rem;background:rgba(0,0,0,.22)}
+    .track .cap{font-weight:800;font-size:1rem}
+    .track .tool{display:block;font-size:.82rem;color:var(--tan);margin-top:.2rem}
+    .strategy p{font-size:.92rem;color:var(--ink);line-height:1.65}
+    .strategy p b{color:var(--gold2)}
+    .factors{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:.85rem}
+    .factors span{font-size:.76rem;font-weight:700;color:var(--gold2);border:1px solid rgba(156,122,45,.5);border-radius:999px;padding:.3rem .75rem}
+
     footer{text-align:center;margin-top:3.2rem;font-size:.82rem;color:#8fa6bb}
     footer a.back{color:var(--gold2);text-decoration:none;border-bottom:1px dotted var(--gold2)}
     .secret{position:fixed;bottom:8px;right:10px;z-index:9;font-size:.62rem;color:#3a5573;font-style:italic;pointer-events:none}
@@ -206,22 +227,22 @@
   <section class="sec">
     <h2>🏌️ The Squad</h2>
     <div class="roster">
-      <div class="player cap"><span class="num">C</span><span><span class="name">Michael Courtney</span><span class="role">Captain</span></span></div>
-      <div class="player vc"><span class="num">VC</span><span><span class="name">Eric Anderson</span><span class="role">Vice Captain</span></span></div>
-      <div class="player"><span class="num">1</span><span class="name">Austin Harmon</span></div>
-      <div class="player"><span class="num">2</span><span class="name">Ben Mullikin</span></div>
-      <div class="player"><span class="num">3</span><span class="name">Brett "Hot Hands" Lachance</span></div>
-      <div class="player"><span class="num">4</span><span class="name">Chase Koehler</span></div>
-      <div class="player"><span class="num">5</span><span class="name">Collin Van</span></div>
-      <div class="player"><span class="num">6</span><span class="name">Collin Steinmetz</span></div>
-      <div class="player"><span class="num">7</span><span class="name">Eddie Chen</span></div>
-      <div class="player"><span class="num">8</span><span class="name">Evan Yarbrough</span></div>
-      <div class="player"><span class="num">9</span><span class="name">Jonathan Nance</span></div>
-      <div class="player"><span class="num">10</span><span class="name">Ryan Davidson</span></div>
-      <div class="player"><span class="num">11</span><span class="name">Scott Neal</span></div>
-      <div class="player"><span class="num">12</span><span class="name">Spencer Haines</span></div>
-      <div class="player"><span class="num">13</span><span class="name">Troy Rakestraw</span></div>
-      <div class="player"><span class="num">14</span><span class="name">Vinh Tran</span></div>
+      <a class="player cap" href="player.html?id=michael-courtney"><span class="num">C</span><span><span class="name">Michael Courtney</span><span class="role">Captain</span></span><span class="go">›</span></a>
+      <a class="player vc" href="player.html?id=eric-anderson"><span class="num">VC</span><span><span class="name">Eric Anderson</span><span class="role">Vice Captain</span></span><span class="go">›</span></a>
+      <a class="player" href="player.html?id=austin-harmon"><span class="num">1</span><span class="name">Austin Harmon</span><span class="go">›</span></a>
+      <a class="player" href="player.html?id=ben-mullikin"><span class="num">2</span><span class="name">Ben Mullikin</span><span class="go">›</span></a>
+      <a class="player" href="player.html?id=brett-lachance"><span class="num">3</span><span class="name">Brett "Hot Hands" Lachance</span><span class="go">›</span></a>
+      <a class="player" href="player.html?id=chase-koehler"><span class="num">4</span><span class="name">Chase Koehler</span><span class="go">›</span></a>
+      <a class="player" href="player.html?id=collin-van"><span class="num">5</span><span class="name">Collin Van</span><span class="go">›</span></a>
+      <a class="player" href="player.html?id=collin-steinmetz"><span class="num">6</span><span class="name">Collin Steinmetz</span><span class="go">›</span></a>
+      <a class="player" href="player.html?id=eddie-chen"><span class="num">7</span><span class="name">Eddie Chen</span><span class="go">›</span></a>
+      <a class="player" href="player.html?id=evan-yarbrough"><span class="num">8</span><span class="name">Evan Yarbrough</span><span class="go">›</span></a>
+      <a class="player" href="player.html?id=jonathan-nance"><span class="num">9</span><span class="name">Jonathan Nance</span><span class="go">›</span></a>
+      <a class="player" href="player.html?id=ryan-davidson"><span class="num">10</span><span class="name">Ryan Davidson</span><span class="go">›</span></a>
+      <a class="player" href="player.html?id=scott-neal"><span class="num">11</span><span class="name">Scott Neal</span><span class="go">›</span></a>
+      <a class="player" href="player.html?id=spencer-haines"><span class="num">12</span><span class="name">Spencer Haines</span><span class="go">›</span></a>
+      <a class="player" href="player.html?id=troy-rakestraw"><span class="num">13</span><span class="name">Troy Rakestraw</span><span class="go">›</span></a>
+      <a class="player" href="player.html?id=vinh-tran"><span class="num">14</span><span class="name">Vinh Tran</span><span class="go">›</span></a>
     </div>
   </section>
 
@@ -236,6 +257,23 @@
       </div>
       <div class="bar"><span></span></div>
       <div class="pnote">Pairings are <b>80% set.</b> Final pairings coming within <b>2 weeks</b>.</div>
+    </div>
+
+    <div class="strategy">
+      <h3>🧠 How We're Building the Pairings</h3>
+      <div class="tracks">
+        <div class="track"><span class="cap">Michael Courtney</span><span class="tool">running analysis with ChatGPT</span></div>
+        <div class="track"><span class="cap">Eric Anderson</span><span class="tool">running analysis with Claude</span></div>
+      </div>
+      <p>Two independent analytical tracks work the same problem from different angles — then the <b>captains make the final calls</b>. Every pairing weighs survey information, current golf, head-to-head history, format fit, partnership history, and player feedback.</p>
+      <div class="factors">
+        <span>Survey info</span>
+        <span>Current form</span>
+        <span>Head-to-head history</span>
+        <span>Format fit</span>
+        <span>Partnership history</span>
+        <span>Player feedback</span>
+      </div>
     </div>
 
     <div class="days">
