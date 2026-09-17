@@ -193,6 +193,17 @@
     footer{text-align:center;margin-top:3.2rem;font-size:.82rem;color:#8fa6bb}
     footer a.back{color:var(--gold2);text-decoration:none;border-bottom:1px dotted var(--gold2)}
     .secret{position:fixed;bottom:8px;right:10px;z-index:9;font-size:.62rem;color:#3a5573;font-style:italic;pointer-events:none}
+    /* ===== background music toggle ===== */
+    .bgm-btn{
+      position:fixed;bottom:14px;left:14px;z-index:20;
+      width:46px;height:46px;border-radius:50%;cursor:pointer;
+      border:2px solid var(--gold2);color:#fff;font-size:1.15rem;line-height:1;
+      background:linear-gradient(135deg,var(--navy2),#012840);
+      box-shadow:0 4px 14px rgba(0,0,0,.5);display:flex;align-items:center;justify-content:center;
+      transition:transform .15s;
+    }
+    .bgm-btn:hover{transform:scale(1.08)}
+    .bgm-btn.playing{border-color:var(--fairway);box-shadow:0 0 0 2px rgba(73,124,90,.4),0 4px 14px rgba(0,0,0,.5)}
   </style>
 </head>
 <body>
@@ -366,6 +377,43 @@
 </div>
 
 <div class="secret">shhh — team page 🔒</div>
+
+<audio id="bgm" src="media/team-courtney.mp3" loop preload="auto"></audio>
+<button id="bgmToggle" class="bgm-btn" aria-label="Play team anthem" title="Team anthem">🔈</button>
+
+<script>
+  (function(){
+    var a = document.getElementById('bgm');
+    var btn = document.getElementById('bgmToggle');
+    if(!a || !btn) return;
+    var events = ['pointerdown','touchstart','keydown'];
+
+    function reflect(){
+      var playing = !a.paused;
+      btn.textContent = playing ? '🔊' : '🔈';
+      btn.classList.toggle('playing', playing);
+      btn.setAttribute('aria-label', playing ? 'Mute team anthem' : 'Play team anthem');
+    }
+    function tryPlay(){ return a.play().then(reflect).catch(function(){}); }
+
+    // Attempt autoplay on load (browsers usually block sound until interaction)...
+    tryPlay();
+    // ...so also kick it off on the visitor's first interaction.
+    function onFirst(){ if(a.paused){ tryPlay(); } cleanup(); }
+    function cleanup(){ events.forEach(function(e){ window.removeEventListener(e, onFirst); }); }
+    events.forEach(function(e){ window.addEventListener(e, onFirst, {passive:true}); });
+
+    // Manual toggle
+    btn.addEventListener('click', function(e){
+      e.stopPropagation();
+      if(a.paused){ a.play().then(reflect).catch(function(){}); }
+      else { a.pause(); reflect(); }
+    });
+    a.addEventListener('play', reflect);
+    a.addEventListener('pause', reflect);
+    reflect();
+  })();
+</script>
 
 </body>
 </html>
