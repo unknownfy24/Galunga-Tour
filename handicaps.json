@@ -102,12 +102,12 @@
     "id": "brett-lachance",
     "name": "Brett Lachance",
     "ghin_number": "206258",
-    "handicap_index": 14.9,
+    "handicap_index": 14.3,
     "first_name": "Brett",
     "last_name": "Lachance",
     "club_name": "USGA/Texas GC",
-    "low_hi": "14.9",
-    "updated_at": "2026-06-07"
+    "low_hi": "14.3",
+    "updated_at": "2026-08-30"
   },
   {
     "id": "michael-courtney",
@@ -190,12 +190,12 @@
     "id": "bryan-stamp",
     "name": "Bryan Stamp",
     "ghin_number": "10262110",
-    "handicap_index": 6.2,
+    "handicap_index": 5.7,
     "first_name": "Bryan",
     "last_name": "Stamp",
     "club_name": "USGA/Texas GC",
-    "low_hi": "5.9",
-    "updated_at": "2025-02-09"
+    "low_hi": "5.7",
+    "updated_at": "2026-08-30"
   },
   {
     "id": "evan-yarbrough",
@@ -228,7 +228,7 @@
     "last_name": "Barrett",
     "club_name": "Tenison Park Golf Course",
     "low_hi": "2.6",
-    "updated_at": "2026-09-13"
+    "updated_at": "2026-09-21"
   },
   {
     "id": "spencer-haines",
@@ -289,23 +289,23 @@
     "id": "eddie-chen",
     "name": "Eddie Chen",
     "ghin_number": "11818841",
-    "handicap_index": 5.9,
+    "handicap_index": 5.6,
     "first_name": "Eddie",
     "last_name": "Chen",
     "club_name": "Medalist Golf Club",
-    "low_hi": "5.5",
-    "updated_at": "2026-07-20"
+    "low_hi": "5.4",
+    "updated_at": "2026-09-19"
   },
   {
     "id": "scott-neal",
     "name": "Scott Neal",
     "ghin_number": "10264364",
-    "handicap_index": 9.4,
+    "handicap_index": 9.1,
     "first_name": "Scott",
     "last_name": "Neal",
     "club_name": "USGA/Texas GC",
     "low_hi": "8.7",
-    "updated_at": "2026-08-31"
+    "updated_at": "2026-09-22"
   },
   {
     "id": "mike-panko",
@@ -316,7 +316,7 @@
     "last_name": "Panko",
     "club_name": "USGA/Texas GC",
     "low_hi": "3.3",
-    "updated_at": "2026-09-19"
+    "updated_at": "2026-09-22"
   },
   {
     "id": "ryan-davidson",
@@ -340,12 +340,12 @@
     "id": "justin-buchanan",
     "name": "Justin Buchanan",
     "ghin_number": "3675928",
-    "handicap_index": 4.3,
+    "handicap_index": 4.5,
     "first_name": "Justin",
     "last_name": "Buchanan",
     "club_name": "Tenison Park Golf Course",
-    "low_hi": "3.3",
-    "updated_at": "2026-07-12"
+    "low_hi": "3.4",
+    "updated_at": "2026-09-21"
   },
   {
     "id": "troy-rakestraw",
