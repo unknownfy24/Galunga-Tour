@@ -96,7 +96,7 @@
     "last_name": "Sommer",
     "club_name": "USGA/MetAmateur GC",
     "low_hi": "2.5",
-    "updated_at": "2026-10-17"
+    "updated_at": "2026-10-21"
   },
   {
     "id": "brett-lachance",
@@ -305,7 +305,7 @@
     "last_name": "Neal",
     "club_name": "USGA/Texas GC",
     "low_hi": "8.7",
-    "updated_at": "2026-09-22"
+    "updated_at": "2026-10-21"
   },
   {
     "id": "mike-panko",
@@ -356,6 +356,6 @@
     "last_name": "Rakestraw",
     "club_name": "USGA/Kentucky GC",
     "low_hi": "3.0",
-    "updated_at": "2026-10-19"
+    "updated_at": "2026-10-21"
   }
 ]
