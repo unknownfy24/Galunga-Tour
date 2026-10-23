@@ -47,12 +47,12 @@
     "id": "taylor-baranowski",
     "name": "Taylor Baranowski",
     "ghin_number": "10533115",
-    "handicap_index": 5.3,
+    "handicap_index": 5.2,
     "first_name": "Taylor",
     "last_name": "Baranowski",
     "club_name": "USGA/Texas GC",
     "low_hi": "4.5",
-    "updated_at": "2026-09-10"
+    "updated_at": "2026-10-23"
   },
   {
     "id": "taylor-smith",
@@ -157,12 +157,12 @@
     "id": "chase-koehler",
     "name": "Chase Koehler",
     "ghin_number": "12909896",
-    "handicap_index": 10,
+    "handicap_index": 10.3,
     "first_name": "Chase",
     "last_name": "Koehler",
     "club_name": "USGA/Texas GC",
     "low_hi": "9.1",
-    "updated_at": "2026-07-09"
+    "updated_at": "2026-10-22"
   },
   {
     "id": "austin-harmon",
@@ -256,12 +256,12 @@
     "id": "daniel-dodd",
     "name": "Daniel Dodd",
     "ghin_number": "1854207",
-    "handicap_index": 3.7,
+    "handicap_index": 3.6,
     "first_name": "Daniel",
     "last_name": "Dodd",
     "club_name": "Medalist Golf Club",
     "low_hi": "2.7",
-    "updated_at": "2026-06-18"
+    "updated_at": "2026-10-23"
   },
   {
     "id": "collin-steinmetz",
