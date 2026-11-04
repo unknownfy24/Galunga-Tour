@@ -58,12 +58,12 @@
     "id": "taylor-smith",
     "name": "Taylor Smith",
     "ghin_number": "2936914",
-    "handicap_index": 6.1,
+    "handicap_index": 6.2,
     "first_name": "Taylor",
     "last_name": "Smith",
     "club_name": "USGA/Texas GC",
     "low_hi": "3.9",
-    "updated_at": "2026-10-18"
+    "updated_at": "2026-11-02"
   },
   {
     "id": "eric-anderson",
@@ -228,7 +228,7 @@
     "last_name": "Barrett",
     "club_name": "Tenison Park Golf Course",
     "low_hi": "2.6",
-    "updated_at": "2026-10-26"
+    "updated_at": "2026-11-02"
   },
   {
     "id": "spencer-haines",
@@ -245,12 +245,12 @@
     "id": "marc-tardif",
     "name": "Marc Tardif",
     "ghin_number": "10265888",
-    "handicap_index": 11.6,
+    "handicap_index": 11.4,
     "first_name": "Marc",
     "last_name": "Tardif",
     "club_name": "USGA/Texas GC",
     "low_hi": "10.2",
-    "updated_at": "2026-10-26"
+    "updated_at": "2026-11-03"
   },
   {
     "id": "daniel-dodd",
