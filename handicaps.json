@@ -245,12 +245,12 @@
     "id": "marc-tardif",
     "name": "Marc Tardif",
     "ghin_number": "10265888",
-    "handicap_index": 11.4,
+    "handicap_index": 10.7,
     "first_name": "Marc",
     "last_name": "Tardif",
     "club_name": "USGA/Texas GC",
-    "low_hi": "10.2",
-    "updated_at": "2026-11-03"
+    "low_hi": "10.5",
+    "updated_at": "2026-11-06"
   },
   {
     "id": "daniel-dodd",
