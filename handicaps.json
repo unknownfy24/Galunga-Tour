@@ -173,7 +173,7 @@
     "last_name": "Harmon",
     "club_name": "USGA/Texas GC",
     "low_hi": "4.8",
-    "updated_at": "2026-10-26"
+    "updated_at": "2026-11-07"
   },
   {
     "id": "vinh-tran",
@@ -245,12 +245,12 @@
     "id": "marc-tardif",
     "name": "Marc Tardif",
     "ghin_number": "10265888",
-    "handicap_index": 10.7,
+    "handicap_index": 10.4,
     "first_name": "Marc",
     "last_name": "Tardif",
     "club_name": "USGA/Texas GC",
-    "low_hi": "10.5",
-    "updated_at": "2026-11-06"
+    "low_hi": "10.4",
+    "updated_at": "2026-11-08"
   },
   {
     "id": "daniel-dodd",
@@ -351,11 +351,11 @@
     "id": "troy-rakestraw",
     "name": "Troy Rakestraw",
     "ghin_number": "10208766",
-    "handicap_index": 3.5,
+    "handicap_index": 2.6,
     "first_name": "Troy",
     "last_name": "Rakestraw",
     "club_name": "USGA/Kentucky GC",
-    "low_hi": "3.0",
-    "updated_at": "2026-11-02"
+    "low_hi": "2.6",
+    "updated_at": "2026-11-09"
   }
 ]
