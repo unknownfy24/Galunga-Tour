@@ -370,6 +370,32 @@ nav ul li a.active {
   }
 }
 
+/* CHAMPIONS SPOTLIGHT (wide group photo) */
+.spotlight-champs .spotlight-img-wrap {
+  width: 520px;
+}
+.spotlight-champs .spotlight-img {
+  height: auto;
+  aspect-ratio: 5 / 4;
+  object-position: center;
+}
+@media (max-width: 900px) {
+  .spotlight-champs .spotlight-inner {
+    flex-direction: column;
+    text-align: center;
+  }
+  .spotlight-champs .spotlight-img-wrap {
+    width: 100%;
+    max-width: 520px;
+  }
+  .spotlight-champs .spotlight-quote {
+    border-left: none;
+    padding-left: 0;
+    border-top: 3px solid var(--red);
+    padding-top: 1rem;
+  }
+}
+
 /* BANNER STRIP */
 .banner-strip {
   background: var(--black);
