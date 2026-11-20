@@ -271,8 +271,8 @@
     "first_name": "Collin",
     "last_name": "Steinmetz",
     "club_name": "USGA/Texas GC",
-    "low_hi": "1.9",
-    "updated_at": "2026-10-10"
+    "low_hi": "2.0",
+    "updated_at": "2026-11-20"
   },
   {
     "id": "stephen-oliver",
@@ -351,11 +351,11 @@
     "id": "troy-rakestraw",
     "name": "Troy Rakestraw",
     "ghin_number": "10208766",
-    "handicap_index": 2.6,
+    "handicap_index": 2.8,
     "first_name": "Troy",
     "last_name": "Rakestraw",
     "club_name": "USGA/Kentucky GC",
     "low_hi": "2.6",
-    "updated_at": "2026-11-15"
+    "updated_at": "2026-11-19"
   }
 ]
